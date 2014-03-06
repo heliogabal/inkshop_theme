@@ -1,5 +1,24 @@
 
-.field-name-field-pd-type {
-  float: left;
-  clear: both;
+.node-type-product-display {
+
+  .l-content {
+    padding: 1em;
+    margin: 0 1em 1em 0;
+    position: relative;
+    background: #EBE9E7;
+    @include border-radius($default-border-radius);
+  }
+  .field-name-field-pd-type,
+  .field--name-field-pd-type,
+  .field-name-field-pd-category,
+  .field--name-field-pd-category,
+   {
+    float: left;
+    display: inline-block;
+    margin-bottom: 3em;
+  }
+  .field--name-field-product-image {
+    float: left;
+    margin: 1em 1em 1em 0;
+  }
 }

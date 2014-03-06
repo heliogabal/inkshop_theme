@@ -1,3 +1,9 @@
+/* Block Überschriften */
+h2.block__title {
+    background: #f9b000;
+    color: #fff;
+    padding: 0.5em;
+}
 ul.views-fluid-grid-items-h-margin-0-5em li.views-fluid-grid-item {
   margin-left: 0;
 }
@@ -11,7 +17,8 @@ li.views-fluid-grid-item {
   background: #EBE9E7;
   @include border-radius($default-border-radius);
 }
-.field-name-commerce-price {
+.field-name-commerce-price,
+.field--name-commerce-price {
   float: left;
   position: absolute;
   bottom: 0;
@@ -20,13 +27,17 @@ li.views-fluid-grid-item {
   font-size: 1.2em;
   padding: 1em 1em 1em 0;
 }
-.field-name-field-commerce-product {
+.field-name-field-commerce-product,
+.field--name-field-commerce-product,
+.node-type-product-display .commerce-add-to-cart .form-submit {
   float: right;
   position: absolute;
   bottom: 0;
   right: 0;
+  margin: 1em 0;
 }
-.field-name-field-product-subtitle {
+.field-name-field-product-subtitle,
+.field--name-field-product-subtitle {
   margin-bottom: 1em;
   font-style: italic;
   line-height: 1.2;
@@ -44,7 +55,8 @@ li.views-fluid-grid-item {
     padding: 0 .2em 1em .6em;
   }
 }
-.view-id-produkte h2 a {
+.view-id-produkte h2 a,
+.field--name-title-field a {
   text-decoration: none;
 }
 .view-id-produkte .field-name-field-pd-description {
@@ -59,33 +71,37 @@ li.views-fluid-grid-item {
   h2 {
     font-size: 1em;
   }
-  .field-name-field-product-image {
+  .field-name-field-product-image,
+  .field--name-field-product-image {
     text-align: center;
     float: none;
     margin: 0 0 .5em 0;
   }
-  .field-name-field-product-pdf {
+  .field-name-field-product-pdf,
+  .field--name-field-product-pdf {
     float: left;
     padding: 1em 0;
   }
 }
-.field-name-field-product-image {
+.field-name-field-product-image,
+.field--name-field-product-image {
   float: left;
   margin-right: 1em;
   margin-bottom: .5em;
 }
-.view-id-produkte .field-name-field-product-image {
+.view-id-produkte .field-name-field-product-image,
+.view-id-produkte .field--name-field-product-image {
   float: none;
   }
-.field-name-field-pd-category, .field-name-node-link {
+.field-name-field-pd-category,
+.field--name-field-pd-category,
+.field-name-node-link,
+.field--name-node-link {
   clear: both;
 }
 .commerce-add-to-cart {
-  padding: 1em 0;
+  padding: 0;
   float: left;
-}
-#block-views-produkte-block-2 {
-  margin-top: 3em;
 }
 
 button[disabled], html input[disabled] {
