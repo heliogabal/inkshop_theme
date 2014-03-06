@@ -1535,29 +1535,41 @@ nav.block--menu-menu-pflichtmenu ul {
     nav.block--menu-menu-pflichtmenu ul li a:hover {
       text-decoration: underline; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.1-dev\/profiles\/inkota_shop\/themes\/inkshop\/sass\/components\/_product_node\.scss}line{font-family:\000034}}
-.node-type-product-display .l-content {
-  padding: 1em;
-  margin: 0 1em 1em 0;
-  position: relative;
-  background: #EBE9E7;
-  -webkit-border-radius: 2px;
-  -moz-border-radius: 2px;
-  -ms-border-radius: 2px;
-  -o-border-radius: 2px;
-  border-radius: 2px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.1-dev\/profiles\/inkota_shop\/themes\/inkshop\/sass\/components\/_product_node\.scss}line{font-family:\000031}}
+.node--product-display--full {
+  /*.field-name-field-pd-type,
+  .field--name-field-pd-type,
+  .field-name-field-pd-category,
+  .field--name-field-pd-category,
+   {
+    float: left;
+    display: inline-block;
+    margin-bottom: 3em;
+  }*/ }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.1-dev\/profiles\/inkota_shop\/themes\/inkshop\/sass\/components\/_product_node\.scss}line{font-family:\000033}}
+  .node--product-display--full .l-content {
+    padding: 1em;
+    margin: 0 1em 1em 0;
+    position: relative;
+    background: #EBE9E7;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    border-radius: 2px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.1-dev\/profiles\/inkota_shop\/themes\/inkshop\/sass\/components\/_product_node\.scss}line{font-family:\0000310}}
+  .node--product-display--full .group-left {
+    float: left;
+    width: 70%;
+    padding-right: 1em; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.1-dev\/profiles\/inkota_shop\/themes\/inkshop\/sass\/components\/_product_node\.scss}line{font-family:\0000315}}
-.node-type-product-display .field-name-field-pd-type,
-.node-type-product-display .field--name-field-pd-type,
-.node-type-product-display .field-name-field-pd-category,
-.node-type-product-display .field--name-field-pd-category {
-  float: left;
-  display: inline-block;
-  margin-bottom: 3em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.1-dev\/profiles\/inkota_shop\/themes\/inkshop\/sass\/components\/_product_node\.scss}line{font-family:\0000320}}
-.node-type-product-display .field--name-field-product-image {
-  float: left;
-  margin: 1em 1em 1em 0; }
+  .node--product-display--full .gorup-right {
+    float: left;
+    width: 30%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.1-dev\/profiles\/inkota_shop\/themes\/inkshop\/sass\/components\/_product_node\.scss}line{font-family:\0000328}}
+  .node--product-display--full .field--name-field-product-image {
+    float: left;
+    margin: 1em 1em 1em 0; }
 
 /* Block Überschriften */
 @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.1-dev\/profiles\/inkota_shop\/themes\/inkshop\/sass\/components\/_products\.scss}line{font-family:\000032}}

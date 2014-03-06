@@ -1,5 +1,4 @@
-
-.node-type-product-display {
+.node--product-display--full {
 
   .l-content {
     padding: 1em;
@@ -8,7 +7,16 @@
     background: #EBE9E7;
     @include border-radius($default-border-radius);
   }
-  .field-name-field-pd-type,
+  .group-left {
+    float: left;
+    width: 70%;
+    padding-right: 1em;
+  }
+  .gorup-right {
+    float: left;
+    width: 30%;
+  }
+  /*.field-name-field-pd-type,
   .field--name-field-pd-type,
   .field-name-field-pd-category,
   .field--name-field-pd-category,
@@ -16,7 +24,7 @@
     float: left;
     display: inline-block;
     margin-bottom: 3em;
-  }
+  }*/
   .field--name-field-product-image {
     float: left;
     margin: 1em 1em 1em 0;
