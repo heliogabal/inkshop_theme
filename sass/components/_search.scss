@@ -40,8 +40,10 @@
     margin-top: 0;
   }
 }
-.block--current-search-search-results {
+.block--current-search-search-results,
+.block--current-search-standard {
   background: #f0f0f0;
+  padding: 1em;
 }
 .current-search-item {
   ul {
