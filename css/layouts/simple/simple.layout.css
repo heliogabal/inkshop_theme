@@ -1,141 +1,140 @@
 /*******************************************************************************
- * hero.layout.scss
+ * simple.layout.scss
  *
- * Styles for the Inkota Frontsite layout.
+ * Styling of the "simple" layout demonstrating the Compass grid extension Susy
+ * and building mobile first layouts.
  ******************************************************************************/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.1-dev\/profiles\/inkota_shop\/themes\/inkshop\/sass\/layouts\/inkfront\/inkfront\.layout\.scss}line{font-family:\0000313}}
-.l-constrained, .l-region--highlighted, .l-region--footer {
-  width: 95%;
-  /*max-width: 1000px;*/
-  margin: 0 auto;
-  *zoom: 1; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/\.rvm\/gems\/ruby-1\.9\.3-p545\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/general\/_clearfix\.scss}line{font-family:\0000338}}
-  .l-constrained:after, .l-region--highlighted:after, .l-region--footer:after {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.1-dev\/profiles\/inkota_shop\/themes\/inkshop\/sass\/layouts\/simple\/simple\.layout\.scss}line{font-family:\0000330}}
+.l-header,
+.l-main,
+.l-footer {
+  *zoom: 1;
+  max-width: 1190px;
+  _width: 1190px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/lib\/gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/general\/_clearfix\.scss}line{font-family:\0000338}}
+  .l-header:after,
+  .l-main:after,
+  .l-footer:after {
     content: "";
     display: table;
     clear: both; }
 
-/* Header */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.1-dev\/profiles\/inkota_shop\/themes\/inkshop\/sass\/layouts\/inkfront\/inkfront\.layout\.scss}line{font-family:\0000321}}
-.l-region--header {
-  padding: 18px 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.1-dev\/profiles\/inkota_shop\/themes\/inkshop\/sass\/layouts\/inkfront\/inkfront\.layout\.scss}line{font-family:\0000324}}
-  .l-region--header .block {
-    float: right; }
-
-/* Content Area */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.1-dev\/profiles\/inkota_shop\/themes\/inkshop\/sass\/layouts\/inkfront\/inkfront\.layout\.scss}line{font-family:\0000330}}
-.l-highlighted-wrapper {
-  padding: 18px 0; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.1-dev\/profiles\/inkota_shop\/themes\/inkshop\/sass\/layouts\/inkfront\/inkfront\.layout\.scss}line{font-family:\0000336}}
-.l-region--help {
-  margin-bottom: 18px; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.1-dev\/profiles\/inkota_shop\/themes\/inkshop\/sass\/layouts\/inkfront\/inkfront\.layout\.scss}line{font-family:\0000339}}
-.l-main {
-  margin-top: 36px;
-  margin-bottom: 36px; }
-
-/* Sidebars */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.1-dev\/profiles\/inkota_shop\/themes\/inkshop\/sass\/layouts\/inkfront\/inkfront\.layout\.scss}line{font-family:\0000346}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.1-dev\/profiles\/inkota_shop\/themes\/inkshop\/sass\/layouts\/simple\/simple\.layout\.scss}line{font-family:\0000338}}
+.l-region--highlighted,
+.l-region--help,
 .l-region--sidebar-first,
 .l-region--sidebar-second {
-  padding: 18px 1em; }
+  margin-bottom: 20px; }
 
-/* Footer */
 @media (min-width: 44em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.1-dev\/profiles\/inkota_shop\/themes\/inkshop\/sass\/layouts\/inkfront\/inkfront\.layout\.scss}line{font-family:\0000356}}
-  .l-constrained, .l-region--highlighted, .l-region--footer {
-    width: 90%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.1-dev\/profiles\/inkota_shop\/themes\/inkshop\/sass\/layouts\/simple\/simple\.layout\.scss}line{font-family:\0000345}}
+  .l-header,
+  .l-main,
+  .l-footer {
+    max-width: 1190px; }
 
-  /* Header */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.1-dev\/profiles\/inkota_shop\/themes\/inkshop\/sass\/layouts\/inkfront\/inkfront\.layout\.scss}line{font-family:\0000361}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.1-dev\/profiles\/inkota_shop\/themes\/inkshop\/sass\/layouts\/simple\/simple\.layout\.scss}line{font-family:\0000349}}
   .l-branding {
-    width: 23.40426%;
+    width: 32.20339%;
     float: left;
-    margin-right: -100%;
-    margin-left: 0%;
-    clear: none; }
+    margin-right: 1.69492%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.1-dev\/profiles\/inkota_shop\/themes\/inkshop\/sass\/layouts\/inkfront\/inkfront\.layout\.scss}line{font-family:\0000364}}
-  .l-region--navigation {
-    width: 48.93617%;
-    float: left;
-    margin-right: -100%;
-    margin-left: -8.51064%;
-    clear: none; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.1-dev\/profiles\/inkota_shop\/themes\/inkshop\/sass\/layouts\/inkfront\/inkfront\.layout\.scss}line{font-family:\0000367}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.1-dev\/profiles\/inkota_shop\/themes\/inkshop\/sass\/layouts\/simple\/simple\.layout\.scss}line{font-family:\0000352}}
   .l-region--header {
-    width: 23.40426%;
+    width: 66.10169%;
     float: right;
-    margin-left: 0;
-    margin-right: 0;
-    clear: none; }
+    margin-right: 0; }
 
-  /* Sidebars */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.1-dev\/profiles\/inkota_shop\/themes\/inkshop\/sass\/layouts\/inkfront\/inkfront\.layout\.scss}line{font-family:\0000374}}
-  .has-two-sidebars .l-content,
-  .has-one-sidebar .l-content {
-    width: 74.46809%;
-    float: right;
-    margin-left: 0;
-    margin-right: 0;
-    clear: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.1-dev\/profiles\/inkota_shop\/themes\/inkshop\/sass\/layouts\/inkfront\/inkfront\.layout\.scss}line{font-family:\0000378}}
-  .has-two-sidebars .l-region--sidebar-first,
-  .has-two-sidebars .l-region--sidebar-second,
-  .has-one-sidebar .l-region--sidebar-first,
-  .has-one-sidebar .l-region--sidebar-second {
-    width: 23.40426%;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.1-dev\/profiles\/inkota_shop\/themes\/inkshop\/sass\/layouts\/simple\/simple\.layout\.scss}line{font-family:\0000355}}
+  .l-region--navigation {
+    clear: both; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.1-dev\/profiles\/inkota_shop\/themes\/inkshop\/sass\/layouts\/simple\/simple\.layout\.scss}line{font-family:\0000362}}
+  .has-sidebar-first .l-content,
+  .has-sidebar-second .l-content,
+  .has-two-sidebars .l-content {
+    width: 66.10169%;
     float: left;
-    margin-right: -100%;
-    margin-left: 0%;
-    clear: none;
+    margin-right: 1.69492%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.1-dev\/profiles\/inkota_shop\/themes\/inkshop\/sass\/layouts\/simple\/simple\.layout\.scss}line{font-family:\0000366}}
+  .has-sidebar-first .l-region--sidebar-first,
+  .has-sidebar-first .l-region--sidebar-second,
+  .has-sidebar-second .l-region--sidebar-first,
+  .has-sidebar-second .l-region--sidebar-second,
+  .has-two-sidebars .l-region--sidebar-first,
+  .has-two-sidebars .l-region--sidebar-second {
+    width: 32.20339%;
+    float: right;
+    margin-right: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.1-dev\/profiles\/inkota_shop\/themes\/inkshop\/sass\/layouts\/simple\/simple\.layout\.scss}line{font-family:\0000369}}
+  .has-sidebar-first .l-region--sidebar-second,
+  .has-sidebar-second .l-region--sidebar-second,
+  .has-two-sidebars .l-region--sidebar-second {
     clear: right; } }
 @media (min-width: 70em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.1-dev\/profiles\/inkota_shop\/themes\/inkshop\/sass\/layouts\/inkfront\/inkfront\.layout\.scss}line{font-family:\0000386}}
-  .l-constrained, .l-region--highlighted, .l-region--footer {
-    width: 80%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.1-dev\/profiles\/inkota_shop\/themes\/inkshop\/sass\/layouts\/simple\/simple\.layout\.scss}line{font-family:\0000378}}
+  .l-header,
+  .l-main,
+  .l-footer {
+    max-width: 1190px; }
 
-  /* Sidebars */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.1-dev\/profiles\/inkota_shop\/themes\/inkshop\/sass\/layouts\/inkfront\/inkfront\.layout\.scss}line{font-family:\0000392}}
-  .has-one-sidebar .l-content {
-    width: 74.46809%;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.1-dev\/profiles\/inkota_shop\/themes\/inkshop\/sass\/layouts\/simple\/simple\.layout\.scss}line{font-family:\0000382}}
+  .l-branding {
+    width: 36.70886%;
+    float: left;
+    margin-right: 1.26582%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.1-dev\/profiles\/inkota_shop\/themes\/inkshop\/sass\/layouts\/simple\/simple\.layout\.scss}line{font-family:\0000385}}
+  .l-region--header {
+    width: 62.02532%;
     float: right;
-    margin-left: 0;
+    margin-right: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.1-dev\/profiles\/inkota_shop\/themes\/inkshop\/sass\/layouts\/simple\/simple\.layout\.scss}line{font-family:\0000390}}
+  .has-sidebar-first .l-content {
+    width: 74.68354%;
+    float: right;
+    margin-right: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.1-dev\/profiles\/inkota_shop\/themes\/inkshop\/sass\/layouts\/simple\/simple\.layout\.scss}line{font-family:\0000393}}
+  .has-sidebar-first .l-region--sidebar-first {
+    width: 24.05063%;
+    float: left;
+    margin-right: 1.26582%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.1-dev\/profiles\/inkota_shop\/themes\/inkshop\/sass\/layouts\/simple\/simple\.layout\.scss}line{font-family:\0000398}}
+  .has-sidebar-second .l-content {
+    width: 74.68354%;
+    float: left;
+    margin-right: 1.26582%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.1-dev\/profiles\/inkota_shop\/themes\/inkshop\/sass\/layouts\/simple\/simple\.layout\.scss}line{font-family:\00003101}}
+  .has-sidebar-second .l-region--sidebar-second {
+    width: 24.05063%;
+    float: right;
     margin-right: 0;
     clear: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.1-dev\/profiles\/inkota_shop\/themes\/inkshop\/sass\/layouts\/inkfront\/inkfront\.layout\.scss}line{font-family:\0000395}}
-  .has-one-sidebar .l-region--sidebar-first {
-    width: 23.40426%;
-    float: left;
-    margin-right: -100%;
-    margin-left: 0%;
-    clear: none;
-    clear: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.1-dev\/profiles\/inkota_shop\/themes\/inkshop\/sass\/layouts\/inkfront\/inkfront\.layout\.scss}line{font-family:\00003101}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.1-dev\/profiles\/inkota_shop\/themes\/inkshop\/sass\/layouts\/simple\/simple\.layout\.scss}line{font-family:\00003108}}
   .has-two-sidebars .l-content {
-    width: 48.93617%;
+    width: 49.36709%;
     float: left;
-    margin-right: -100%;
-    margin-left: 25.53191%;
-    clear: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.1-dev\/profiles\/inkota_shop\/themes\/inkshop\/sass\/layouts\/inkfront\/inkfront\.layout\.scss}line{font-family:\00003105}}
+    margin-right: 1.26582%;
+    margin-left: 25.31646%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.1-dev\/profiles\/inkota_shop\/themes\/inkshop\/sass\/layouts\/simple\/simple\.layout\.scss}line{font-family:\00003113}}
   .has-two-sidebars .l-region--sidebar-first,
   .has-two-sidebars .l-region--sidebar-second {
-    width: 23.40426%;
+    width: 24.05063%;
     float: left;
-    margin-right: -100%;
-    margin-left: 0%;
-    clear: none;
-    clear: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.1-dev\/profiles\/inkota_shop\/themes\/inkshop\/sass\/layouts\/inkfront\/inkfront\.layout\.scss}line{font-family:\00003109}}
+    margin-right: 1.26582%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.1-dev\/profiles\/inkota_shop\/themes\/inkshop\/sass\/layouts\/simple\/simple\.layout\.scss}line{font-family:\00003116}}
+  .has-two-sidebars .l-region--sidebar-first {
+    margin-left: -75.94937%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.1-dev\/profiles\/inkota_shop\/themes\/inkshop\/sass\/layouts\/simple\/simple\.layout\.scss}line{font-family:\00003119}}
   .has-two-sidebars .l-region--sidebar-second {
-    width: 23.40426%;
     float: right;
-    margin-left: 0;
     margin-right: 0;
     clear: none; } }
