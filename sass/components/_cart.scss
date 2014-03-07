@@ -1,6 +1,16 @@
 /* Warenkorb */
 .block--commerce-cart {
   background: #F0F0F0;
+    table tr.even, table tr.odd {
+      background: none;
+    }
+}
+.cart-contents {
+  padding: 1em;
+}
+.line-item-summary {
+    margin-top: 0.3em;
+    width: 99%;
 }
 
 /* Add to cart confirmation */
