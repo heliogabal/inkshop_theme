@@ -29,6 +29,15 @@
       float: left;
       height: 4em;
       width: 100%;
+      .field-name-commerce-price {
+        font-size: 2em;
+      }
+      .field-name-field-commerce-product,
+      .field--name-field-commerce-product,
+      .node-type-product-display .commerce-add-to-cart .form-submit {
+        margin: 2em -0.5em 2em 0;
+        box-shadow: 3px 2px 4px;
+      }
   }
   /*.field-name-field-pd-type,
   .field--name-field-pd-type,

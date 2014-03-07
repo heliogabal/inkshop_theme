@@ -2,7 +2,10 @@
 .block--commerce-cart {
   background: #F0F0F0;
     table tr.even, table tr.odd {
-      background: none;
+      background: #eee;
+    }
+    table tr.odd {
+      background: #ddd;
     }
 }
 .cart-contents {
