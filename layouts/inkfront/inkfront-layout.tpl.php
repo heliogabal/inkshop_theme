@@ -12,9 +12,9 @@
     </div>
     <div id="extranavi">
       <ul>
-        <li><a accesskey="A" class="aktuelles" title="Aktuelles (ALT+A)" href="https://inkota.de/aktuell/">Aktuelles</a></li>
-        <li><a accesskey="M" class="mitmachen" title="Mitmachen (ALT+M)" href="https://inkota.de/mitmachen/">Mitmachen</a></li>
-        <li><a accesskey="S" class="spenden" title="Spenden (ALT+S)" href="https://inkota.de/spenden/">Spenden</a></li>
+        <li><a class="aktuelles" href="https://inkota.de/aktuell/">Aktuelles</a></li>
+        <li><a class="mitmachen" href="https://inkota.de/mitmachen/">Mitmachen</a></li>
+        <li><a class="spenden" href="https://inkota.de/spenden/">Spenden</a></li>
       </ul>
     </div>
     <?php print render($page['navigation']); ?>
