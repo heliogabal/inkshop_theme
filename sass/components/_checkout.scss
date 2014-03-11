@@ -1,0 +1,102 @@
+table tr.even {
+    background: none repeat scroll 0 0 #FEFEFC;
+}
+
+.checkout-help {
+    margin: 2em 0;
+}
+/* Kassenseite */
+.page-checkout {
+    fieldset {
+    background: #fff;
+    legend {
+      background: none repeat scroll 0 0 #FFB900;
+      border: 0 none;
+      color: #FFFFFF;
+      font-weight: bold;
+      margin: 1em 0;
+      padding: 0.5em;
+      }
+    }
+    #edit-checkout-donate,
+    #edit-customer-profile-shipping{
+      float: left;
+      width: 50%;
+    }
+    #edit-account,
+    .customer_profile_billing {
+      float: right;
+      width: 45%
+    }
+    #edit-extra-pane-node-1264 {
+      clear: right;
+      float: right;
+      width: 45%;
+    }
+    .checkout-buttons {
+      margin: 2em 0;
+      padding: 0;
+      clear: right;
+      border: 0;
+      float: right;
+      width: 100px;
+        .fieldset-wrapper {
+          text-align: right;
+          .form-submit {
+            margin-right: 0em;
+          }
+        }
+      }
+}
+
+/* Checkout Review Pane */
+
+.pane.account,
+.pane.customer_profile_shipping,
+.pane.customer_profile_billing {
+    border: 1px solid #D5D5D5;
+    float: left;
+    margin: 1em 1em 1em 0;
+    padding: 1em;
+    width: 200px;
+}
+.commerce-checkout-review-pane .view-commerce-cart-summary {
+  border: 1px solid #ffb900;
+}
+.view-commerce-cart-summary {
+  background: #fff;
+  .cols-5 {
+    width: 100%;
+    th {
+      background: #EBE9E7;
+      .views-field-commerce-total {
+        padding-right: 2em;
+      }
+    }
+    tr {
+      border-bottom: 1px solid #d5d5d5;
+    }
+    tr.views-row-last {
+      border-bottom: 1px solid #5d5d5d;
+    }
+    .views-field-commerce-total {
+      padding-right: 2em;
+    }
+    .views-field-field-product-image {
+      padding-left: 1em;
+    }
+  }
+}
+.commerce-price-formatted-components {
+    .component-type-commerce-price-formatted-amount {
+    background: #ffb;
+    border-top: 1px solid #5d5d5d;
+    border-bottom: 0;
+  }
+  .component-total {
+    padding-right: 2em;
+  }
+}
+.page-checkout-review .checkout-buttons {
+    margin-top: -5em;
+}
