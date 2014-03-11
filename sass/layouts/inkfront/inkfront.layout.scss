@@ -117,3 +117,21 @@
     }
   }
 }
+/* Sticky Footer */
+
+html, body {
+  height: 100%;
+}
+.l-page {
+  min-height: 100%;
+  position: relative;
+}
+.l-main {
+  padding-bottom: 7em;/* same as .l-footer height */
+}
+.l-footer-wrapper {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 7em;/* same as .l-main padding-bottom */
+}
