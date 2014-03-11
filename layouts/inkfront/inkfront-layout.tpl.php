@@ -30,16 +30,16 @@
     <?php print render($tabs); ?>
     <?php print $messages; ?>
     <?php print render($page['help']); ?>
-    <?php if (!empty($page['neu'])): ?>
+    <!--<?php //if (!empty($page['neu'])): ?>
     <div class="neu">
-      <?php print render($page['neu']); ?>
+      <?php //print render($page['neu']); ?>
     <div>
-  <?php endif; ?>
-  <?php if (!empty($page['neu'])): ?>
+  <?php //endif; ?>-->
+  <!--<?php //if (!empty($page['meistgekauft'])): ?>
     <div class="meistgekauft">
-      <?php print render($page['meistgekauft']); ?>
+      <?php //print render($page['meistgekauft']); ?>
     <div>
-  <?php endif; ?>
+  <?php //endif; ?>-->
     <div class="l-content" role="main">
       <?php print render($title_prefix); ?>
       <?php if ($title): ?>
