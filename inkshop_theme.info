@@ -1,4 +1,4 @@
-name = inkshop
+name = inkshop_theme
 description = Inkota Shop theme based on Omega4.
 base theme = omega
 screenshot = screenshot.png
@@ -28,7 +28,7 @@ regions[navigation] = Navigation bar
 regions[header] = Header
 ;regions[neu] = neu
 ;regions[meistgekauft] = meistgekauft
-regions[hero] = Hero
+;regions[hero] = Hero
 regions[highlighted] = Highlighted
 regions[help] = Help
 regions[content] = Content
