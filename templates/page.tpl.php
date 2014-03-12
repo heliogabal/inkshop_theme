@@ -13,9 +13,9 @@
     </div>
     <div id="extranavi">
       <ul>
-        <li><a accesskey="A" class="aktuelles" title="Aktuelles (ALT+A)" href="https://inkota.de/aktuell/">Aktuelles</a></li>
-        <li><a accesskey="M" class="mitmachen" title="Mitmachen (ALT+M)" href="https://inkota.de/mitmachen/">Mitmachen</a></li>
-        <li><a accesskey="S" class="spenden" title="Spenden (ALT+S)" href="https://inkota.de/spenden/">Spenden</a></li>
+        <li><a href="https://inkota.de/aktuell/">Aktuelles</a></li>
+        <li><a href="https://inkota.de/mitmachen/">Mitmachen</a></li>
+        <li><a href="https://inkota.de/spenden/">Spenden</a></li>
       </ul>
     </div>
     <?php print render($page['navigation']); ?>
@@ -31,16 +31,6 @@
     <?php print render($tabs); ?>
     <?php print $messages; ?>
     <?php print render($page['help']); ?>
-    <?php if (!empty($page['neu'])): ?>
-    <div class="neu">
-      <?php print render($page['neu']); ?>
-    <div>
-  <?php endif; ?>
-  <!--<?php //if (!empty($page['neu'])): ?>
-    <div class="meistgekauft">
-      <?php //print render($page['meistgekauft']); ?>
-    <div>
-  <?php //endif; ?>-->
     <div class="l-content" role="main">
       <?php print render($title_prefix); ?>
       <?php if ($title): ?>
