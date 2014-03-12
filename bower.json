@@ -1,5 +1,5 @@
 {
-  "name": "inkshop",
+  "name": "inkshop_theme",
   "version": "1.0.0",
   "dependencies": {
     "respond": "fubhy/respond",

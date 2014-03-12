@@ -6,7 +6,7 @@
  * inkshop theme.
  */
 
-function inkshop_form_alter(&$form, &$form_state, $form_id) {
+function inkshop_theme_form_alter(&$form, &$form_state, $form_id) {
   switch($form_id) {
     case 'commerce_checkout_form_checkout' :
       $form['checkout_donate']['checkout_donate']['commerce_donate_amount']['und']['#options'] = array(
