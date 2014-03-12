@@ -30,7 +30,6 @@
     <?php print render($tabs); ?>
     <?php print $messages; ?>
     <?php print render($page['help']); ?>
-    <div>
     <div class="l-content" role="main">
       <?php print render($title_prefix); ?>
       <?php if ($title): ?>
