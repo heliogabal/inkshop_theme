@@ -1,7 +1,7 @@
 /* Block Überschriften */
 h2.block__title {
     background: #f9b000;
-    color: #fff;
+    color: #292929;
     padding: 0.5em;
 }
 ul.views-fluid-grid-items-h-margin-0-5em li.views-fluid-grid-item {
@@ -42,7 +42,6 @@ li.views-fluid-grid-item {
 .field-name-field-product-subtitle,
 .field--name-field-product-subtitle {
   margin-bottom: 1em;
-  font-style: italic;
   line-height: 1.2;
 }
 /* Suchleiste */
@@ -59,7 +58,8 @@ li.views-fluid-grid-item {
   }
 }
 .view-id-produkte h2 a,
-.field--name-title-field a {
+.field--name-title-field a,
+.view-display-products h2 a{
   text-decoration: none;
 }
 .view-id-produkte .field-name-field-pd-description {
@@ -81,9 +81,13 @@ li.views-fluid-grid-item {
     margin: 0 0 .5em 0;
   }
   .field-name-field-product-pdf,
-  .field--name-field-product-pdf {
+  .field--name-field-product-pdf,
+  .field-name-field-pd-pdfs {
     float: left;
     padding: 1em 0;
+    position: absolute;
+    right: 1em;
+    bottom: 3em;
   }
 }
 .field-name-field-product-image,
