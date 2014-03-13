@@ -1,5 +1,6 @@
 body {
   font: 0.875em/1.5 Arial, sans-serif;
+  color: $black;
 }
 
 h2 {
@@ -15,7 +16,7 @@ h2 {
 }
 
 a:hover {
-  color: #ffb900;
+  color: $orange;
 }
 
 strong, b {

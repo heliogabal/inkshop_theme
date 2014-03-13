@@ -8,11 +8,11 @@ table tr.even {
 /* Kassenseite */
 .page-checkout {
     fieldset {
-    background: #fff;
+    background: $white;
     legend {
-      background: none repeat scroll 0 0 #FFB900;
+      background: none repeat scroll 0 0 $orange;
       border: 0 none;
-      color: #FFFFFF;
+      color: $white;
       font-weight: bold;
       margin: 1em 0;
       padding: 0.5em;
@@ -58,30 +58,30 @@ table tr.even {
 .pane.account,
 .pane.customer_profile_shipping,
 .pane.customer_profile_billing {
-    border: 1px solid #D5D5D5;
+    border: 1px solid $ink-grey;
     float: left;
     margin: 1em 1em 1em 0;
     padding: 1em;
     width: 200px;
 }
 .commerce-checkout-review-pane .view-commerce-cart-summary {
-  border: 1px solid #ffb900;
+  border: 1px solid $orange;
 }
 .view-commerce-cart-summary {
-  background: #fff;
+  background: $white;
   .cols-5 {
     width: 100%;
     th {
-      background: #EBE9E7;
+      background: $light-grey;
       .views-field-commerce-total {
         padding-right: 2em;
       }
     }
     tr {
-      border-bottom: 1px solid #d5d5d5;
+      border-bottom: 1px solid $ink-grey;
     }
     tr.views-row-last {
-      border-bottom: 1px solid #5d5d5d;
+      border-bottom: 1px solid $mid-grey;
     }
     .views-field-commerce-total {
       padding-right: 2em;
@@ -93,8 +93,8 @@ table tr.even {
 }
 .commerce-price-formatted-components {
     .component-type-commerce-price-formatted-amount {
-    background: #ffb;
-    border-top: 1px solid #5d5d5d;
+    background: $yellow;
+    border-top: 1px solid $mid-grey;
     border-bottom: 0;
   }
   .component-total {

@@ -1,7 +1,7 @@
 /* Block Überschriften */
 h2.block__title {
-    background: #f9b000;
-    color: #292929;
+    background: $orange;
+    color: $black;
     padding: 0.5em;
 }
 ul.views-fluid-grid-items-h-margin-0-5em li.views-fluid-grid-item {
@@ -14,7 +14,7 @@ li.views-fluid-grid-item {
   padding: 1em;
   margin: 0 1em 1em 0;
   position: relative;
-  background: #EBE9E7;
+  background: $light-grey;
   @include border-radius($default-border-radius);
 }
 .field-name-commerce-price,
@@ -46,10 +46,10 @@ li.views-fluid-grid-item {
 }
 /* Suchleiste */
 .block--facetapi {
-  background: #F0F0F0;
+  background: $light-grey;
   h2 {
-    background: #f9b000;
-    color: #fff;
+    background: $orange;
+    color: $black;
     padding: 0.5em;
   }
   ul {
@@ -127,9 +127,9 @@ button[disabled], html input[disabled] {
 
 /* Add to Cart Popup*/
 div.messages--commerce-add-to-cart-confirmation {
-  color: #333;
+  color: $black;
   .message-inner .added-product-title {
-    color: #fb9000;
+    color: $orange;
   }
   .view-confirm-message-product-display {
     z-index: -1;
@@ -151,7 +151,7 @@ div.messages--commerce-add-to-cart-confirmation {
     }
     .view-content .views-field-commerce-total,
     .view-content .views-field-commerce-total .field-content{
-      color: #fb9000;
+      color: $orange;
     }
     .views-field-commerce-product .field-name-field-product-subtitle {
       clear: none;

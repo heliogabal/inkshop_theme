@@ -1,9 +1,9 @@
 /* Warenkorb */
 .block--commerce-cart {
-  background: #F0F0F0;
+  background: $light-grey;
   margin-bottom: 1em;
     table tr.even, table tr.odd {
-      background: #eee;
+      background: $light-grey;
     }
     table tr.odd {
       background: #ddd;
