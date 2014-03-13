@@ -36,6 +36,9 @@ li.views-fluid-grid-item {
   right: 0;
   margin: 1em 0;
 }
+.node-type-product-display .commerce-add-to-cart .form-submit:before {
+  content: "\f07a";
+}
 .field-name-field-product-subtitle,
 .field--name-field-product-subtitle {
   margin-bottom: 1em;
