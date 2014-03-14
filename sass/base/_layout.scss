@@ -1,7 +1,7 @@
 body {
   background: url('../images/cont_back.jpg') no-repeat 50% 0 !important;
   font-size: 14px;
-  color: #292929;
+  color: $black;
   font-family: Arial, Helvetica, sans-serif;
   padding: 0;
   margin: 0;
@@ -11,15 +11,15 @@ table {
 }
 table tbody {
   border: none;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid $ink-grey;
 }
 table tr.even,
 table tr.odd {
-  background: #fff;
+  background: $white;
   border: none;
 }
 a {
-  color: #292929;
+  color: $black;
   text-decoration: underline;
 }
 a:hover {
@@ -31,7 +31,7 @@ a:hover {
   line-height: 30px;
 }
 #highlighted a:hover {
-  color: #fff;
+  color: $white;
 }
 .pre-user {
   background: url('../images/user_male.png') no-repeat 0 0;
@@ -58,8 +58,8 @@ input.form-text {
   height: 29px;
   line-height: 29px;
   display: inline-block;
-  background: #FFB900;
-  color: #292929;
+  background: $orange;
+  color: $black;
   text-decoration: none;
   text-align: center;
   padding: 0 20px;
@@ -71,7 +71,7 @@ input.form-text {
   animation: myfirst 1s;
   -webkit-animation: myfirst1 1s;
   background: #FACB4E;
-  color: #292929;
+  color: $black;
 }
 #search-block-form input.form-text {
   border-right: 0;
@@ -81,14 +81,14 @@ input.form-text {
 #search-block-form input.form-submit {
   border: 1px solid #c1cfdb;
   border-left: none;
-  background: #fff;
+  background: $white;
   line-height: 30px;
   margin: 0;
   padding: 0;
   text-indent: -999px;
   overflow: hidden;
   width: 30px;
-  background: url('../images/search.png') no-repeat center center #fff;
+  background: url('../images/search.png') no-repeat center center $white;
   cursor: pointer;
   height: 32px;
 }
@@ -118,7 +118,7 @@ input.form-text {
 .search-form .form-item-keys label {
   font-weight: normal;
   font-size: 18px;
-  color: #000;
+  color: $black;
 }
 .pane-commercebox-wishlist,
 .pane-cb-base-theme-cb-cart,
@@ -132,7 +132,7 @@ input.form-text {
   position: absolute;
   z-index: 1000;
   width: 380px;
-  background: #fff;
+  background: $white;
   /*left: 20px;*/
   right: 0;
   padding: 20px;
@@ -146,7 +146,7 @@ input.form-text {
 .pane-cb-base-theme-cb-cart h2,
 .block-commerce-product-comparison h2 {
   margin: 0 0 0 20px;
-  color: #000;
+  color: $black;
   font-size: 14px;
   font-weight: normal;
   display: block;
@@ -173,11 +173,11 @@ input.form-text {
 .pane-commercebox-wishlist h2.visible,
 .pane-cb-base-theme-cb-cart h2.visible,
 .block-commerce-product-comparison h2.visible {
-  background-color: #fff;
+  background-color: $white;
   box-shadow: 0px -2px 5px rgba(103, 180, 230, 0.5);
 }
 .pane-commercebox-wishlist .pane-content td {
-  background: #fff;
+  background: $white;
 }
 .pane-commercebox-wishlist .views-field-field-images {
   vertical-align: middle;
@@ -228,14 +228,14 @@ input.form-text {
   line-height: 29px;
   display: inline-block;
   background: #0f7ad5;
-  color: #fff;
+  color: $white;
   text-decoration: none;
   text-align: center;
   padding: 0 20px;
 }
 .view-commercebox-shopping-cart-block .line-item-summary-view-cart a {
   background: #9ee7ff;
-  color: #292929;
+  color: $black;
 }
 .view-commercebox-shopping-cart-block .line-item-summary-checkout,
 .view-commercebox-shopping-cart-block .line-item-summary-view-cart {
@@ -247,52 +247,52 @@ input.form-text {
   animation: myfirst 5s;
   -webkit-animation: myfirst 1s;
   background: #0f7ad5;
-  color: #fff;
+  color: $white;
 }
 @keyframes myfirst{
   from {
-    background: #FFB800;
-    color: #292929;
+    background: $orange;
+    color: $black;
   }
   to {
-    background: #FFD360;
-    color: #292929;
+    background: $yellow;
+    color: $black;
   }
 }
 @-webkit-keyframes myfirst {
   from {
-    background: #FFB800;
-    color: #292929;
+    background: $orange;
+    color: $black;
   }
   to {
-    background: #FFD360;
-    color: #292929;
+    background: $yellow;
+    color: $black;
   }
 }
 .view-commercebox-shopping-cart-block .line-item-summary-checkout a:hover {
   animation: myfirst1 5s;
   -webkit-animation: myfirst1 1s;
   background: #9ee7ff;
-  color: #292929;
+  color: $black;
 }
 @keyframes myfirst1{
   from {
     background: #0f7ad5;
-    color: #fff;
+    color: $white;
   }
   to {
     background: #9ee7ff;
-    color: #292929;
+    color: $black;
   }
 }
 @-webkit-keyframes myfirst1 {
   from {
     background: #0f7ad5;
-    color: #fff;
+    color: $white;
   }
   to {
     background: #9ee7ff;
-    color: #292929;
+    color: $black;
   }
 }
 .commercebox-catalog-content,
@@ -303,7 +303,7 @@ input.form-text {
 .view-catalog-node-index .views-field-title a {
   font-size: 16px;
   font-family: Times, Times New Roman, serif;
-  color: #292929;
+  color: $black;
 }
 .commercebox-catalog-content .views-field-comment-count,
 .view-catalog-node-index .views-field-comment-count {
@@ -319,7 +319,7 @@ input.form-text {
   line-height: 29px;
   display: inline-block;
   background: #0f7ad5;
-  color: #fff;
+  color: $white;
   text-decoration: none;
   text-align: center;
   padding: 0 7px;
@@ -332,7 +332,7 @@ input.form-text {
 .commercebox-catalog-content .views-field-commerce-price,
 .view-catalog-node-index .views-field-commerce-price {
   background: #9ee7ff;
-  color: #292929;
+  color: $black;
   cursor: default;
   position: relative;
   margin-top: 0;
@@ -344,7 +344,7 @@ input.form-text {
   position: absolute;
   height: 7px;
   width: 7px;
-  background: #fff;
+  background: $white;
   right: -3px;
   top: 11px;
   z-index: 1;
@@ -355,14 +355,14 @@ input.form-text {
   animation: myfirst 1s;
   -webkit-animation: myfirst1 1s;
   background: #9ee7ff;
-  color: #292929;
+  color: $black;
 }
 .commercebox-catalog-content .views-row,
 .view-catalog-node-index .views-row {
   float: left;
   width: 225px;
-  background: #fff;
-  border: 1px solid #ccc;
+  background: $white;
+  border: 1px solid $ink-grey;
   border-radius: 5px;
   padding: 0 0 20px;
   margin: 15px 3px;
@@ -397,9 +397,9 @@ input.form-text {
   display: none;
   position: absolute;
   width: 205px;
-  background: #fff;
+  background: $white;
   border-radius: 0 0 5px 5px;
-  border: 1px solid #ccc;
+  border: 1px solid $ink-grey;
   border-top: none;
   margin-left: -1px;
   margin-top: 30px;
@@ -429,14 +429,14 @@ input.form-text {
 }
 #commerce-product-comparison-list-form ul {
   overflow: hidden;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid $ink-grey;
 }
 #commerce-product-comparison-list-form .form-actions input {
   height: 29px;
   line-height: 29px;
   display: inline-block;
   background: #0f7ad5;
-  color: #fff;
+  color: $white;
   text-decoration: none;
   text-align: center;
   padding: 0 20px;
@@ -447,14 +447,14 @@ input.form-text {
   animation: myfirst 1s;
   -webkit-animation: myfirst1 1s;
   background: #9ee7ff;
-  color: #292929;
+  color: $black;
 }
 .catalog .pane-title {
   font-size: 18px;
   font-weight: normal;
 }
 .catalog {
-  background: #fff;
+  background: $white;
   border-radius: 7px;
   padding: 10px;
 }
@@ -463,12 +463,12 @@ input.form-text {
   margin: 0;
 }
 .catalog .pane-content>ul {
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid $ink-grey;
 }
 .catalog .pane-content ul li {
   list-style: none;
   position: relative;
-  border-top: 1px solid #ccc;
+  border-top: 1px solid $ink-grey;
   margin-bottom: 0;
   padding-bottom: 0;
 }
@@ -476,7 +476,7 @@ input.form-text {
   list-style: none;
   line-height: 30px;
   display: block;
-  color: #292929;
+  color: $black;
   font-size: 13px;
   text-decoration: none;
   padding-left: 5px;
@@ -498,7 +498,7 @@ input.form-text {
 }
 .catalog .pane-content ul li .opener:hover {
   background: #333;
-  color: #fff;
+  color: $white;
 }
 .catalog .pane-content ul li .opener:after {
   content:'+';
@@ -528,11 +528,11 @@ input.form-text {
 .pane-title {
   font-weight: normal;
   font-size: 18px;
-  color: #000;
+  color: $black;
 }
 .pane-system-main-menu {
   clear: both;
-  background: #fff;
+  background: $white;
   border-bottom: 2px solid #0f7ad5;
 }
 .pane-system-main-menu .pane-content ul {
@@ -557,7 +557,7 @@ input.form-text {
 }
 .gallery-slides,
 .pane-commercebox-slideshow .views-row {
-  background: #fff;
+  background: $white;
   padding: 10px 10px 0 7px;
   position: relative;
 }
@@ -577,7 +577,7 @@ input.form-text {
   background: rgba(255, 255, 255, 0.5);
   padding: 10px;
   font-size: 30px;
-  color: #292929;
+  color: $black;
 }
 .vocabulary-catalog>h2 {
   top: 30px;
@@ -679,7 +679,7 @@ input.form-text {
 .galleryformatter {
   float: left;
   margin: 0 20px 0 20px;
-  background: #fff;
+  background: $white;
 }
 
 .gallery-thumbs .wrapper {
@@ -710,7 +710,7 @@ input.form-text {
 }
 h1 {
   font-size: 18px;
-  color: #292929;
+  color: $black;
 }
 .view-commercebox-slideshow.view-display-id-default {
   position: relative;
@@ -764,7 +764,7 @@ h1 {
   -webkit-transition: all 150ms ease-in-out;
   -o-transition: all 150ms ease-in-out;
   background-color: #5BD2EC;
-  color: #FFF;
+  color: $white;
 }
 .views-field-bestseller .field-content {
   background-color: #D52462;
@@ -792,7 +792,7 @@ h1 {
   text-align: right;
 }
 #block-system-user-menu .content li a:hover {
-  color: #fff;
+  color: $white;
 }
 #block-system-user-menu .content li {
   display: inline-block;
@@ -806,19 +806,19 @@ h1 {
   text-decoration: none;
 }
 .pager-load-more li.pager-next a:hover {
-  color: #000;
+  color: $black;
 }
 #block-user-login .block-title {
   margin: 0;
   font-weight: normal;
   font-size: 14px;
-  color: #292929;
+  color: $black;
   text-align: right;
   cursor: pointer;
 }
 #block-user-login .content {
   position: absolute;
-  background: #fff;
+  background: $white;
   z-index: 1000;
   padding: 20px;
   display: none;

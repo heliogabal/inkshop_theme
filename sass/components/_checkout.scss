@@ -19,11 +19,11 @@ table tr.even {
       }
     }
     #edit-checkout-donate,
-    #edit-customer-profile-shipping{
+    .customer_profile_shipping {
       float: left;
       width: 50%;
     }
-    #edit-account,
+    .account,
     .customer_profile_billing {
       float: right;
       width: 45%
