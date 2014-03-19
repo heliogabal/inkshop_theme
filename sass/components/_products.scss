@@ -19,6 +19,7 @@ li.views-fluid-grid-item {
   background: $light-grey;
   @include border-radius($default-border-radius);
   width:100%;
+  max-width: 221px;
   @include breakpoint($desk) {
     width: 19%;
   }

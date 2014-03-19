@@ -9,9 +9,7 @@
 
 // Globbing from within sub-folders only works with relative paths.
 @import "../../variables/**/*";
-body {
-    @include background-grid;
-}
+
 .l-constrained {
   width: 95%;
   /*max-width: 1000px;*/
@@ -30,7 +28,10 @@ body {
     width: $wide !important;
   }
 }
-
+/* Header */
+#logo {
+  padding-top: 20px;
+}
 /* Content Area */
 .l-highlighted-wrapper {
   padding: $vert-spacing-unit 0;
@@ -71,7 +72,6 @@ body {
 }*/
   #logo {
     @include grid-span(3, 1);
-    padding-top: 20px;
   }
     .l-region--navigation {
       @include grid-span(9, 4);

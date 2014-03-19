@@ -22,7 +22,9 @@
   ul {
     padding: 0;
     margin: 1em 0 0 0;
-    text-align: right;
+    @include breakpoint($tab) {
+      text-align: right;
+    }
     li {
       display: inline-block;
       a {
