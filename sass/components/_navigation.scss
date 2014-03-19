@@ -2,13 +2,14 @@
   ul {
     list-style: none;
     padding: 0;
-    margin: 1em 0 0 1em;
+    margin: 1em 0 0 0;
     li {
       display: inline-block;
       a {
         text-decoration: none;
         color: $black;
-        padding: 1em 1em 1em 0;
+        padding: .5em 1em .5em 0;
+        display: block;
       }
       a:hover {
           text-decoration: underline;
@@ -19,15 +20,16 @@
 
 #block-menu-menu-benutzer-menu {
   ul {
-    list-style: none;
     padding: 0;
-    margin: 1em 0 0 1em;
+    margin: 1em 0 0 0;
+    text-align: right;
     li {
       display: inline-block;
       a {
         text-decoration: none;
         color: $black;
-        padding: 1em 1em 1em 0;
+        padding: .5em 1em .5em 0;
+        display: block;
       }
       a:hover {
           text-decoration: underline;
@@ -40,12 +42,14 @@ nav.block--menu-menu-pflichtmenu {
     list-style: none;
     padding: 0;
     margin: 0;
+    text-align: center;
     li {
       display: inline-block;
       a {
         text-decoration: none;
         color: $black;
-        padding: 1em 1em 1em 0;
+        padding: .5em 1em;
+        display: block;
       }
       a:hover {
           text-decoration: underline;

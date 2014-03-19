@@ -1,5 +1,10 @@
 (function($) {
-
+  Drupal.behaviors.carttitle = {
+     attach: function (context, settings) {
+	$('.commerce-add-to-cart .form-submit').attr('title','In den Warenkorb');
+      $('.block--views-exp-display-products-page .views-exposed-form .views-exposed-widget .form-submit').attr('title','Suchen');
+     }
+  };
   Drupal.behaviors.infiniteScrollAddClass = {
     attach: function (context, settings) {
       var $blocks = $('.block--commercebox-base-theme-cb-cart, .block-commerce-product-comparison, .pane-commercebox-wishlist, #block-user-login');

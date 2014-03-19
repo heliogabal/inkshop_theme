@@ -2,13 +2,15 @@
 h2.block__title {
     background: $orange;
     color: $black;
-    padding: 0.5em;
+    padding: .3em .5em;
+    @include border-top-radius($default-border-radius);
 }
 ul.views-fluid-grid-items-h-margin-0-5em li.views-fluid-grid-item {
   margin-left: 0;
 }
 ul.views-fluid-grid-items-v-margin-1em li.views-fluid-grid-item {
-  margin-bottom: 0;
+  margin-bottom: 1em;
+  margin-top: 0;
 }
 li.views-fluid-grid-item {
   padding: 1em;
@@ -16,6 +18,10 @@ li.views-fluid-grid-item {
   position: relative;
   background: $light-grey;
   @include border-radius($default-border-radius);
+  width:100%;
+  @include breakpoint($desk) {
+    width: 19%;
+  }
 }
 .field-name-commerce-price,
 .field--name-commerce-price {
@@ -35,10 +41,35 @@ li.views-fluid-grid-item {
   bottom: 0;
   right: 0;
   margin: 1em 0;
+  padding-left: .5em;
 }
-.node-type-product-display .commerce-add-to-cart .form-submit:before {
-  content: "\f07a";
+.commerce-add-to-cart .form-submit {
+  background: url(../images/cart_32.png) no-repeat center $orange;
+  height: 32px;
+  text-indent: -999em;
+  width: 50px;
+  padding: 0;
+  @include border-left-radius($default-border-radius);
 }
+.commerce-add-to-cart .form-submit:hover {
+  background: url(../images/cart_32.png) no-repeat center shade($orange, 5%);
+}
+.form-item-quantity {
+  display: inline;
+  input {
+    width: 40px;
+    height: 32px;
+    padding: 0 5px;
+    @include border-radius($default-border-radius);
+  }
+  label {
+    display: none;
+  }
+}
+.out-of-stock .form-item-quantity {
+  display: none;
+}
+
 .field-name-field-product-subtitle,
 .field--name-field-product-subtitle {
   margin-bottom: 1em;
@@ -50,7 +81,8 @@ li.views-fluid-grid-item {
   h2 {
     background: $orange;
     color: $black;
-    padding: 0.5em;
+    padding: .3em .5em;
+    @include border-top-radius($default-border-radius);
   }
   ul {
     list-style: none;

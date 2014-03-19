@@ -30,7 +30,21 @@
       height: 4em;
       width: 100%;
       .field-name-commerce-price {
-        font-size: 2em;
+        font-size: 1.75em;
+        margin: .5em 1em .5em 0;
+      }
+      .field-name-commerce-price {
+        float: left;
+        position: static;
+        margin: 0;
+      }
+      .commerce-add-to-cart {
+        float: left;
+        padding: 1em 0;
+        .form-submit {
+          float: none;
+          position: static;
+        }
       }
       .field-name-field-commerce-product,
       .field--name-field-commerce-product,

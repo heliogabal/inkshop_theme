@@ -4,7 +4,23 @@
  * Styles for the Inkota Frontsite layout.
  ******************************************************************************/
 /* INKOTA Colors */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4507778742\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/layouts\/inkfront\/inkfront\.layout\.scss}line{font-family:\0000313}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4507778742\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/layouts\/inkfront\/inkfront\.layout\.scss}line{font-family:\0000312}}
+body {
+  background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, rgba(210, 105, 30, 0.5)), color-stop(21.73913%, rgba(210, 105, 30, 0.5)), color-stop(21.73913%, rgba(210, 105, 30, 0.25)), color-stop(26.08696%, rgba(210, 105, 30, 0.25)), color-stop(26.08696%, rgba(210, 105, 30, 0.5)), color-stop(47.82609%, rgba(210, 105, 30, 0.5)), color-stop(47.82609%, rgba(210, 105, 30, 0.25)), color-stop(52.17391%, rgba(210, 105, 30, 0.25)), color-stop(52.17391%, rgba(210, 105, 30, 0.5)), color-stop(73.91304%, rgba(210, 105, 30, 0.5)), color-stop(73.91304%, rgba(210, 105, 30, 0.25)), color-stop(78.26087%, rgba(210, 105, 30, 0.25)), color-stop(78.26087%, rgba(210, 105, 30, 0.5)), color-stop(100%, rgba(210, 105, 30, 0.5)));
+  background-image: -webkit-linear-gradient(left, rgba(210, 105, 30, 0.5), rgba(210, 105, 30, 0.5) 21.73913%, rgba(210, 105, 30, 0.25) 21.73913%, rgba(210, 105, 30, 0.25) 26.08696%, rgba(210, 105, 30, 0.5) 26.08696%, rgba(210, 105, 30, 0.5) 47.82609%, rgba(210, 105, 30, 0.25) 47.82609%, rgba(210, 105, 30, 0.25) 52.17391%, rgba(210, 105, 30, 0.5) 52.17391%, rgba(210, 105, 30, 0.5) 73.91304%, rgba(210, 105, 30, 0.25) 73.91304%, rgba(210, 105, 30, 0.25) 78.26087%, rgba(210, 105, 30, 0.5) 78.26087%, rgba(210, 105, 30, 0.5) 100%);
+  background-image: -moz-linear-gradient(left, rgba(210, 105, 30, 0.5), rgba(210, 105, 30, 0.5) 21.73913%, rgba(210, 105, 30, 0.25) 21.73913%, rgba(210, 105, 30, 0.25) 26.08696%, rgba(210, 105, 30, 0.5) 26.08696%, rgba(210, 105, 30, 0.5) 47.82609%, rgba(210, 105, 30, 0.25) 47.82609%, rgba(210, 105, 30, 0.25) 52.17391%, rgba(210, 105, 30, 0.5) 52.17391%, rgba(210, 105, 30, 0.5) 73.91304%, rgba(210, 105, 30, 0.25) 73.91304%, rgba(210, 105, 30, 0.25) 78.26087%, rgba(210, 105, 30, 0.5) 78.26087%, rgba(210, 105, 30, 0.5) 100%);
+  background-image: -o-linear-gradient(left, rgba(210, 105, 30, 0.5), rgba(210, 105, 30, 0.5) 21.73913%, rgba(210, 105, 30, 0.25) 21.73913%, rgba(210, 105, 30, 0.25) 26.08696%, rgba(210, 105, 30, 0.5) 26.08696%, rgba(210, 105, 30, 0.5) 47.82609%, rgba(210, 105, 30, 0.25) 47.82609%, rgba(210, 105, 30, 0.25) 52.17391%, rgba(210, 105, 30, 0.5) 52.17391%, rgba(210, 105, 30, 0.5) 73.91304%, rgba(210, 105, 30, 0.25) 73.91304%, rgba(210, 105, 30, 0.25) 78.26087%, rgba(210, 105, 30, 0.5) 78.26087%, rgba(210, 105, 30, 0.5) 100%);
+  background-image: linear-gradient(left, rgba(210, 105, 30, 0.5), rgba(210, 105, 30, 0.5) 21.73913%, rgba(210, 105, 30, 0.25) 21.73913%, rgba(210, 105, 30, 0.25) 26.08696%, rgba(210, 105, 30, 0.5) 26.08696%, rgba(210, 105, 30, 0.5) 47.82609%, rgba(210, 105, 30, 0.25) 47.82609%, rgba(210, 105, 30, 0.25) 52.17391%, rgba(210, 105, 30, 0.5) 52.17391%, rgba(210, 105, 30, 0.5) 73.91304%, rgba(210, 105, 30, 0.25) 73.91304%, rgba(210, 105, 30, 0.25) 78.26087%, rgba(210, 105, 30, 0.5) 78.26087%, rgba(210, 105, 30, 0.5) 100%); }
+  @media (min-width: 50em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4507778742\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/layouts\/inkfront\/inkfront\.layout\.scss}line{font-family:\0000312}}
+    body {
+      background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, rgba(210, 105, 30, 0.5)), color-stop(7.04225%, rgba(210, 105, 30, 0.5)), color-stop(7.04225%, rgba(210, 105, 30, 0.25)), color-stop(8.4507%, rgba(210, 105, 30, 0.25)), color-stop(8.4507%, rgba(210, 105, 30, 0.5)), color-stop(15.49296%, rgba(210, 105, 30, 0.5)), color-stop(15.49296%, rgba(210, 105, 30, 0.25)), color-stop(16.90141%, rgba(210, 105, 30, 0.25)), color-stop(16.90141%, rgba(210, 105, 30, 0.5)), color-stop(23.94366%, rgba(210, 105, 30, 0.5)), color-stop(23.94366%, rgba(210, 105, 30, 0.25)), color-stop(25.35211%, rgba(210, 105, 30, 0.25)), color-stop(25.35211%, rgba(210, 105, 30, 0.5)), color-stop(32.39437%, rgba(210, 105, 30, 0.5)), color-stop(32.39437%, rgba(210, 105, 30, 0.25)), color-stop(33.80282%, rgba(210, 105, 30, 0.25)), color-stop(33.80282%, rgba(210, 105, 30, 0.5)), color-stop(40.84507%, rgba(210, 105, 30, 0.5)), color-stop(40.84507%, rgba(210, 105, 30, 0.25)), color-stop(42.25352%, rgba(210, 105, 30, 0.25)), color-stop(42.25352%, rgba(210, 105, 30, 0.5)), color-stop(49.29577%, rgba(210, 105, 30, 0.5)), color-stop(49.29577%, rgba(210, 105, 30, 0.25)), color-stop(50.70423%, rgba(210, 105, 30, 0.25)), color-stop(50.70423%, rgba(210, 105, 30, 0.5)), color-stop(57.74648%, rgba(210, 105, 30, 0.5)), color-stop(57.74648%, rgba(210, 105, 30, 0.25)), color-stop(59.15493%, rgba(210, 105, 30, 0.25)), color-stop(59.15493%, rgba(210, 105, 30, 0.5)), color-stop(66.19718%, rgba(210, 105, 30, 0.5)), color-stop(66.19718%, rgba(210, 105, 30, 0.25)), color-stop(67.60563%, rgba(210, 105, 30, 0.25)), color-stop(67.60563%, rgba(210, 105, 30, 0.5)), color-stop(74.64789%, rgba(210, 105, 30, 0.5)), color-stop(74.64789%, rgba(210, 105, 30, 0.25)), color-stop(76.05634%, rgba(210, 105, 30, 0.25)), color-stop(76.05634%, rgba(210, 105, 30, 0.5)), color-stop(83.09859%, rgba(210, 105, 30, 0.5)), color-stop(83.09859%, rgba(210, 105, 30, 0.25)), color-stop(84.50704%, rgba(210, 105, 30, 0.25)), color-stop(84.50704%, rgba(210, 105, 30, 0.5)), color-stop(91.5493%, rgba(210, 105, 30, 0.5)), color-stop(91.5493%, rgba(210, 105, 30, 0.25)), color-stop(92.95775%, rgba(210, 105, 30, 0.25)), color-stop(92.95775%, rgba(210, 105, 30, 0.5)), color-stop(100%, rgba(210, 105, 30, 0.5)));
+      background-image: -webkit-linear-gradient(left, rgba(210, 105, 30, 0.5), rgba(210, 105, 30, 0.5) 7.04225%, rgba(210, 105, 30, 0.25) 7.04225%, rgba(210, 105, 30, 0.25) 8.4507%, rgba(210, 105, 30, 0.5) 8.4507%, rgba(210, 105, 30, 0.5) 15.49296%, rgba(210, 105, 30, 0.25) 15.49296%, rgba(210, 105, 30, 0.25) 16.90141%, rgba(210, 105, 30, 0.5) 16.90141%, rgba(210, 105, 30, 0.5) 23.94366%, rgba(210, 105, 30, 0.25) 23.94366%, rgba(210, 105, 30, 0.25) 25.35211%, rgba(210, 105, 30, 0.5) 25.35211%, rgba(210, 105, 30, 0.5) 32.39437%, rgba(210, 105, 30, 0.25) 32.39437%, rgba(210, 105, 30, 0.25) 33.80282%, rgba(210, 105, 30, 0.5) 33.80282%, rgba(210, 105, 30, 0.5) 40.84507%, rgba(210, 105, 30, 0.25) 40.84507%, rgba(210, 105, 30, 0.25) 42.25352%, rgba(210, 105, 30, 0.5) 42.25352%, rgba(210, 105, 30, 0.5) 49.29577%, rgba(210, 105, 30, 0.25) 49.29577%, rgba(210, 105, 30, 0.25) 50.70423%, rgba(210, 105, 30, 0.5) 50.70423%, rgba(210, 105, 30, 0.5) 57.74648%, rgba(210, 105, 30, 0.25) 57.74648%, rgba(210, 105, 30, 0.25) 59.15493%, rgba(210, 105, 30, 0.5) 59.15493%, rgba(210, 105, 30, 0.5) 66.19718%, rgba(210, 105, 30, 0.25) 66.19718%, rgba(210, 105, 30, 0.25) 67.60563%, rgba(210, 105, 30, 0.5) 67.60563%, rgba(210, 105, 30, 0.5) 74.64789%, rgba(210, 105, 30, 0.25) 74.64789%, rgba(210, 105, 30, 0.25) 76.05634%, rgba(210, 105, 30, 0.5) 76.05634%, rgba(210, 105, 30, 0.5) 83.09859%, rgba(210, 105, 30, 0.25) 83.09859%, rgba(210, 105, 30, 0.25) 84.50704%, rgba(210, 105, 30, 0.5) 84.50704%, rgba(210, 105, 30, 0.5) 91.5493%, rgba(210, 105, 30, 0.25) 91.5493%, rgba(210, 105, 30, 0.25) 92.95775%, rgba(210, 105, 30, 0.5) 92.95775%, rgba(210, 105, 30, 0.5) 100%);
+      background-image: -moz-linear-gradient(left, rgba(210, 105, 30, 0.5), rgba(210, 105, 30, 0.5) 7.04225%, rgba(210, 105, 30, 0.25) 7.04225%, rgba(210, 105, 30, 0.25) 8.4507%, rgba(210, 105, 30, 0.5) 8.4507%, rgba(210, 105, 30, 0.5) 15.49296%, rgba(210, 105, 30, 0.25) 15.49296%, rgba(210, 105, 30, 0.25) 16.90141%, rgba(210, 105, 30, 0.5) 16.90141%, rgba(210, 105, 30, 0.5) 23.94366%, rgba(210, 105, 30, 0.25) 23.94366%, rgba(210, 105, 30, 0.25) 25.35211%, rgba(210, 105, 30, 0.5) 25.35211%, rgba(210, 105, 30, 0.5) 32.39437%, rgba(210, 105, 30, 0.25) 32.39437%, rgba(210, 105, 30, 0.25) 33.80282%, rgba(210, 105, 30, 0.5) 33.80282%, rgba(210, 105, 30, 0.5) 40.84507%, rgba(210, 105, 30, 0.25) 40.84507%, rgba(210, 105, 30, 0.25) 42.25352%, rgba(210, 105, 30, 0.5) 42.25352%, rgba(210, 105, 30, 0.5) 49.29577%, rgba(210, 105, 30, 0.25) 49.29577%, rgba(210, 105, 30, 0.25) 50.70423%, rgba(210, 105, 30, 0.5) 50.70423%, rgba(210, 105, 30, 0.5) 57.74648%, rgba(210, 105, 30, 0.25) 57.74648%, rgba(210, 105, 30, 0.25) 59.15493%, rgba(210, 105, 30, 0.5) 59.15493%, rgba(210, 105, 30, 0.5) 66.19718%, rgba(210, 105, 30, 0.25) 66.19718%, rgba(210, 105, 30, 0.25) 67.60563%, rgba(210, 105, 30, 0.5) 67.60563%, rgba(210, 105, 30, 0.5) 74.64789%, rgba(210, 105, 30, 0.25) 74.64789%, rgba(210, 105, 30, 0.25) 76.05634%, rgba(210, 105, 30, 0.5) 76.05634%, rgba(210, 105, 30, 0.5) 83.09859%, rgba(210, 105, 30, 0.25) 83.09859%, rgba(210, 105, 30, 0.25) 84.50704%, rgba(210, 105, 30, 0.5) 84.50704%, rgba(210, 105, 30, 0.5) 91.5493%, rgba(210, 105, 30, 0.25) 91.5493%, rgba(210, 105, 30, 0.25) 92.95775%, rgba(210, 105, 30, 0.5) 92.95775%, rgba(210, 105, 30, 0.5) 100%);
+      background-image: -o-linear-gradient(left, rgba(210, 105, 30, 0.5), rgba(210, 105, 30, 0.5) 7.04225%, rgba(210, 105, 30, 0.25) 7.04225%, rgba(210, 105, 30, 0.25) 8.4507%, rgba(210, 105, 30, 0.5) 8.4507%, rgba(210, 105, 30, 0.5) 15.49296%, rgba(210, 105, 30, 0.25) 15.49296%, rgba(210, 105, 30, 0.25) 16.90141%, rgba(210, 105, 30, 0.5) 16.90141%, rgba(210, 105, 30, 0.5) 23.94366%, rgba(210, 105, 30, 0.25) 23.94366%, rgba(210, 105, 30, 0.25) 25.35211%, rgba(210, 105, 30, 0.5) 25.35211%, rgba(210, 105, 30, 0.5) 32.39437%, rgba(210, 105, 30, 0.25) 32.39437%, rgba(210, 105, 30, 0.25) 33.80282%, rgba(210, 105, 30, 0.5) 33.80282%, rgba(210, 105, 30, 0.5) 40.84507%, rgba(210, 105, 30, 0.25) 40.84507%, rgba(210, 105, 30, 0.25) 42.25352%, rgba(210, 105, 30, 0.5) 42.25352%, rgba(210, 105, 30, 0.5) 49.29577%, rgba(210, 105, 30, 0.25) 49.29577%, rgba(210, 105, 30, 0.25) 50.70423%, rgba(210, 105, 30, 0.5) 50.70423%, rgba(210, 105, 30, 0.5) 57.74648%, rgba(210, 105, 30, 0.25) 57.74648%, rgba(210, 105, 30, 0.25) 59.15493%, rgba(210, 105, 30, 0.5) 59.15493%, rgba(210, 105, 30, 0.5) 66.19718%, rgba(210, 105, 30, 0.25) 66.19718%, rgba(210, 105, 30, 0.25) 67.60563%, rgba(210, 105, 30, 0.5) 67.60563%, rgba(210, 105, 30, 0.5) 74.64789%, rgba(210, 105, 30, 0.25) 74.64789%, rgba(210, 105, 30, 0.25) 76.05634%, rgba(210, 105, 30, 0.5) 76.05634%, rgba(210, 105, 30, 0.5) 83.09859%, rgba(210, 105, 30, 0.25) 83.09859%, rgba(210, 105, 30, 0.25) 84.50704%, rgba(210, 105, 30, 0.5) 84.50704%, rgba(210, 105, 30, 0.5) 91.5493%, rgba(210, 105, 30, 0.25) 91.5493%, rgba(210, 105, 30, 0.25) 92.95775%, rgba(210, 105, 30, 0.5) 92.95775%, rgba(210, 105, 30, 0.5) 100%);
+      background-image: linear-gradient(left, rgba(210, 105, 30, 0.5), rgba(210, 105, 30, 0.5) 7.04225%, rgba(210, 105, 30, 0.25) 7.04225%, rgba(210, 105, 30, 0.25) 8.4507%, rgba(210, 105, 30, 0.5) 8.4507%, rgba(210, 105, 30, 0.5) 15.49296%, rgba(210, 105, 30, 0.25) 15.49296%, rgba(210, 105, 30, 0.25) 16.90141%, rgba(210, 105, 30, 0.5) 16.90141%, rgba(210, 105, 30, 0.5) 23.94366%, rgba(210, 105, 30, 0.25) 23.94366%, rgba(210, 105, 30, 0.25) 25.35211%, rgba(210, 105, 30, 0.5) 25.35211%, rgba(210, 105, 30, 0.5) 32.39437%, rgba(210, 105, 30, 0.25) 32.39437%, rgba(210, 105, 30, 0.25) 33.80282%, rgba(210, 105, 30, 0.5) 33.80282%, rgba(210, 105, 30, 0.5) 40.84507%, rgba(210, 105, 30, 0.25) 40.84507%, rgba(210, 105, 30, 0.25) 42.25352%, rgba(210, 105, 30, 0.5) 42.25352%, rgba(210, 105, 30, 0.5) 49.29577%, rgba(210, 105, 30, 0.25) 49.29577%, rgba(210, 105, 30, 0.25) 50.70423%, rgba(210, 105, 30, 0.5) 50.70423%, rgba(210, 105, 30, 0.5) 57.74648%, rgba(210, 105, 30, 0.25) 57.74648%, rgba(210, 105, 30, 0.25) 59.15493%, rgba(210, 105, 30, 0.5) 59.15493%, rgba(210, 105, 30, 0.5) 66.19718%, rgba(210, 105, 30, 0.25) 66.19718%, rgba(210, 105, 30, 0.25) 67.60563%, rgba(210, 105, 30, 0.5) 67.60563%, rgba(210, 105, 30, 0.5) 74.64789%, rgba(210, 105, 30, 0.25) 74.64789%, rgba(210, 105, 30, 0.25) 76.05634%, rgba(210, 105, 30, 0.5) 76.05634%, rgba(210, 105, 30, 0.5) 83.09859%, rgba(210, 105, 30, 0.25) 83.09859%, rgba(210, 105, 30, 0.25) 84.50704%, rgba(210, 105, 30, 0.5) 84.50704%, rgba(210, 105, 30, 0.5) 91.5493%, rgba(210, 105, 30, 0.25) 91.5493%, rgba(210, 105, 30, 0.25) 92.95775%, rgba(210, 105, 30, 0.5) 92.95775%, rgba(210, 105, 30, 0.5) 100%); } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4507778742\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/layouts\/inkfront\/inkfront\.layout\.scss}line{font-family:\0000315}}
 .l-constrained, .l-region--highlighted, .l-region--footer {
   width: 95%;
   /*max-width: 1000px;*/
@@ -15,178 +31,189 @@
     content: "";
     display: table;
     clear: both; }
-
-/* Header */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4507778742\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/layouts\/inkfront\/inkfront\.layout\.scss}line{font-family:\0000321}}
-.l-region--header {
-  padding: 18px 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4507778742\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/layouts\/inkfront\/inkfront\.layout\.scss}line{font-family:\0000324}}
-  .l-region--header .block {
-    float: right; }
+  @media (min-width: 50em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4507778742\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/layouts\/inkfront\/inkfront\.layout\.scss}line{font-family:\0000315}}
+    .l-constrained, .l-region--highlighted, .l-region--footer {
+      width: 50em !important; } }
+  @media (min-width: 70em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4507778742\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/layouts\/inkfront\/inkfront\.layout\.scss}line{font-family:\0000315}}
+    .l-constrained, .l-region--highlighted, .l-region--footer {
+      width: 70em !important; } }
+  @media (min-width: 90em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4507778742\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/layouts\/inkfront\/inkfront\.layout\.scss}line{font-family:\0000315}}
+    .l-constrained, .l-region--highlighted, .l-region--footer {
+      width: 90em !important; } }
+  @media (min-width: 100em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4507778742\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/layouts\/inkfront\/inkfront\.layout\.scss}line{font-family:\0000315}}
+    .l-constrained, .l-region--highlighted, .l-region--footer {
+      width: 100em !important; } }
 
 /* Content Area */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4507778742\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/layouts\/inkfront\/inkfront\.layout\.scss}line{font-family:\0000330}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4507778742\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/layouts\/inkfront\/inkfront\.layout\.scss}line{font-family:\0000335}}
 .l-highlighted-wrapper {
   padding: 18px 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4507778742\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/layouts\/inkfront\/inkfront\.layout\.scss}line{font-family:\0000336}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4507778742\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/layouts\/inkfront\/inkfront\.layout\.scss}line{font-family:\0000341}}
 .l-region--help {
   margin-bottom: 18px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4507778742\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/layouts\/inkfront\/inkfront\.layout\.scss}line{font-family:\0000339}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4507778742\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/layouts\/inkfront\/inkfront\.layout\.scss}line{font-family:\0000344}}
 .l-main {
   margin-top: 36px;
   margin-bottom: 36px; }
 
 /* Sidebars */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4507778742\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/layouts\/inkfront\/inkfront\.layout\.scss}line{font-family:\0000346}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4507778742\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/layouts\/inkfront\/inkfront\.layout\.scss}line{font-family:\0000351}}
 .l-region--sidebar-first,
 .l-region--sidebar-second {
   /*padding: $vert-spacing-unit $horz-spacing-unit;*/ }
 
 /* Footer */
-@media (min-width: 44em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4507778742\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/layouts\/inkfront\/inkfront\.layout\.scss}line{font-family:\0000356}}
+@media (min-width: 50em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4507778742\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/layouts\/inkfront\/inkfront\.layout\.scss}line{font-family:\0000361}}
   .l-constrained, .l-region--highlighted, .l-region--footer {
     width: 90%; }
 
   /* Header */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4507778742\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/layouts\/inkfront\/inkfront\.layout\.scss}line{font-family:\0000361}}
-  .l-branding {
-    width: 23.40426%;
+  /*#logo {
     float: left;
-    margin-right: -100%;
-    margin-left: 0%;
-    clear: none; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4507778742\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/layouts\/inkfront\/inkfront\.layout\.scss}line{font-family:\0000364}}
-  .l-region--header {
-    width: 23.40426%;
-    float: right;
-    margin-left: 0;
-    margin-right: 0;
-    clear: none; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4507778742\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/layouts\/inkfront\/inkfront\.layout\.scss}line{font-family:\0000367}}
+    height: 66px;
+    margin: 0;
+    padding: 20px 0 0 0;
+    width: 306px;
+}*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4507778742\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/layouts\/inkfront\/inkfront\.layout\.scss}line{font-family:\0000372}}
   #logo {
-    width: 23.40426%;
+    width: 23.94366%;
     float: left;
     margin-right: -100%;
     margin-left: 0%;
-    clear: none; }
+    clear: none;
+    padding-top: 20px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4507778742\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/layouts\/inkfront\/inkfront\.layout\.scss}line{font-family:\0000370}}
-  #extranavi {
-    width: 23.40426%;
-    float: left;
-    margin-right: -100%;
-    margin-left: 25.53191%;
-    clear: none; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4507778742\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/layouts\/inkfront\/inkfront\.layout\.scss}line{font-family:\0000373}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4507778742\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/layouts\/inkfront\/inkfront\.layout\.scss}line{font-family:\0000376}}
   .l-region--navigation {
-    width: 48.93617%;
+    width: 74.64789%;
     float: right;
     margin-left: 0;
     margin-right: 0;
     clear: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4507778742\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/layouts\/inkfront\/inkfront\.layout\.scss}line{font-family:\0000378}}
+    .l-region--navigation .block--views-exp-display-products-page {
+      width: 49.29577%;
+      float: left;
+      margin-right: -100%;
+      margin-left: 0%;
+      clear: none;
+      margin-top: 1.6em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4507778742\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/layouts\/inkfront\/inkfront\.layout\.scss}line{font-family:\0000381}}
+      .l-region--navigation .block--views-exp-display-products-page input.form-text {
+        width: 200px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4507778742\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/layouts\/inkfront\/inkfront\.layout\.scss}line{font-family:\0000385}}
+    .l-region--navigation .block--menu-menu-benutzer-menu {
+      width: 49.29577%;
+      float: right;
+      margin-left: 0;
+      margin-right: 0;
+      clear: none;
+      margin-top: 1.2em; }
 
   /* Sidebars */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4507778742\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/layouts\/inkfront\/inkfront\.layout\.scss}line{font-family:\0000380}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4507778742\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/layouts\/inkfront\/inkfront\.layout\.scss}line{font-family:\0000394}}
   .has-two-sidebars .l-content,
   .has-one-sidebar .l-content {
-    width: 74.46809%;
+    width: 83.09859%;
     float: right;
     margin-left: 0;
     margin-right: 0;
     clear: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4507778742\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/layouts\/inkfront\/inkfront\.layout\.scss}line{font-family:\0000384}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4507778742\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/layouts\/inkfront\/inkfront\.layout\.scss}line{font-family:\0000398}}
   .has-two-sidebars .l-region--sidebar-first,
   .has-two-sidebars .l-region--sidebar-second,
   .has-one-sidebar .l-region--sidebar-first,
   .has-one-sidebar .l-region--sidebar-second {
-    width: 23.40426%;
+    width: 15.49296%;
     float: left;
     margin-right: -100%;
     margin-left: 0%;
     clear: none;
     clear: right; } }
 @media (min-width: 70em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4507778742\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/layouts\/inkfront\/inkfront\.layout\.scss}line{font-family:\0000392}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4507778742\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/layouts\/inkfront\/inkfront\.layout\.scss}line{font-family:\00003106}}
   .l-constrained, .l-region--highlighted, .l-region--footer {
     width: 80%; }
 
   /* Sidebars */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4507778742\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/layouts\/inkfront\/inkfront\.layout\.scss}line{font-family:\0000398}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4507778742\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/layouts\/inkfront\/inkfront\.layout\.scss}line{font-family:\00003112}}
   .has-one-sidebar .l-content {
-    width: 74.46809%;
+    width: 83.09859%;
     float: right;
     margin-left: 0;
     margin-right: 0;
     clear: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4507778742\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/layouts\/inkfront\/inkfront\.layout\.scss}line{font-family:\00003101}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4507778742\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/layouts\/inkfront\/inkfront\.layout\.scss}line{font-family:\00003115}}
   .has-one-sidebar .l-region--sidebar-first {
-    width: 23.40426%;
+    width: 15.49296%;
     float: left;
     margin-right: -100%;
     margin-left: 0%;
     clear: none;
     clear: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4507778742\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/layouts\/inkfront\/inkfront\.layout\.scss}line{font-family:\00003107}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4507778742\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/layouts\/inkfront\/inkfront\.layout\.scss}line{font-family:\00003121}}
   .has-two-sidebars .l-content {
-    width: 48.93617%;
+    width: 66.19718%;
     float: left;
     margin-right: -100%;
-    margin-left: 25.53191%;
+    margin-left: 16.90141%;
     clear: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4507778742\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/layouts\/inkfront\/inkfront\.layout\.scss}line{font-family:\00003111}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4507778742\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/layouts\/inkfront\/inkfront\.layout\.scss}line{font-family:\00003125}}
   .has-two-sidebars .l-region--sidebar-first,
   .has-two-sidebars .l-region--sidebar-second {
-    width: 23.40426%;
+    width: 15.49296%;
     float: left;
     margin-right: -100%;
     margin-left: 0%;
     clear: none;
     clear: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4507778742\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/layouts\/inkfront\/inkfront\.layout\.scss}line{font-family:\00003115}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4507778742\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/layouts\/inkfront\/inkfront\.layout\.scss}line{font-family:\00003129}}
   .has-two-sidebars .l-region--sidebar-second {
-    width: 23.40426%;
+    width: 15.49296%;
     float: right;
     margin-left: 0;
     margin-right: 0;
     clear: none; } }
 /* Sticky Footer */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4507778742\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/layouts\/inkfront\/inkfront\.layout\.scss}line{font-family:\00003122}}
-html, body {
-  height: 100%; }
+@media (min-width: 50em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4507778742\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/layouts\/inkfront\/inkfront\.layout\.scss}line{font-family:\00003136}}
+  html, body {
+    height: 100%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4507778742\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/layouts\/inkfront\/inkfront\.layout\.scss}line{font-family:\00003125}}
-.l-page {
-  min-height: 100%;
-  position: relative; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4507778742\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/layouts\/inkfront\/inkfront\.layout\.scss}line{font-family:\00003129}}
-.l-main {
-  padding-bottom: 5em;
-  /* same as .l-footer height */
-  background: none; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4507778742\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/layouts\/inkfront\/inkfront\.layout\.scss}line{font-family:\00003133}}
-.l-footer-wrapper:before {
-  background: url("../../../images/bottomback.jpg") no-repeat scroll center bottom rgba(0, 0, 0, 0);
-  bottom: 4em;
-  content: "";
-  height: 201px;
-  position: absolute;
-  width: 100%;
-  z-index: -1;
-  margin-left: -240px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4507778742\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/layouts\/inkfront\/inkfront\.layout\.scss}line{font-family:\00003139}}
+  .l-page {
+    min-height: 100%;
+    position: relative; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4507778742\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/layouts\/inkfront\/inkfront\.layout\.scss}line{font-family:\00003143}}
-.l-footer-wrapper {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 5em;
-  /* same as .l-main padding-bottom */ }
+  .l-main {
+    padding-bottom: 5em;
+    /* same as .l-footer height */
+    background: none; }
+
+  /*.l-footer-wrapper:before {
+    background: url("../../../images/bottomback.jpg") no-repeat scroll center bottom rgba(0, 0, 0, 0);
+      bottom: 4em;
+      content: "";
+      height: 201px;
+      position: absolute;
+      width: 100%;
+      z-index: -1;
+      margin-left: -240px;
+  }*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o4507778742\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/layouts\/inkfront\/inkfront\.layout\.scss}line{font-family:\00003157}}
+  .l-footer-wrapper {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 5em;
+    /* same as .l-main padding-bottom*/ } }

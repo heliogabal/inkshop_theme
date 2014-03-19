@@ -2,6 +2,7 @@
 .block--commerce-cart {
   background: $light-grey;
   margin-bottom: 1em;
+  @include border-radius($default-border-radius);
     table tr.even, table tr.odd {
       background: $light-grey;
     }
@@ -10,11 +11,20 @@
     }
 }
 .cart-contents {
-  padding: 1em;
+  padding: .6em;
 }
 .line-item-summary {
-    margin-top: 0.3em;
+    margin-top: 0.4em;
+    margin-bottom: .6em;
     width: 99%;
+    .links {
+      margin-bottom: 0.4em;
+      margin-top: 0.8em;
+    }
+}
+
+.cart-empty-block {
+    padding: 0 0 1em 0.5em;
 }
 
 /* Add to cart confirmation */

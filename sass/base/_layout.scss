@@ -68,9 +68,9 @@ input.form-text {
   font-weight: bold;
 }
 .form-submit:hover {
-  animation: myfirst 1s;
-  -webkit-animation: myfirst1 1s;
-  background: #FACB4E;
+ /* animation: myfirst 1s;
+  -webkit-animation: myfirst1 1s;*/
+  background: $yellow;
   color: $black;
 }
 #search-block-form input.form-text {

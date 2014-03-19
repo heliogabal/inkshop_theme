@@ -22,6 +22,7 @@
     <?php print render($tabs); ?>
     <?php print $messages; ?>
     <?php print render($page['help']); ?>
+    <?php print render($page['sidebar_first']); ?>
     <div class="l-content" role="main">
       <?php print render($title_prefix); ?>
       <?php if ($title): ?>
@@ -34,7 +35,6 @@
       <?php print render($page['content']); ?>
       <?php print $feed_icons; ?>
     </div>
-    <?php print render($page['sidebar_first']); ?>
     <?php print render($page['sidebar_second']); ?>
   </div>
   <footer class="l-footer-wrapper" role="contentinfo">

@@ -34,10 +34,18 @@
   .compact-form-label {
     top: 12px;
     left: 10px;
-    font-size: 1em;
+    font-size: .9em;
   }
-  .views-exposed-form .views-exposed-widget .form-submit {
-    margin-top: 0;
+  .views-exposed-form .views-exposed-widget {
+    padding-right: 0;
+    .form-submit {
+      margin-top: 0;
+      background: url(../images/peter_burdette_search.png) no-repeat center $orange;
+      text-indent: -999em;
+      width: 50px;
+      padding: 0;
+      height: 30px;
+    }
   }
 }
 .block--current-search-search-results,
@@ -58,5 +66,19 @@
   ul {
     list-style: none;
     padding-left: 0;
+  }
+}
+.block--facetapi {
+  @include border-radius($default-border-radius);
+  ul li {
+    margin-bottom: .5em;
+    line-height: 1.2;
+  }
+  ul li a {
+    text-decoration: none;
+  }
+  ul li a:hover {
+    text-decoration: underline;
+    color: $black;
   }
 }
