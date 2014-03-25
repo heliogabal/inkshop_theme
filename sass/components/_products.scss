@@ -13,7 +13,7 @@ ul.views-fluid-grid-items-v-margin-1em li.views-fluid-grid-item {
   margin-top: 0;
 }
 li.views-fluid-grid-item {
-  padding: 1em;
+  padding: 1em 1em 4em;
   margin: 0 1em 1em 0;
   position: relative;
   background: $light-grey;
@@ -31,8 +31,21 @@ li.views-fluid-grid-item {
   bottom: 0;
   clear: both;
   font-weight: bold;
-  font-size: 1.2em;
-  padding: 1em 1em 1em 0;
+  font-size: 1em;
+  padding: 1em 1em 2.7em 0;
+}
+.field-name-field-product-tax {
+    bottom: 0;
+    font-size: 0.7em;
+    padding-bottom: 2.5em;
+    position: absolute;
+}
+.field-name-link-zzgl-versandkosten {
+    bottom: 0;
+    font-size: 0.7em;
+    line-height: 1;
+    padding: 0 0 0.5em;
+    position: absolute;
 }
 .field-name-field-commerce-product,
 .field--name-field-commerce-product,
@@ -118,9 +131,6 @@ li.views-fluid-grid-item {
   .field-name-field-pd-pdfs {
     float: left;
     padding: 1em 0;
-    position: absolute;
-    right: 1em;
-    bottom: 3em;
   }
 }
 .field-name-field-product-image,

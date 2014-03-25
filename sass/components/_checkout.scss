@@ -29,11 +29,19 @@ table tr.even {
       width: 45%
     }
     .commerce_simplenews_checkout {
+      float: left;
+      width: 50%;
+    }
+    .commerce_fieldgroup_pane__group_commerce_order_note{
       float: right;
       width: 45%;
     }
     #edit-extra-pane-node-1264 {
       clear: right;
+      float: right;
+      width: 45%;
+    }
+    .commerce_shipping {
       float: right;
       width: 45%;
     }
@@ -51,9 +59,28 @@ table tr.even {
           }
         }
       }
+    #edit-commerce-payment-payment-method {
+      float: left;
+      width: 50%;
+      .form-item-commerce-payment-payment-method {
+        margin-bottom: .5em;
+        a {
+          display: block;
+          float: right;
+          margin-top: 0.5em;
+          max-width: 250px;
+        }
+      }
+    }
+    #payment-details {
+      float: right;
+      width: 45%;
+    }
 }
 
 /* Checkout Review Pane */
+
+
 
 .pane.account,
 .pane.customer_profile_shipping,
@@ -64,9 +91,14 @@ table tr.even {
     padding: 1em;
     width: 200px;
 }
-.commerce-checkout-review-pane .view-commerce-cart-summary {
-  border: 1px solid $orange;
-}
+.commerce-checkout-review-pane {
+  h2.pane-title {
+    margin-top: 1em;
+  }
+  .view-commerce-cart-summary {
+    border: 1px solid $orange;
+    }
+  }
 .view-commerce-cart-summary {
   background: $white;
   .cols-5 {

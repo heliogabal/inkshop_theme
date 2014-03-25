@@ -9,6 +9,12 @@
   @include border-radius($default-border-radius);
 }
 .node--product-display--full {
+  .group-header {
+      .field-name-field-product-subtitle,
+      .field--name-field-product-subtitle {
+      font-weight: bold;
+    }
+  }
   .group-left {
     float: left;
     width: 70%;
@@ -27,16 +33,24 @@
   }
   .group-footer {
       float: left;
-      height: 4em;
+      height: 5em;
       width: 100%;
       .field-name-commerce-price {
-        font-size: 1.75em;
-        margin: .5em 1em .5em 0;
-      }
-      .field-name-commerce-price {
+        font-size: 1.5em;
+        margin: .5em 2em 0 0;
+        line-height: 1;
         float: left;
         position: static;
         margin: 0;
+        padding: 1.2em 2em 0 0;
+      }
+      .field.field-name-field-product-tax {
+        padding-bottom: 3.1em;
+        font-size: .8em;
+      }
+      .field-name-link-zzgl-versandkosten {
+          font-size: 0.8em;
+          padding: 0 0 1em;
       }
       .commerce-add-to-cart {
         float: left;
