@@ -5,6 +5,9 @@ h2.block__title {
     padding: .3em .5em;
     @include border-top-radius($default-border-radius);
 }
+span.file-size {
+  display: none;
+}
 ul.views-fluid-grid-items-h-margin-0-5em li.views-fluid-grid-item {
   margin-left: 0;
 }
@@ -17,9 +20,10 @@ li.views-fluid-grid-item {
   margin: 0 1em 1em 0;
   position: relative;
   background: $light-grey;
-  @include border-radius($default-border-radius);
   width:100%;
   max-width: 221px;
+  @include box-sizing(content-box);
+  @include border-radius($default-border-radius);
   @include breakpoint($desk) {
     width: 19%;
   }
@@ -130,7 +134,7 @@ li.views-fluid-grid-item {
   .field--name-field-product-pdf,
   .field-name-field-pd-pdfs {
     float: left;
-    padding: 1em 0;
+    padding: 0 0 1em;
   }
 }
 .field-name-field-product-image,
