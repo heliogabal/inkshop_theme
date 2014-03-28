@@ -12,10 +12,11 @@
 
 .l-constrained {
   width: 95%;
-  /*max-width: 1000px;*/
   margin: 0 auto;
+  /*overflow: hidden;*/
+  position: relative;
   @include pie-clearfix;
-  @include breakpoint ($tab) {
+  /*@include breakpoint ($tab) {
     width: $tab !important;
   }
   @include breakpoint ($desk) {
@@ -26,7 +27,7 @@
   }
   @include breakpoint ($wide) {
     width: $wide !important;
-  }
+  }*/
 }
 /* Header */
 #logo {
@@ -76,14 +77,14 @@
     .l-region--navigation {
       @include grid-span(9, 4);
       .block--views-exp-display-products-page {
-        @include grid-span(6, 1);
+        @include grid-span(4, 1);
         margin-top: 1.6em;
         input.form-text {
           width: 200px;
         }
       }
       .block--menu-menu-benutzer-menu {
-        @include grid-span(6,7);
+        @include grid-span(8,5);
         margin-top: 1.2em;
       }
     }
@@ -93,6 +94,8 @@
   .has-one-sidebar {
     .l-content {
       @include grid-span(10, 3);
+      background: $white;
+      padding: 0 1em 1em;
     }
     .l-region--sidebar-first,
     .l-region--sidebar-second {
@@ -103,9 +106,6 @@
 }
 
 @include breakpoint($desk, true) {
-  .l-constrained {
-    width: 80%;
-  }
 
   /* Sidebars */
   .has-one-sidebar {
@@ -129,6 +129,13 @@
     .l-region--sidebar-second {
       @include grid-span(2, 11);
     }
+  }
+}
+
+@include breakpoint($wide, true) {
+
+  .l-constrained {
+    width: 80%;
   }
 }
 /* Sticky Footer */
