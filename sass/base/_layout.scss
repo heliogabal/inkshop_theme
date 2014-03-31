@@ -1,6 +1,6 @@
 body {
   @include breakpoint($tab) {
-    /*background: url('../images/cont_back.jpg') no-repeat 50% 0 !important;*/
+    background: url('../images/cont_back.jpg') no-repeat 50% 0 !important;
   }
   font-size: 14px;
   color: $black;
