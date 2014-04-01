@@ -82,7 +82,7 @@ ol.commerce-checkout-progress {
     content: '\f054';
     font-family: "FontAwesome";
     position: absolute;
-    top: 0.65em;
+    top: 0.7em;
     right: 1em;
   }
   li.complete:after{
@@ -98,7 +98,7 @@ ol.commerce-checkout-progress {
     width: 0;
     height: 0;
     border-top: 18px solid transparent;
-    border-bottom: 17px solid transparent;
+    border-bottom: 19px solid transparent;
 
     border-left: 20px solid $light-grey;
     position: absolute;
