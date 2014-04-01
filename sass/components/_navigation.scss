@@ -33,6 +33,7 @@
         padding: .5em 0;
         margin: 0 1em;
         display: block;
+        border-bottom: 5px solid transparent;
       }
       a:hover,a:focus, a:active {
           text-decoration: none;
@@ -52,9 +53,10 @@ nav.block--menu-menu-pflichtmenu {
       a {
         text-decoration: none;
         color: $black;
-        padding: 0.8em 0;
+        padding: 0.5em 0;
         margin: 0 1em;
         display: block;
+        border-top: 5px solid transparent;
       }
       a:hover, a:focus, a:active {
         text-decoration: none;
