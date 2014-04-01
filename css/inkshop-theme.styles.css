@@ -1385,7 +1385,7 @@ ol.commerce-checkout-progress {
         width: 20% !important; } }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/components\/_checkout\.scss}line{font-family:\0000377}}
     ol.commerce-checkout-progress li a {
-      padding: 1em 5em; }
+      display: block; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/components\/_checkout\.scss}line{font-family:\0000381}}
   ol.commerce-checkout-progress li:after {
     content: '\f054';
