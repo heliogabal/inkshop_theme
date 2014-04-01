@@ -1656,7 +1656,7 @@ nav.block--menu-menu-pflichtmenu ul {
     right: -70px;
     top: 30px;
     border: 0;
-    box-shadow: 0; }
+    box-shadow: none; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/components\/_product_node\.scss}line{font-family:\0000322}}
   .node--product-display--full .group-header .field-name-field-product-subtitle,
   .node--product-display--full .group-header .field--name-field-product-subtitle {
