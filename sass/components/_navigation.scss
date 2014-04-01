@@ -30,7 +30,8 @@
       a {
         text-decoration: none;
         color: $black;
-        padding: .5em 1em;
+        padding: .5em 0;
+        margin: 0 1em;
         display: block;
       }
       a:hover,a:focus, a:active {
@@ -51,11 +52,13 @@ nav.block--menu-menu-pflichtmenu {
       a {
         text-decoration: none;
         color: $black;
-        padding: 0.8em 1em;
+        padding: 0.8em 0;
+        margin: 0 1em;
         display: block;
       }
       a:hover, a:focus, a:active {
-          border-top: 5px solid $black;
+        text-decoration: none;
+        border-top: 5px solid $black;
         }
     }
   }
