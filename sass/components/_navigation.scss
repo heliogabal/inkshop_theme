@@ -35,7 +35,7 @@
         display: block;
         border-bottom: 5px solid transparent;
       }
-      a:hover,a:focus, a:active {
+      a:hover,a:focus, a:active, a.active {
           text-decoration: none;
           border-bottom: 5px solid $black;
         }
@@ -58,7 +58,7 @@ nav.block--menu-menu-pflichtmenu {
         display: block;
         border-top: 5px solid transparent;
       }
-      a:hover, a:focus, a:active {
+      a:hover, a:focus, a:active, a.active {
         text-decoration: none;
         border-top: 5px solid $black;
         }

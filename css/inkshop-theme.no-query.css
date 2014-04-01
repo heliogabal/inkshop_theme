@@ -1599,7 +1599,7 @@ ol.commerce-checkout-progress {
       display: block;
       border-bottom: 5px solid transparent; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/components\/_navigation\.scss}line{font-family:\0000338}}
-    #block-menu-menu-benutzer-menu ul li a:hover, #block-menu-menu-benutzer-menu ul li a:focus, #block-menu-menu-benutzer-menu ul li a:active {
+    #block-menu-menu-benutzer-menu ul li a:hover, #block-menu-menu-benutzer-menu ul li a:focus, #block-menu-menu-benutzer-menu ul li a:active, #block-menu-menu-benutzer-menu ul li a.active {
       text-decoration: none;
       border-bottom: 5px solid #292929; }
 
@@ -1621,7 +1621,7 @@ nav.block--menu-menu-pflichtmenu ul {
       display: block;
       border-top: 5px solid transparent; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/components\/_navigation\.scss}line{font-family:\0000361}}
-    nav.block--menu-menu-pflichtmenu ul li a:hover, nav.block--menu-menu-pflichtmenu ul li a:focus, nav.block--menu-menu-pflichtmenu ul li a:active {
+    nav.block--menu-menu-pflichtmenu ul li a:hover, nav.block--menu-menu-pflichtmenu ul li a:focus, nav.block--menu-menu-pflichtmenu ul li a:active, nav.block--menu-menu-pflichtmenu ul li a.active {
       text-decoration: none;
       border-top: 5px solid #292929; }
 
