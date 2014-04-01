@@ -208,7 +208,7 @@
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/layouts\/inkfront\/inkfront\.layout\.scss}line{font-family:\00003172}}
   .l-main {
-    padding-bottom: 5em;
+    padding-bottom: 4em;
     /* same as .l-footer height */
     background: none; }
 
@@ -227,5 +227,5 @@
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: 5em;
+    height: 4em;
     /* same as .l-main padding-bottom*/ } }
