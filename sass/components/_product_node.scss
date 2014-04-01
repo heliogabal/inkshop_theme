@@ -10,6 +10,13 @@
   @include single-box-shadow($default-box-shadow-color, 0, 0, $default-box-shadow-blur)
 }
 .node--product-display--full {
+  span.new {
+    padding: 10px 100px;
+    right: -70px;
+    top: 30px;
+    border: 0;
+    box-shadow: 0;
+}
   .group-header {
       .field-name-field-product-subtitle,
       .field--name-field-product-subtitle {
