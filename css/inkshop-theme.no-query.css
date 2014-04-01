@@ -1840,7 +1840,7 @@ li.views-fluid-grid-item {
   margin: 0 1em 1em 0;
   position: relative;
   /*background: $light-grey;*/
-  border: 1px solid #ebe9e7;
+  border: 1px solid #dddddd;
   width: 100%;
   min-width: 150px;
   max-width: 221px;
