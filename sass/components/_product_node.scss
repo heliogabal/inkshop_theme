@@ -6,8 +6,9 @@
   margin: 0 0 1em 0;
   position: relative;
   background: #EBE9E7;
+  border: 1px solid $light-grey;
   @include border-radius($default-border-radius);
-  @include single-box-shadow($default-box-shadow-color, 0, 0, $default-box-shadow-blur)
+  /*@include single-box-shadow($default-box-shadow-color, 0, 0, $default-box-shadow-blur);*/
 }
 .node--product-display--full {
   span.new {
