@@ -1391,7 +1391,7 @@ ol.commerce-checkout-progress {
     content: '\f054';
     font-family: "FontAwesome";
     position: absolute;
-    top: 0.65em;
+    top: 0.7em;
     right: 1em; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/components\/_checkout\.scss}line{font-family:\0000388}}
   ol.commerce-checkout-progress li.complete:after {
@@ -1406,7 +1406,7 @@ ol.commerce-checkout-progress {
     width: 0;
     height: 0;
     border-top: 18px solid transparent;
-    border-bottom: 17px solid transparent;
+    border-bottom: 19px solid transparent;
     border-left: 20px solid #ebe9e7;
     position: absolute;
     top: 0;
