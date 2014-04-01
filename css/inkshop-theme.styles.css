@@ -1664,12 +1664,12 @@ ol.commerce-checkout-progress {
     #block-menu-menu-benutzer-menu ul li a {
       text-decoration: none;
       color: #292929;
-      padding: 0.8em 1.5em;
+      padding: .5em 1em;
       display: block; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/components\/_navigation\.scss}line{font-family:\0000336}}
     #block-menu-menu-benutzer-menu ul li a:hover, #block-menu-menu-benutzer-menu ul li a:focus, #block-menu-menu-benutzer-menu ul li a:active {
       text-decoration: none;
-      border-top: 5px solid #292929; }
+      border-bottom: 5px solid #292929; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/components\/_navigation\.scss}line{font-family:\0000344}}
 nav.block--menu-menu-pflichtmenu ul {
@@ -1684,11 +1684,11 @@ nav.block--menu-menu-pflichtmenu ul {
     nav.block--menu-menu-pflichtmenu ul li a {
       text-decoration: none;
       color: #292929;
-      padding: .5em 1em;
+      padding: 0.8em 1em;
       display: block; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/components\/_navigation\.scss}line{font-family:\0000357}}
-    nav.block--menu-menu-pflichtmenu ul li a:hover {
-      text-decoration: underline; }
+    nav.block--menu-menu-pflichtmenu ul li a:hover, nav.block--menu-menu-pflichtmenu ul li a:focus, nav.block--menu-menu-pflichtmenu ul li a:active {
+      border-top: 5px solid #292929; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/components\/_product_node\.scss}line{font-family:\000031}}
 .label-above {
