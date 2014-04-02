@@ -36,13 +36,24 @@
   }
   .line-item-summary:after {
     content: "¬";
-    font-family: FontAwesome;
+    font-family: Fontawesome;
   }
   #commerce-ajax-cart-preview {
     z-index: 1000;
-    border: 0;
-    @include box-shadow();
+    border: 1px solid $light-grey;
+    @include box-shadow(3,3,5);
+    @include border-radius($default-border-radius);
   }
+    table {
+      @include border-radius($default-border-radius);
+      border: 1px solid $subtle-grey;
+    }
+    table tr.even, table tr.odd {
+      /*background: $light-grey;*/
+    }
+    table tr.odd {
+      /*background: #ddd;*/
+    }
 }
 
 /* Add to cart confirmation */
