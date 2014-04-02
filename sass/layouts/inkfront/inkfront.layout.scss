@@ -89,14 +89,11 @@
     .l-region--navigation {
       @include grid-span(9, 4);
       .block--views-shopping-cart-block {
-        @include grid-span(4, 1);
-        margin-top: 1.6em;
-        input.form-text {
-          width: 250px;
-        }
+        @include grid-span(4, 9);
+        margin-top: 1.2em;
       }
       .block--menu-menu-benutzer-menu {
-        @include grid-span(8,5);
+        @include grid-span(8,1);
         margin-top: 1.2em;
       }
     }
