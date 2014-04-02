@@ -34,10 +34,10 @@
   .line-item-summary {
     width: 200px;
   }
-  .line-item-summary:after {
-    content: "¬";
+  /*.line-item-summary:after {
+    content: "";
     font-family: Fontawesome;
-  }
+  }*/
   #commerce-ajax-cart-preview {
     z-index: 1000;
     border: 1px solid $light-grey;
@@ -60,7 +60,7 @@
       /*background: #ddd;*/
     }
     td {
-      padding: .5em;
+      padding: 1em .5em;
     }
   }
 }
