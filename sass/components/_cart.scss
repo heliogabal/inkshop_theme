@@ -41,17 +41,21 @@
   #commerce-ajax-cart-preview {
     z-index: 1000;
     border: 1px solid $light-grey;
-    @include box-shadow(3,3,5);
+    @include box-shadow();
     @include border-radius($default-border-radius);
     .line-item-summary {
       width: 100%;
+      li {
+        list-style: none;
+      }
     }
     table {
       @include border-radius($default-border-radius);
-      border: 1px solid $subtle-grey;
+      border: 1px solid $subtle-grey !important;
     }
     table tr.even, table tr.odd {
       /*background: $light-grey;*/
+      padding: .5em;
     }
     table tr.odd {
       /*background: #ddd;*/
