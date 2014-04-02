@@ -88,11 +88,11 @@
   }
     .l-region--navigation {
       @include grid-span(9, 4);
-      .block--views-exp-display-products-page {
+      .block--views-shopping-cart-block {
         @include grid-span(4, 1);
         margin-top: 1.6em;
         input.form-text {
-          width: 200px;
+          width: 250px;
         }
       }
       .block--menu-menu-benutzer-menu {

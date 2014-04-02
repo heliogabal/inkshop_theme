@@ -97,7 +97,7 @@ body {
   margin-right: 0;
   clear: none; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/layouts\/inkfront\/inkfront\.layout\.scss}line{font-family:\0000391}}
-  .l-region--navigation .block--views-exp-display-products-page {
+  .l-region--navigation .block--views-shopping-cart-block {
     width: 32.39437%;
     float: left;
     margin-right: -100%;
@@ -105,8 +105,8 @@ body {
     clear: none;
     margin-top: 1.6em; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/layouts\/inkfront\/inkfront\.layout\.scss}line{font-family:\0000394}}
-    .l-region--navigation .block--views-exp-display-products-page input.form-text {
-      width: 200px; }
+    .l-region--navigation .block--views-shopping-cart-block input.form-text {
+      width: 250px; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/layouts\/inkfront\/inkfront\.layout\.scss}line{font-family:\0000398}}
   .l-region--navigation .block--menu-menu-benutzer-menu {
     width: 66.19718%;
