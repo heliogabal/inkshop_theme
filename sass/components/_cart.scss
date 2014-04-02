@@ -27,6 +27,14 @@
     padding: 0 0 1em 0.5em;
 }
 
+/* Ajax Cart Block */
+
+.block--views-shopping-cart-block {
+  #commerce-ajax-cart-preview {
+    z-index: 1000;
+  }
+}
+
 /* Add to cart confirmation */
 .messages--commerce-add-to-cart-confirmation {
   background-color: white;
