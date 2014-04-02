@@ -30,8 +30,18 @@
 /* Ajax Cart Block */
 
 .block--views-shopping-cart-block {
+  margin-top: 1em;
+  .line-item-summary {
+    width: 200px;
+  }
+  .line-item-summary:after {
+    content: "¬";
+    font-family: FontAwesome;
+  }
   #commerce-ajax-cart-preview {
     z-index: 1000;
+    border: 0;
+    @include box-shadow();
   }
 }
 
