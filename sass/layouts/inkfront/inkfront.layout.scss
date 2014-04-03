@@ -47,6 +47,12 @@
   margin-top: 2 * $vert-spacing-unit;
   margin-bottom: 2 * $vert-spacing-unit;
 }
+/* Content */
+  .l-content {
+      background: $white;
+      padding: 0 1em 1em;
+      overflow: hidden;
+  }
 
 /* Sidebars */
 .l-region--sidebar-first,
@@ -97,12 +103,6 @@
         margin-top: 1.2em;
       }
     }
-/* Content */
-  .l-content {
-      background: $white;
-      padding: 0 1em 1em;
-      overflow: hidden;
-  }
   /* Sidebars */
   .has-two-sidebars,
   .has-one-sidebar {
