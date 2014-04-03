@@ -97,15 +97,17 @@
         margin-top: 1.2em;
       }
     }
-
+/* Content */
+  .l-content {
+      background: $white;
+      padding: 0 1em 1em;
+      overflow: hidden;
+  }
   /* Sidebars */
   .has-two-sidebars,
   .has-one-sidebar {
     .l-content {
       @include grid-span(10, 3);
-      background: $white;
-      padding: 0 1em 1em;
-      overflow: hidden;
     }
     .l-region--sidebar-first,
     .l-region--sidebar-second {
