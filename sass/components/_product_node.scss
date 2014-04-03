@@ -2,7 +2,10 @@
   font-weight: 700;
 }
 .node-type-product-display .l-content {
-  padding: 2em;
+  padding: 1em;
+  @include breakpoint($desk) {
+    padding: 2em;
+  }
   margin: 0 0 1em 0;
   position: relative;
   /*background: #EBE9E7;*/
