@@ -44,7 +44,13 @@ em, i {
   -moz-hyphenate-limit-zone: 40px;
   hyphenate-limit-zone: 40px;
   p {
-    line-height: 1.5625;
+    line-height: 1.4375;
+    @include breakpoint($tab) {
+      line-height: 1.5;
+    }
+    @include breakpoint($desk) {
+      line-height: 1.5625;
+    }
   }
 }
 
