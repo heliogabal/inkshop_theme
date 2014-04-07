@@ -39,7 +39,8 @@
   .line-item-summary {
     width: 200px;
     border: 1px solid $ink-grey;
-    padding: .5em .5em 0;
+    padding: .4em .5em 0;
+    margin-top: 0;
     float: right;
     position: relative;
     background: url(../images/cart_32.png) top left no-repeat $subtle-grey;
@@ -51,7 +52,7 @@
       display: none;
     }
     .links {
-      margin-top: 0;
+      margin-top: .4em;
       li.last {
         margin-right: 0;
       }
