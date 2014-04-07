@@ -2289,6 +2289,7 @@ div.messages--commerce-add-to-cart-confirmation {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/components\/_search\.scss}line{font-family:\0000388}}
   .block--facetapi ul li a:hover {
     /*text-decoration: underline;*/
+    text-decoration: none;
     color: #292929;
     border-bottom: 3px solid #292929; }
 
