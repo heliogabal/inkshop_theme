@@ -33,6 +33,8 @@
   margin-top: 1em;
   .line-item-summary {
     width: 200px;
+    border: 1px solid $light-grey;
+    padding: 0 1em;
   }
   /*.line-item-summary:after {
     content: "";
