@@ -1219,12 +1219,12 @@ em, i {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/components\/_cart\.scss}line{font-family:\0000391}}
     .block--views-shopping-cart-block #commerce-ajax-cart-preview td {
       padding: 1em .5em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/components\/_cart\.scss}line{font-family:\0000393}}
-      .block--views-shopping-cart-block #commerce-ajax-cart-preview td .views-field-quantity {
-        min-width: 2em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/components\/_cart\.scss}line{font-family:\0000396}}
-      .block--views-shopping-cart-block #commerce-ajax-cart-preview td .views-field-commerce-total {
-        min-width: 4em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/components\/_cart\.scss}line{font-family:\0000394}}
+    .block--views-shopping-cart-block #commerce-ajax-cart-preview td.views-field-quantity {
+      min-width: 2em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/components\/_cart\.scss}line{font-family:\0000397}}
+    .block--views-shopping-cart-block #commerce-ajax-cart-preview td.views-field-commerce-total {
+      min-width: 4em; }
 
 /* Add to cart confirmation */
 @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/components\/_cart\.scss}line{font-family:\00003104}}

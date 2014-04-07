@@ -90,12 +90,12 @@
     }
     td {
       padding: 1em .5em;
-      .views-field-quantity {
-        min-width: 2em;
-      }
-      .views-field-commerce-total {
-        min-width: 4em;
-      }
+    }
+    td.views-field-quantity {
+      min-width: 2em;
+    }
+    td.views-field-commerce-total {
+      min-width: 4em;
     }
   }
 }
