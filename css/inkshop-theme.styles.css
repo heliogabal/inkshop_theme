@@ -1156,16 +1156,16 @@ em, i {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/components\/_cart\.scss}line{font-family:\0000339}}
   .block--views-shopping-cart-block .line-item-summary {
     width: 200px;
-    border: 1px solid #ebe9e7;
+    border: 1px solid #6a7076;
     padding: 0 1em 0 2em;
     float: right;
     position: relative;
-    background: url(../images/cart_32.png) top left no-repeat; }
+    background: url(../images/cart_32.png) top left no-repeat #d5d5d5; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/components\/_cart\.scss}line{font-family:\0000351}}
   .block--views-shopping-cart-block #commerce-ajax-cart-preview {
     z-index: 1000;
-    border: 1px solid #ebe9e7;
-    background: #ebe9e7 !important;
+    border: 1px solid #6a7076;
+    background: #d5d5d5 !important;
     top: 2em !important;
     -webkit-box-shadow: 0px 0px 3px #d5d5d5;
     -moz-box-shadow: 0px 0px 3px #d5d5d5;

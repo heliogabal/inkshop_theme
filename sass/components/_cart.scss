@@ -38,11 +38,11 @@
   }
   .line-item-summary {
     width: 200px;
-    border: 1px solid $light-grey;
+    border: 1px solid $mid-grey;
     padding: 0 1em 0 2em;
     float: right;
     position: relative;
-    background: url(../images/cart_32.png) top left no-repeat;
+    background: url(../images/cart_32.png) top left no-repeat $subtle-grey;
   }
   /*.line-item-summary:after {
     content: "";
@@ -50,8 +50,8 @@
   }*/
   #commerce-ajax-cart-preview {
     z-index: 1000;
-    border: 1px solid $light-grey;
-    background: $light-grey !important;
+    border: 1px solid $mid-grey;
+    background: $subtle-grey !important;
     top: 2em !important;
     @include box-shadow();
     @include border-radius($default-border-radius);
