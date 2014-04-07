@@ -66,6 +66,7 @@
 }
 @include breakpoint($mobile, true) {
   aside {
+      overflow: hidden;
       margin-bottom: 1em;
       .block--facetapi {
         float: left;
