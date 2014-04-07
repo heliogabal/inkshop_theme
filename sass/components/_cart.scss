@@ -50,6 +50,12 @@
     .line-item-total-label {
       display: none;
     }
+    .links {
+      margin-top: 0;
+      li.last {
+        margin-right: 0;
+      }
+    }
   }
   #commerce-ajax-cart-preview {
     z-index: 1000;
