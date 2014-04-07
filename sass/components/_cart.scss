@@ -71,6 +71,9 @@
       width: 100%;
       border: none;
       float: left;
+      .line-item-quantity {
+        padding-left: 0;
+      }
       li {
         list-style: none;
       }
@@ -87,7 +90,12 @@
     }
     td {
       padding: 1em .5em;
-      min-width: 3em;
+      .views-field-quantity {
+        min-width: 2em;
+      }
+      .views-field-commerce-total {
+        min-width: 4em;
+      }
     }
   }
 }
