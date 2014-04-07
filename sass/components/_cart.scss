@@ -31,8 +31,6 @@
 
 .block--views-shopping-cart-block {
   margin-top: 1em;
-  float: left;
-  position: relative;
   .view-empty {
     p {
       display: none;
@@ -42,6 +40,8 @@
     width: 200px;
     border: 1px solid $light-grey;
     padding: 0 1em;
+    float: right;
+    position: relative;
   }
   /*.line-item-summary:after {
     content: "";
@@ -57,6 +57,7 @@
     .line-item-summary {
       width: 100%;
       border: none;
+      float: left;
       li {
         list-style: none;
       }
