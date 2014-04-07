@@ -50,7 +50,7 @@
   #commerce-ajax-cart-preview {
     z-index: 1000;
     border: 1px solid $light-grey;
-    background: $subtle-grey;
+    background: $subtle-grey !important;
     top: 2em !important;
     @include box-shadow();
     @include border-radius($default-border-radius);
