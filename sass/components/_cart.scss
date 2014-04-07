@@ -30,7 +30,7 @@
 /* Ajax Cart Block */
 
 .block--views-shopping-cart-block {
-  margin-top: 1em;
+  margin-top: 1em !important;
   .view-empty {
     p {
       display: none;
@@ -38,21 +38,24 @@
   }
   .line-item-summary {
     width: 200px;
-    border: 1px solid $mid-grey;
-    padding: 0 1em 0 2em;
+    border: 1px solid $ink-grey;
+    padding: .5em .5em 0;
     float: right;
     position: relative;
     background: url(../images/cart_32.png) top left no-repeat $subtle-grey;
+    @include border-radius($default-border-radius);
+    .line-item-quantity {
+      padding-left: 2em;
+    }
+    .line-item-total-label {
+      display: none;
+    }
   }
-  /*.line-item-summary:after {
-    content: "";
-    font-family: Fontawesome;
-  }*/
   #commerce-ajax-cart-preview {
     z-index: 1000;
-    border: 1px solid $mid-grey;
+    border: 1px solid $ink-grey;
     background: $subtle-grey !important;
-    top: 2em !important;
+    top: 2.2em !important;
     @include box-shadow();
     @include border-radius($default-border-radius);
     .line-item-summary {
@@ -65,7 +68,7 @@
     }
     table {
       @include border-radius($default-border-radius);
-      border: 1px solid $subtle-grey !important;
+      border: 1px solid $ink-grey !important;
     }
     table tr.even, table tr.odd {
       /*background: $light-grey;*/
