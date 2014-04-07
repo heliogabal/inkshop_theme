@@ -59,6 +59,13 @@
         float: right;
       }
     }
+    a {
+        text-decoration: none;
+      }
+    a:hover {
+      color: $black;
+      text-decoration: underline;
+    }
   }
   #commerce-ajax-cart-preview {
     z-index: 1000;
@@ -77,12 +84,6 @@
       }
       li {
         list-style: none;
-      }
-      a {
-        text-decoration: none;
-      }
-      a:hover {
-        color: $black;
       }
     }
     table {
