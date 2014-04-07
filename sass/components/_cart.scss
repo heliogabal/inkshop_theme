@@ -31,6 +31,8 @@
 
 .block--views-shopping-cart-block {
   margin-top: 1em;
+  float: left;
+  position: relative;
   .view-empty {
     p {
       display: none;
