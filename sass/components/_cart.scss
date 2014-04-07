@@ -48,10 +48,12 @@
   #commerce-ajax-cart-preview {
     z-index: 1000;
     border: 1px solid $light-grey;
+    top: 2em;
     @include box-shadow();
     @include border-radius($default-border-radius);
     .line-item-summary {
       width: 100%;
+      border: none;
       li {
         list-style: none;
       }
