@@ -51,7 +51,7 @@
     z-index: 1000;
     border: 1px solid $light-grey;
     background: $subtle-grey;
-    top: 2em;
+    top: 2em !important;
     @include box-shadow();
     @include border-radius($default-border-radius);
     .line-item-summary {
