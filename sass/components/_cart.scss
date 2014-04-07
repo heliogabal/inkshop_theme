@@ -39,9 +39,10 @@
   .line-item-summary {
     width: 200px;
     border: 1px solid $light-grey;
-    padding: 0 1em;
+    padding: 0 1em 0 2em;
     float: right;
     position: relative;
+    background: url(../images/cart_32.png) top left no-repeat;
   }
   /*.line-item-summary:after {
     content: "";
