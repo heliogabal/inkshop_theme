@@ -20,11 +20,12 @@ table tr.even {
 }
 .checkout-buttons .checkout-cancel,
 .checkout-buttons .checkout-back {
-  color: $orange;
+  color: $black;
+  font-weight: 600;
 }
 .checkout-buttons .checkout-cancel:hover,
 .checkout-buttons .checkout-back:hover {
-    color: tint($orange, 5%);
+    /*color: tint($orange, 5%);*/
   }
 
 /* Warenkorb Seite */
@@ -84,6 +85,7 @@ ol.commerce-checkout-progress {
     position: absolute;
     top: 0.7em;
     right: 1em;
+    margin-right: -1em;
   }
   li.complete:after{
     content:'' !important;
