@@ -147,8 +147,10 @@ li.views-fluid-grid-item {
   /*background: $light-grey;*/
   h2 {
     /*background: $orange;*/
-    border-bottom: 5px solid $orange;
+    /*border-bottom: 5px solid $orange;*/
+    background: $orange;
     color: $black;
+    font-weight: 700;
     padding: .3em .5em;
     @include border-top-radius($default-border-radius);
   }
