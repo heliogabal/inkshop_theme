@@ -44,7 +44,7 @@
     margin: 0;
     float: right;
     position: relative;
-    background: url(../images/cart_32.png) top left no-repeat $subtle-grey;
+    background: url(../images/cart_32.png) top left no-repeat $yellow;
     @include border-radius($default-border-radius);
     .line-item-quantity {
       padding-left: 2em;
@@ -63,7 +63,7 @@
   #commerce-ajax-cart-preview {
     z-index: 1000;
     border: 1px solid $ink-grey;
-    background: $orange !important;
+    background: $yellow !important;
     top: 2.2em !important;
     @include box-shadow();
     @include border-radius($default-border-radius);

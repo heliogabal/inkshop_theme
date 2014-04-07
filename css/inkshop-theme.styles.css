@@ -1158,7 +1158,7 @@ em, i {
     margin: 0;
     float: right;
     position: relative;
-    background: url(../images/cart_32.png) top left no-repeat #f0f0f0;
+    background: url(../images/cart_32.png) top left no-repeat #ffffbb;
     -webkit-border-radius: 2px;
     -moz-border-radius: 2px;
     -ms-border-radius: 2px;
@@ -1181,7 +1181,7 @@ em, i {
   .block--views-shopping-cart-block #commerce-ajax-cart-preview {
     z-index: 1000;
     border: 1px solid #d5d5d5;
-    background: #fbb900 !important;
+    background: #ffffbb !important;
     top: 2.2em !important;
     -webkit-box-shadow: 0px 0px 3px #f0f0f0;
     -moz-box-shadow: 0px 0px 3px #f0f0f0;
@@ -2118,7 +2118,7 @@ li.views-fluid-grid-item {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/components\/_products\.scss}line{font-family:\00003126}}
   .form-item-quantity input {
     width: 35px;
-    height: 30px;
+    height: 31px;
     padding: 0 5px;
     -webkit-border-radius: 2px;
     -moz-border-radius: 2px;
