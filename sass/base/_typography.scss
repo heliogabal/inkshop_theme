@@ -4,13 +4,15 @@ body {
 }
 
 h1 {
-  font-size: 1.5em;
+  font-size: 1.2em;
+  font-weight: 700;
 }
 h2 {
-  font-size: 1.2em;
+  font-size: 1em;
   margin-top: 0;
   margin-bottom: .5em;
   line-height: 1.2;
+  font-weight: 700;
 }
 
 .label-inline {
@@ -23,14 +25,14 @@ a:hover {
 }
 
 strong, b {
-  font-weight: bold;
+  font-weight: 700;
 }
 em, i {
   font-variant: italic;
 }
 
 .l-content {
-  @include hyphens(auto);
+  /*@include hyphens(auto);
   -ms-hyphenate-limit-lines: 2;
   -webkit-hyphenate-limit-lines: 2;
   -moz-hyphenate-limit-lines: 2;
@@ -42,7 +44,7 @@ em, i {
   -ms-hyphenate-limit-zone: 40px;
   -webkit-hyphenate-limit-zone: 40px;
   -moz-hyphenate-limit-zone: 40px;
-  hyphenate-limit-zone: 40px;
+  hyphenate-limit-zone: 40px;*/
   p {
     line-height: 1.4375;
     @include breakpoint($tab) {
