@@ -31,6 +31,11 @@
 
 .block--views-shopping-cart-block {
   margin-top: 1em;
+  .view-empty {
+    p {
+      display: none;
+    }
+  }
   .line-item-summary {
     width: 200px;
     border: 1px solid $light-grey;
