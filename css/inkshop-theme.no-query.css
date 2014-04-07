@@ -1182,7 +1182,7 @@ em, i {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/components\/_cart\.scss}line{font-family:\0000370}}
     .block--views-shopping-cart-block #commerce-ajax-cart-preview .line-item-summary {
       background: none;
-      width: 120%;
+      width: 100%;
       border: none;
       float: left; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/components\/_cart\.scss}line{font-family:\0000375}}
