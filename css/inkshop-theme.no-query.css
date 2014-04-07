@@ -1152,7 +1152,7 @@ em, i {
   .block--views-shopping-cart-block #commerce-ajax-cart-preview {
     z-index: 1000;
     border: 1px solid #ebe9e7;
-    background: #d5d5d5 !important;
+    background: #ebe9e7 !important;
     top: 2em !important;
     -webkit-box-shadow: 0px 0px 3px #d5d5d5;
     -moz-box-shadow: 0px 0px 3px #d5d5d5;
