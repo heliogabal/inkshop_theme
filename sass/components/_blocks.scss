@@ -21,5 +21,7 @@
 .view-display-id-block_2 {
   li.views-fluid-grid-item {
     width: 100%;
+    -moz-box-sizing: border-box !important;
+    border-sizing: border-box !important;
   }
 }
