@@ -144,7 +144,7 @@
   color: #2698f2;
   float: left; /* LTR */
   font-size: 14px;
-  font-weight: bold;
+  font-weight: 600;
   padding: 10px 30px 10px 20px;
   text-align: center;
   text-transform: uppercase;
@@ -164,7 +164,7 @@
   -moz-border-radius: 3px;
   border-radius: 3px;
   color: white;
-  font-weight: bold;
+  font-weight: 600;
   margin-bottom: 10px;
   padding: 10px;
   text-align: center;
@@ -192,7 +192,7 @@ div.messages--commerce-add-to-cart-confirmation .message-inner .button-wrapper .
 div.messages--commerce-add-to-cart-confirmation .message-inner .button-wrapper .button a {
   color: #292929;
   display: block;
-  font-weight: bold;
+  font-weight: 600;
   word-wrap: break-word;
 }
 /* Product display */
@@ -218,7 +218,7 @@ div.messages--commerce-add-to-cart-confirmation .view-confirm-message-product-di
   color: #878380;
   float: left; /* LTR */
   font-size: 12px;
-  font-weight: bold;
+  font-weight: 600;
   padding-right: 5px; /* LTR */
 }
 

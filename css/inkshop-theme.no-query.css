@@ -112,7 +112,7 @@ input.form-text {
   padding: 0 20px;
   cursor: pointer;
   border: none;
-  font-weight: bold;
+  font-weight: 600;
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
   -ms-border-radius: 2px;
@@ -919,7 +919,7 @@ h1 {
   height: 60px;
   border-radius: 50%;
   font-size: 1.1666em;
-  font-weight: bold;
+  font-weight: 600;
   text-align: center;
   display: table-cell;
   vertical-align: middle;
@@ -1029,7 +1029,7 @@ body {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/base\/_typography\.scss}line{font-family:\000036}}
 h1 {
   font-size: 1.2em;
-  font-weight: 700; }
+  font-weight: 600; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/base\/_typography\.scss}line{font-family:\0000310}}
 h2 {
@@ -1037,12 +1037,12 @@ h2 {
   margin-top: 0;
   margin-bottom: .5em;
   line-height: 1.2;
-  font-weight: 700; }
+  font-weight: 600; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/base\/_typography\.scss}line{font-family:\0000318}}
 .label-inline {
   display: inline;
-  font-weight: bold; }
+  font-weight: 600; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/base\/_typography\.scss}line{font-family:\0000323}}
 a:hover {
@@ -1050,7 +1050,7 @@ a:hover {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/base\/_typography\.scss}line{font-family:\0000327}}
 strong, b {
-  font-weight: 700; }
+  font-weight: 600; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/base\/_typography\.scss}line{font-family:\0000330}}
 em, i {
@@ -1262,7 +1262,7 @@ em, i {
   float: left;
   /* LTR */
   font-size: 14px;
-  font-weight: bold;
+  font-weight: 600;
   padding: 10px 30px 10px 20px;
   text-align: center;
   text-transform: uppercase;
@@ -1282,7 +1282,7 @@ em, i {
   -moz-border-radius: 3px;
   border-radius: 3px;
   color: white;
-  font-weight: bold;
+  font-weight: 600;
   margin-bottom: 10px;
   padding: 10px;
   text-align: center;
@@ -1313,7 +1313,7 @@ div.messages--commerce-add-to-cart-confirmation .message-inner .button-wrapper .
 div.messages--commerce-add-to-cart-confirmation .message-inner .button-wrapper .button a {
   color: #292929;
   display: block;
-  font-weight: bold;
+  font-weight: 600;
   word-wrap: break-word; }
 
 /* Product display */
@@ -1345,7 +1345,7 @@ div.messages--commerce-add-to-cart-confirmation .view-confirm-message-product-di
   float: left;
   /* LTR */
   font-size: 12px;
-  font-weight: bold;
+  font-weight: 600;
   padding-right: 5px;
   /* LTR */ }
 
@@ -1728,7 +1728,7 @@ nav.block--menu-menu-pflichtmenu ul {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/components\/_product_node\.scss}line{font-family:\000031}}
 .label-above {
-  font-weight: 700; }
+  font-weight: 600; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/components\/_product_node\.scss}line{font-family:\000034}}
 .node-type-product-display .l-content {
@@ -1765,7 +1765,7 @@ nav.block--menu-menu-pflichtmenu ul {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/components\/_product_node\.scss}line{font-family:\0000326}}
   .node--product-display--full .group-header .field-name-field-product-subtitle,
   .node--product-display--full .group-header .field--name-field-product-subtitle {
-    font-weight: 700;
+    font-weight: 600;
     font-size: 1em; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/components\/_product_node\.scss}line{font-family:\0000331}}
   .node--product-display--full .group-left {
@@ -1904,7 +1904,7 @@ span.file-size {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/components\/_products\.scss}line{font-family:\0000315}}
 span.new {
   background-color: #a00;
-  font-weight: bold;
+  font-weight: 600;
   overflow: hidden;
   white-space: nowrap;
   /*border: 1px solid #faa;*/
@@ -1961,7 +1961,7 @@ li.views-fluid-grid-item {
   position: absolute;
   bottom: 0;
   clear: both;
-  font-weight: bold;
+  font-weight: 600;
   font-size: 1.2em;
   padding: 1em 1em 2.7em 0; }
 
@@ -2012,7 +2012,7 @@ li.views-fluid-grid-item {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/components\/_products\.scss}line{font-family:\00003109}}
 .commerce-add-to-cart input.wishlist,
 .in-wishlist {
-  font-weight: bold;
+  font-weight: 600;
   text-decoration: none;
   line-height: 1;
   background: none;
@@ -2064,7 +2064,7 @@ li.views-fluid-grid-item {
     /*border-bottom: 5px solid $orange;*/
     background: #fbb900;
     color: #292929;
-    font-weight: 700;
+    font-weight: 600;
     padding: .3em .5em;
     -moz-border-radius-topleft: 2px;
     -webkit-border-top-left-radius: 2px;
@@ -2220,7 +2220,7 @@ div.messages--commerce-add-to-cart-confirmation {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/components\/_search\.scss}line{font-family:\0000326}}
     .block--search-api-sorts li a {
       padding: .5em .75em 0 0;
-      font-weight: bold; }
+      font-weight: 600; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/components\/_search\.scss}line{font-family:\0000329}}
       .block--search-api-sorts li a img {
         padding-left: 5px; }
@@ -2283,7 +2283,7 @@ div.messages--commerce-add-to-cart-confirmation {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/components\/_search\.scss}line{font-family:\0000382}}
   .block--facetapi ul li a {
     text-decoration: none;
-    font-weight: 700;
+    font-weight: 600;
     line-height: 1.5;
     border-bottom: 3px solid transparent; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/components\/_search\.scss}line{font-family:\0000388}}

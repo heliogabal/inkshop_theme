@@ -67,7 +67,7 @@ input.form-text {
   padding: 0 20px;
   cursor: pointer;
   border: none;
-  font-weight: bold;
+  font-weight: 600;
   @include border-radius($default-border-radius);
 }
 .form-submit:hover {
@@ -758,7 +758,7 @@ h1 {
   height: 60px;
   border-radius: 50%;
   font-size: 1.1666em;
-  font-weight: bold;
+  font-weight: 600;
   text-align: center;
   display: table-cell;
   vertical-align: middle;
