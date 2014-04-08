@@ -24,4 +24,14 @@
     -moz-box-sizing: border-box !important;
     border-sizing: border-box !important;
   }
+  .blocklink {
+    padding: 1em;
+    border: 1px solid $subtle-grey;
+    display: block;
+    text-decoration: none;
+    color: $black;
+  }
+  .blocklink:hover {
+    text-decoration: none;
+  }
 }
