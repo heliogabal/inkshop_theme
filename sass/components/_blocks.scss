@@ -24,11 +24,11 @@
     width: 100%;
     -moz-box-sizing: border-box !important;
     border-sizing: border-box !important;
+    background: $white;
   }
   .blocklink {
     padding: 1em;
     border: 1px solid $subtle-grey;
-    background: $white;
     display: block;
     text-decoration: none;
     color: $black;
