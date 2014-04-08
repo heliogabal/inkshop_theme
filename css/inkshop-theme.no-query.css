@@ -123,8 +123,8 @@ input.form-text {
 .form-submit:hover {
   /* animation: myfirst 1s;
    -webkit-animation: myfirst1 1s;*/
-  background: #ffffbb;
-  color: #292929; }
+  background: #aa0000;
+  color: white; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/base\/_layout\.scss}line{font-family:\0000379}}
 #search-block-form input.form-text {
