@@ -18,7 +18,8 @@
 
 /* Automatische Ähnliche Produkte */
 
-.view-display-id-aehnliche_produkte {
+.view-display-id-aehnliche_produkte,
+.view-display-id-aehnliche_produkte_auto {
   li.views-fluid-grid-item {
     width: 100%;
     -moz-box-sizing: border-box !important;
@@ -27,6 +28,7 @@
   .blocklink {
     padding: 1em;
     border: 1px solid $subtle-grey;
+    background: $white;
     display: block;
     text-decoration: none;
     color: $black;
