@@ -54,3 +54,21 @@ function _inkshop_theme_get_sort_price($data, array $options, $name, $type, $inf
   }
   return NULL;
 }
+
+function inkshop_theme_follow_link($variables) {
+  $link = $variables['link'];
+  $title = $variables['title'];
+  $classes = array();
+  $classes[] = 'follow-link';
+  $classes[] = "follow-link-{$link->name}";
+  $classes[] = $link->uid ? 'follow-link-user' : 'follow-link-site';
+  $attributes = array(
+    'class' => $classes,
+    'title' => follow_link_title($link->uid) .' '. $title,
+    /* The following line is the only line added/different from the stock function defined with 'follow' */
+    /*'data-popup' => 'true',*/
+    'target' => '_blank',
+  );
+  $link->options['attributes'] = $attributes;
+  return l($title, $link->path, $link->options) . "\n";
+}

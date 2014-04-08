@@ -3,7 +3,7 @@
   width: 100%;
 }
 
-/* Social Media Block */
+/* Social Media Block Service Links */
 
 .service-links {
   ul {
@@ -16,6 +16,34 @@
   }
 }
 
+/* Social Media Block Follow Links */
+.follow-link-wrapper {
+  display: inline-block;
+  a.follow-link {
+      background-position: 0 0;
+      background-repeat: no-repeat;
+      display: block;
+      height: 30px;
+      line-height: 26px;
+      padding-left: 28px;
+      padding-right: 3px;
+
+      float: left;
+  }
+  a.follow-link-this-site {
+      background-image: url("../images/rss_64.png");
+  }
+  a.follow-link-facebook {
+      background-image: url("../images/facebook_64.png");
+  }
+  a.follow-link-twitter {
+      background-image: url("../images/twitter_64.png");
+  }
+  a.follow-link-youtube {
+    background-image: url("../images/youtube_64.png");
+  }
+}
+
 /* Automatische Ähnliche Produkte */
 
 .view-display-id-aehnliche_produkte,
@@ -25,6 +53,9 @@
     -moz-box-sizing: border-box !important;
     border-sizing: border-box !important;
     background: $white;
+    a {
+      display: block;
+    }
   }
   .blocklink {
     padding: 1em;
