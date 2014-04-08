@@ -96,7 +96,7 @@ li.views-fluid-grid-item {
   padding-left: .5em;
 }
 .commerce-add-to-cart .form-submit {
-  background: url(../images/cart_32_fff.png) no-repeat center $orange;
+  background: url(../images/cart_32.png) no-repeat center $orange;
   height: 30px;
   text-indent: -999em;
   width: 40px;
@@ -104,7 +104,7 @@ li.views-fluid-grid-item {
   @include border-left-radius($default-border-radius);
 }
 .commerce-add-to-cart .form-submit:hover {
-  background: url(../images/cart_32.png) no-repeat center $red;
+  background: url(../images/cart_32_fff.png) no-repeat center $red;
 }
 .commerce-add-to-cart input.wishlist,
 .in-wishlist {
