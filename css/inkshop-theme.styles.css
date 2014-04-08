@@ -1114,10 +1114,11 @@ em, i {
   border: 1px solid #f0f0f0;
   display: block;
   text-decoration: none;
-  color: #292929; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/components\/_blocks\.scss}line{font-family:\0000334}}
+  color: #292929;
+  margin-bottom: 1em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/components\/_blocks\.scss}line{font-family:\0000335}}
 .view-display-id-aehnliche_produkte .blocklink:hover {
-  text-decoration: none; }
+  text-decoration: underline; }
 
 /* Warenkorb */
 @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/components\/_cart\.scss}line{font-family:\000032}}

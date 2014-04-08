@@ -30,8 +30,9 @@
     display: block;
     text-decoration: none;
     color: $black;
+    margin-bottom: 1em;
   }
   .blocklink:hover {
-    text-decoration: none;
+    text-decoration: underline;
   }
 }
