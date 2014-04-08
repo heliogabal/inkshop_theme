@@ -140,8 +140,9 @@ body {
   margin-right: -100%;
   margin-left: 0%;
   clear: none;
-  /*clear: right;*/ }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/layouts\/inkfront\/inkfront\.layout\.scss}line{font-family:\00003118}}
+  /*clear: right;*/
+  clear: both; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/layouts\/inkfront\/inkfront\.layout\.scss}line{font-family:\00003119}}
 .has-two-sidebars aside,
 .has-one-sidebar aside {
   float: left; }

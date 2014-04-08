@@ -114,10 +114,10 @@
     .l-region--sidebar-second {
       @include grid-span(2, 1);
       /*clear: right;*/
+      clear: both;
     }
     aside {
     float: left;
-
       .block--facetapi {
         float: none;
         width: 100%;
