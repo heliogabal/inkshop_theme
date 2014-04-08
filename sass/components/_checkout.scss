@@ -9,14 +9,14 @@ table tr.even {
 }
 .page-checkout .checkout-continue,
 #edit-checkout {
-  background: $red;
-  color: $white;
+  background: $orange;
+  color: $black;
   @include border-radius($default-border-radius);
 }
 .page-checkout .checkout-continue:hover,
 #edit-checkout:hover {
-  background: $orange;
-  color: $black;
+  background: $red;
+  color: $white;
 }
 .checkout-buttons .checkout-cancel,
 .checkout-buttons .checkout-back {

@@ -1461,8 +1461,8 @@ table tr.even {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/components\/_checkout\.scss}line{font-family:\0000311}}
 .page-checkout .checkout-continue,
 #edit-checkout {
-  background: #aa0000;
-  color: white;
+  background: #fbb900;
+  color: #292929;
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
   -ms-border-radius: 2px;
@@ -1472,8 +1472,8 @@ table tr.even {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/components\/_checkout\.scss}line{font-family:\0000317}}
 .page-checkout .checkout-continue:hover,
 #edit-checkout:hover {
-  background: #fbb900;
-  color: #292929; }
+  background: #aa0000;
+  color: white; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/components\/_checkout\.scss}line{font-family:\0000322}}
 .checkout-buttons .checkout-cancel,
