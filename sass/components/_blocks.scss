@@ -1,6 +1,6 @@
 /* Südlink Aktuelles Heft */
 .view-display-id-block_1 li.views-fluid-grid-item {
-  width: 100%;
+  width: 85%;
 }
 
 /* Social Media Block Service Links */
@@ -52,9 +52,9 @@
 .view-display-id-aehnliche_produkte,
 .view-display-id-aehnliche_produkte_auto {
   li.views-fluid-grid-item {
-    width: 100%;
-    -moz-box-sizing: border-box !important;
-    border-sizing: border-box !important;
+    width: 85%;
+    /*-moz-box-sizing: border-box !important;
+    border-sizing: border-box !important;*/
     background: $white;
     a {
       display: block;
