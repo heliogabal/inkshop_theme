@@ -1,7 +1,8 @@
 /* Block Überschriften */
 h2.block__title {
     /*background: $orange;*/
-    border-bottom: 5px solid $orange;
+    /*border-bottom: 5px solid $orange;*/
+    background: $orange;
     color: $black;
     padding: .3em .5em;
     @include border-top-radius($default-border-radius);
