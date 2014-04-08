@@ -2134,7 +2134,7 @@ li.views-fluid-grid-item {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/components\/_products\.scss}line{font-family:\0000398}}
 .commerce-add-to-cart .form-submit {
-  background: url(../images/cart_32_fff.png) no-repeat center #fbb900;
+  background: url(../images/cart_32.png) no-repeat center #fbb900;
   height: 30px;
   text-indent: -999em;
   width: 40px;
@@ -2148,7 +2148,7 @@ li.views-fluid-grid-item {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/components\/_products\.scss}line{font-family:\00003106}}
 .commerce-add-to-cart .form-submit:hover {
-  background: url(../images/cart_32.png) no-repeat center #aa0000; }
+  background: url(../images/cart_32_fff.png) no-repeat center #aa0000; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/components\/_products\.scss}line{font-family:\00003110}}
 .commerce-add-to-cart input.wishlist,
