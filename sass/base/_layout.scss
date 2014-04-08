@@ -96,7 +96,8 @@ input.form-text {
   height: 32px;
 }
 #search-block-form input.form-submit:hover {
-  background-color: #efefef;
+  background-color: $red;
+  color: $white;
   -webkit-animation: none, 0;
   animation: none, 0;
 }
