@@ -193,7 +193,22 @@ body {
   margin-right: 0;
   clear: none; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/layouts\/inkfront\/inkfront\.layout\.scss}line{font-family:\00003156}}
+.l-region--footer .block--menu-menu-pflichtmenu {
+  width: 83.09859%;
+  float: left;
+  margin-right: -100%;
+  margin-left: 0%;
+  clear: none; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/layouts\/inkfront\/inkfront\.layout\.scss}line{font-family:\00003159}}
+.l-region--footer .block--follow-site {
+  width: 15.49296%;
+  float: right;
+  margin-left: 0;
+  margin-right: 0;
+  clear: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/layouts\/inkfront\/inkfront\.layout\.scss}line{font-family:\00003167}}
 .l-constrained, .l-region--highlighted, .l-region--footer {
   width: 80%; }
 

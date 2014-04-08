@@ -152,6 +152,14 @@
       @include grid-span(2, 11);
     }
   }
+  .l-region--footer {
+    .block--menu-menu-pflichtmenu {
+      @include grid-span(10, 1);
+  }
+    .block--follow-site {
+      @include grid-span(2, 11);
+    }
+  }
 }
 
 @include breakpoint($wide, true) {
