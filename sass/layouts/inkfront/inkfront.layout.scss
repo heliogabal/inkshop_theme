@@ -113,7 +113,7 @@
     .l-region--sidebar-first,
     .l-region--sidebar-second {
       @include grid-span(2, 1);
-      clear: right;
+      /*clear: right;*/
     }
     aside {
     float: left;
