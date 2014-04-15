@@ -1076,26 +1076,27 @@ em, i {
   .l-content p {
     line-height: 1.4375; }
 
-/* Südlink Aktuelles Heft */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/components\/_blocks\.scss}line{font-family:\000032}}
-.view-display-id-block_1 li.views-fluid-grid-item {
-  width: 85%; }
+/* Südlink Aktuelles Heft + Neueste Produkte */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/components\/_blocks\.scss}line{font-family:\000033}}
+.view-display-id-block_1 li.views-fluid-grid-item,
+.view-display-id-block_2 li.views-fluid-grid-item {
+  width: 84%; }
 
 /* Social Media Block Service Links */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/components\/_blocks\.scss}line{font-family:\000039}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/components\/_blocks\.scss}line{font-family:\0000310}}
 .service-links ul {
   padding-left: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/components\/_blocks\.scss}line{font-family:\0000312}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/components\/_blocks\.scss}line{font-family:\0000313}}
 .service-links li {
   list-style: none;
   float: left;
   margin-right: .4em; }
 
 /* Social Media Block Follow Links */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/components\/_blocks\.scss}line{font-family:\0000320}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/components\/_blocks\.scss}line{font-family:\0000321}}
 .follow-link-wrapper {
   display: inline-block; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/components\/_blocks\.scss}line{font-family:\0000322}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/components\/_blocks\.scss}line{font-family:\0000323}}
   .follow-link-wrapper a.follow-link {
     background-position: 0 0;
     background-repeat: no-repeat;
@@ -1109,32 +1110,32 @@ em, i {
     margin-top: .5em;
     text-indent: -999em;
     float: left; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/components\/_blocks\.scss}line{font-family:\0000336}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/components\/_blocks\.scss}line{font-family:\0000337}}
   .follow-link-wrapper a.follow-link-this-site {
     background-image: url("../images/rss_32.png"); }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/components\/_blocks\.scss}line{font-family:\0000339}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/components\/_blocks\.scss}line{font-family:\0000340}}
   .follow-link-wrapper a.follow-link-facebook {
     background-image: url("../images/facebook_32.png"); }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/components\/_blocks\.scss}line{font-family:\0000342}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/components\/_blocks\.scss}line{font-family:\0000343}}
   .follow-link-wrapper a.follow-link-twitter {
     background-image: url("../images/twitter_32.png"); }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/components\/_blocks\.scss}line{font-family:\0000345}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/components\/_blocks\.scss}line{font-family:\0000346}}
   .follow-link-wrapper a.follow-link-youtube {
     background-image: url("../images/youtube_32.png"); }
 
 /* Automatische Ähnliche Produkte */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/components\/_blocks\.scss}line{font-family:\0000354}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/components\/_blocks\.scss}line{font-family:\0000355}}
 .view-display-id-aehnliche_produkte li.views-fluid-grid-item,
 .view-display-id-aehnliche_produkte_auto li.views-fluid-grid-item {
   width: 85%;
   /*-moz-box-sizing: border-box !important;
   border-sizing: border-box !important;*/
   background: white; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/components\/_blocks\.scss}line{font-family:\0000359}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/components\/_blocks\.scss}line{font-family:\0000360}}
   .view-display-id-aehnliche_produkte li.views-fluid-grid-item a,
   .view-display-id-aehnliche_produkte_auto li.views-fluid-grid-item a {
     display: block; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/components\/_blocks\.scss}line{font-family:\0000363}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/components\/_blocks\.scss}line{font-family:\0000364}}
 .view-display-id-aehnliche_produkte .blocklink,
 .view-display-id-aehnliche_produkte_auto .blocklink {
   padding: 1em;
@@ -1143,7 +1144,7 @@ em, i {
   text-decoration: none;
   color: #292929;
   margin-bottom: 1em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/components\/_blocks\.scss}line{font-family:\0000371}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/components\/_blocks\.scss}line{font-family:\0000372}}
 .view-display-id-aehnliche_produkte .blocklink:hover,
 .view-display-id-aehnliche_produkte_auto .blocklink:hover {
   text-decoration: underline; }
