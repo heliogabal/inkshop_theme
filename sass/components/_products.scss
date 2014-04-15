@@ -45,12 +45,14 @@ ul.views-fluid-grid-items-v-margin-1em li.views-fluid-grid-item {
   margin-top: 0;
 }
 li.views-fluid-grid-item {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
   padding: 1em 1em 5em;
   margin: 0 1em 1em 0;
   position: relative;
   /*background: $light-grey;*/
   border: 1px solid $ink-grey;
-  width:100%;
+  width: auto;
   min-width: 150px;
   max-width: 226px;
   @include box-sizing(content-box);
