@@ -1,8 +1,7 @@
 /* Südlink Aktuelles Heft + Neueste Produkte */
 .view-display-id-block_1 li.views-fluid-grid-item,
 .view-display-id-block_2 li.views-fluid-grid-item {
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+  @include box-sizing(border-box);
   width: auto;
   margin-right: 0 !important;
 }
