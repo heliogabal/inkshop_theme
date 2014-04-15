@@ -2199,9 +2199,6 @@ li.views-fluid-grid-item {
 .field--name-field-product-subtitle {
   margin-bottom: 1em;
   line-height: 1.2;
-  -ms-word-break: break-all;
-  word-break: break-all;
-  word-break: break-word;
   -webkit-hyphens: auto;
   -moz-hyphens: auto;
   hyphens: auto; }
