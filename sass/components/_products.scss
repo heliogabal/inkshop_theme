@@ -50,13 +50,13 @@ li.views-fluid-grid-item {
   position: relative;
   /*background: $light-grey;*/
   border: 1px solid $ink-grey;
-  width: auto;
+  width: 19%;
   min-width: 150px;
   max-width: 226px;
   @include box-sizing(content-box);
   @include border-radius($default-border-radius);
   @include breakpoint($desk) {
-    width: auto;
+    width: 19%;
   }
   span.new {
     padding: 3px 50px;
