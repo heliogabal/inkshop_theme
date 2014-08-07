@@ -72,3 +72,15 @@ function inkshop_theme_follow_link($variables) {
   $link->options['attributes'] = $attributes;
   return l($title, $link->path, $link->options) . "\n";
 }
+
+function inkshop_theme_preprocess_commerce_checkout_review(&$variables) {
+  $panes = array();
+  foreach ($variables['form']['#data'] as $pane_id => $data) {
+    $panes[$pane_id] = array(
+      'title' => $data['title'],
+      'data' => $data['data'],
+    );
+  }
+  $variables['panes'] = $panes;
+}
+?>

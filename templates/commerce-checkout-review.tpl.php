@@ -15,11 +15,13 @@
  */
 ?>
 
-<div class="<?php print $classes;?>">
-  <?php foreach ($panes as $pane_id => $pane): ?>
-    <div class="pane <?php print $pane_id; ?>">
-      <h2 class="pane-title"><?php print $pane['title']; ?></h2>
-      <div class="pane-content"><?php print $pane['data']; ?></div>
-    </div>
-  <?php endforeach ?>
-</div>
+<?php
+foreach ($panes as $pane_id => $pane) {
+    echo theme('fieldset', array('element' => array(
+      '#title' => $pane['title'],
+      '#children' => $pane['data'],
+      '#collapsible' => false,
+      '#attributes' => array('class' => array('pane', $pane_id)),
+    )));
+  }
+?>
