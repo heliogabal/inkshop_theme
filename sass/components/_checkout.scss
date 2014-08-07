@@ -260,9 +260,9 @@ ol.commerce-checkout-progress {
   }
 }
 @include breakpoint($desk) {
-  .page-checkout-review .checkout-buttons {
+  /*.page-checkout-review .checkout-buttons {
     margin-top: -5em;
-  }
+  }*/
 }
 
 /* Checkout complete page */
