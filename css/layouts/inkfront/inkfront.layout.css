@@ -1,249 +1,88 @@
-/*******************************************************************************
- * hero.layout.scss
- *
- * Styles for the Inkota Frontsite layout.
- ******************************************************************************/
-/* INKOTA Colors */
-/* #ffb900 */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/layouts\/inkfront\/inkfront\.layout\.scss}line{font-family:\0000313}}
-.l-constrained, .l-region--highlighted, .l-region--footer {
-  width: 95%;
-  margin: 0 auto;
-  /*overflow: hidden;*/
-  position: relative;
-  *zoom: 1;
-  /*@include breakpoint ($tab) {
-    width: $tab !important;
-  }
-  @include breakpoint ($desk) {
-    width: $desk !important;
-  }
-  @include breakpoint ($standard) {
-    width: $standard !important;
-  }
-  @include breakpoint ($wide) {
-    width: $wide !important;
-  }*/ }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/lib\/gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/general\/_clearfix\.scss}line{font-family:\0000338}}
-  .l-constrained:after, .l-region--highlighted:after, .l-region--footer:after {
-    content: "";
-    display: table;
-    clear: both; }
+/*
+Error: File to import not found or unreadable: ../../variables/_colors.scss.
+       Load paths:
+         /home/rainer/Arbeit/Inkota/SHOP/inkshop_theme/sass
+         Compass::SpriteImporter
+         /home/rainer/Arbeit/Inkota/SHOP/inkshop_theme/sass
+         /var/lib/gems/1.9.1/gems/compass-core-1.0.1/stylesheets
+         /var/lib/gems/1.9.1/gems/compass-blend-modes-0.0.2/stylesheets
+         /var/lib/gems/1.9.1/gems/compass-normalize-1.5/stylesheets
+         /var/lib/gems/1.9.1/gems/susy-2.1.3/sass
+         /var/lib/gems/1.9.1/gems/compass-rgbapng-0.2.1/lib/stylesheets
+         /var/lib/gems/1.9.1/gems/sassy-maps-0.4.0/sass
+         /var/lib/gems/1.9.1/gems/breakpoint-2.5.0/stylesheets
+         /var/lib/gems/1.9.1/gems/toolkit-2.6.0/stylesheets
+         /var/lib/gems/1.9.1/gems/singularitygs-1.4.0/stylesheets
+         Sass::Globbing::Importer
+        on line 1 of /home/rainer/Arbeit/Inkota/SHOP/inkshop_theme/sass/variables/**\/*
+        from line 11 of /home/rainer/Arbeit/Inkota/SHOP/inkshop_theme/sass/layouts/inkfront/inkfront.layout.scss
 
-/* Header */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/layouts\/inkfront\/inkfront\.layout\.scss}line{font-family:\0000333}}
-#logo {
-  padding-top: 20px; }
+1: /*******************************************************************************
+2:  * hero.layout.scss
+3:  *
+4:  * Styles for the Inkota Frontsite layout.
+5:  ******************************************************************************\/
+6: @import "compass";
 
-/* Content Area */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/layouts\/inkfront\/inkfront\.layout\.scss}line{font-family:\0000337}}
-.l-highlighted-wrapper {
-  padding: 18px 0; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/layouts\/inkfront\/inkfront\.layout\.scss}line{font-family:\0000343}}
-.l-region--help {
-  margin-bottom: 18px; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/layouts\/inkfront\/inkfront\.layout\.scss}line{font-family:\0000346}}
-.l-main {
-  margin-top: 36px;
-  margin-bottom: 36px; }
-
-/* Content */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/layouts\/inkfront\/inkfront\.layout\.scss}line{font-family:\0000351}}
-.l-content {
-  background: white;
-  padding: 0 1em 1em;
-  overflow: hidden; }
-
-/* Sidebars */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/layouts\/inkfront\/inkfront\.layout\.scss}line{font-family:\0000359}}
-.l-region--sidebar-first,
-.l-region--sidebar-second {
-  /*padding: $vert-spacing-unit $horz-spacing-unit;*/ }
-
-/* Footer */
-@media (min-width: 30em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/layouts\/inkfront\/inkfront\.layout\.scss}line{font-family:\0000368}}
-  aside {
-    overflow: hidden;
-    margin-bottom: 1em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/layouts\/inkfront\/inkfront\.layout\.scss}line{font-family:\0000371}}
-    aside .block--facetapi {
-      float: left;
-      width: 32%;
-      margin-right: 1.333%; } }
-@media (min-width: 50em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/layouts\/inkfront\/inkfront\.layout\.scss}line{font-family:\0000379}}
-  body {
-    /*font-size: 1.2em;*/ }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/layouts\/inkfront\/inkfront\.layout\.scss}line{font-family:\0000382}}
-  .l-constrained, .l-region--highlighted, .l-region--footer {
-    width: 98%; }
-
-  /* Header */
-  /*#logo {
-    float: left;
-    height: 66px;
-    margin: 0;
-    padding: 20px 0 0 0;
-    width: 306px;
-}*/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/layouts\/inkfront\/inkfront\.layout\.scss}line{font-family:\0000393}}
-  #logo {
-    width: 23.94366%;
-    float: left;
-    margin-right: -100%;
-    margin-left: 0%;
-    clear: none; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/layouts\/inkfront\/inkfront\.layout\.scss}line{font-family:\0000396}}
-  .l-region--navigation {
-    width: 74.64789%;
-    float: right;
-    margin-left: 0;
-    margin-right: 0;
-    clear: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/layouts\/inkfront\/inkfront\.layout\.scss}line{font-family:\0000398}}
-    .l-region--navigation .block--views-shopping-cart-block {
-      width: 32.39437%;
-      float: right;
-      margin-left: 0;
-      margin-right: 0;
-      clear: none;
-      margin-top: 1.2em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/layouts\/inkfront\/inkfront\.layout\.scss}line{font-family:\00003102}}
-    .l-region--navigation .block--menu-menu-benutzer-menu {
-      width: 66.19718%;
-      float: left;
-      margin-right: -100%;
-      margin-left: 0%;
-      clear: none;
-      margin-top: 1.2em; }
-
-  /* Sidebars */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/layouts\/inkfront\/inkfront\.layout\.scss}line{font-family:\00003110}}
-  .has-two-sidebars .l-content,
-  .has-one-sidebar .l-content {
-    width: 83.09859%;
-    float: right;
-    margin-left: 0;
-    margin-right: 0;
-    clear: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/layouts\/inkfront\/inkfront\.layout\.scss}line{font-family:\00003114}}
-  .has-two-sidebars .l-region--sidebar-first,
-  .has-two-sidebars .l-region--sidebar-second,
-  .has-one-sidebar .l-region--sidebar-first,
-  .has-one-sidebar .l-region--sidebar-second {
-    width: 15.49296%;
-    float: left;
-    margin-right: -100%;
-    margin-left: 0%;
-    clear: none;
-    /*clear: right;*/
-    clear: both; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/layouts\/inkfront\/inkfront\.layout\.scss}line{font-family:\00003119}}
-  .has-two-sidebars aside,
-  .has-one-sidebar aside {
-    float: left; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/layouts\/inkfront\/inkfront\.layout\.scss}line{font-family:\00003121}}
-    .has-two-sidebars aside .block--facetapi,
-    .has-one-sidebar aside .block--facetapi {
-      float: none;
-      width: 100%;
-      margin-right: 0; } }
-@media (min-width: 70em) {
-  /* Sidebars */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/layouts\/inkfront\/inkfront\.layout\.scss}line{font-family:\00003134}}
-  .has-one-sidebar .l-content {
-    width: 83.09859%;
-    float: right;
-    margin-left: 0;
-    margin-right: 0;
-    clear: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/layouts\/inkfront\/inkfront\.layout\.scss}line{font-family:\00003137}}
-  .has-one-sidebar .l-region--sidebar-first {
-    width: 15.49296%;
-    float: left;
-    margin-right: -100%;
-    margin-left: 0%;
-    clear: none;
-    clear: none; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/layouts\/inkfront\/inkfront\.layout\.scss}line{font-family:\00003143}}
-  .has-two-sidebars .l-content {
-    width: 66.19718%;
-    float: left;
-    margin-right: -100%;
-    margin-left: 16.90141%;
-    clear: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/layouts\/inkfront\/inkfront\.layout\.scss}line{font-family:\00003147}}
-  .has-two-sidebars .l-region--sidebar-first,
-  .has-two-sidebars .l-region--sidebar-second {
-    width: 15.49296%;
-    float: left;
-    margin-right: -100%;
-    margin-left: 0%;
-    clear: none;
-    clear: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/layouts\/inkfront\/inkfront\.layout\.scss}line{font-family:\00003151}}
-  .has-two-sidebars .l-region--sidebar-second {
-    width: 15.49296%;
-    float: right;
-    margin-left: 0;
-    margin-right: 0;
-    clear: none; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/layouts\/inkfront\/inkfront\.layout\.scss}line{font-family:\00003156}}
-  .l-region--footer .block--menu-menu-pflichtmenu {
-    width: 83.09859%;
-    float: left;
-    margin-right: -100%;
-    margin-left: 0%;
-    clear: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/layouts\/inkfront\/inkfront\.layout\.scss}line{font-family:\00003159}}
-  .l-region--footer .block--follow-site {
-    width: 15.49296%;
-    float: right;
-    margin-left: 0;
-    margin-right: 0;
-    clear: none; } }
-@media (min-width: 100em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/layouts\/inkfront\/inkfront\.layout\.scss}line{font-family:\00003167}}
-  .l-constrained, .l-region--highlighted, .l-region--footer {
-    width: 80%; } }
-/* Sticky Footer */
-@media (min-width: 50em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/layouts\/inkfront\/inkfront\.layout\.scss}line{font-family:\00003173}}
-  html, body {
-    height: 100%; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/layouts\/inkfront\/inkfront\.layout\.scss}line{font-family:\00003176}}
-  .l-page {
-    min-height: 100%;
-    position: relative; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/layouts\/inkfront\/inkfront\.layout\.scss}line{font-family:\00003180}}
-  .l-main {
-    padding-bottom: 4em;
-    /* same as .l-footer height */
-    background: none; }
-
-  /*.l-footer-wrapper:before {
-    background: url("../../../images/bottomback.jpg") no-repeat scroll center bottom rgba(0, 0, 0, 0);
-      bottom: 4em;
-      content: "";
-      height: 201px;
-      position: absolute;
-      width: 100%;
-      z-index: -1;
-      margin-left: -240px;
-  }*/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.4-stage\/profiles\/inkota_shop\/themes\/inkshop_theme\/sass\/layouts\/inkfront\/inkfront\.layout\.scss}line{font-family:\00003194}}
-  .l-footer-wrapper {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 4em;
-    /* same as .l-main padding-bottom*/ } }
+Backtrace:
+/home/rainer/Arbeit/Inkota/SHOP/inkshop_theme/sass/variables/**\/*:1
+/home/rainer/Arbeit/Inkota/SHOP/inkshop_theme/sass/layouts/inkfront/inkfront.layout.scss:11
+/var/lib/gems/1.9.1/gems/sass-3.4.3/lib/sass/tree/import_node.rb:66:in `rescue in import'
+/var/lib/gems/1.9.1/gems/sass-3.4.3/lib/sass/tree/import_node.rb:45:in `import'
+/var/lib/gems/1.9.1/gems/sass-3.4.3/lib/sass/tree/import_node.rb:28:in `imported_file'
+/var/lib/gems/1.9.1/gems/sass-3.4.3/lib/sass/tree/import_node.rb:37:in `css_import?'
+/var/lib/gems/1.9.1/gems/sass-3.4.3/lib/sass/tree/visitors/perform.rb:301:in `visit_import'
+/var/lib/gems/1.9.1/gems/sass-3.4.3/lib/sass/tree/visitors/base.rb:36:in `visit'
+/var/lib/gems/1.9.1/gems/sass-3.4.3/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/var/lib/gems/1.9.1/gems/sass-3.4.3/lib/sass/stack.rb:79:in `block in with_base'
+/var/lib/gems/1.9.1/gems/sass-3.4.3/lib/sass/stack.rb:115:in `with_frame'
+/var/lib/gems/1.9.1/gems/sass-3.4.3/lib/sass/stack.rb:79:in `with_base'
+/var/lib/gems/1.9.1/gems/sass-3.4.3/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/var/lib/gems/1.9.1/gems/sass-3.4.3/lib/sass/tree/visitors/perform.rb:315:in `block (2 levels) in visit_import'
+/var/lib/gems/1.9.1/gems/sass-3.4.3/lib/sass/tree/visitors/perform.rb:315:in `map'
+/var/lib/gems/1.9.1/gems/sass-3.4.3/lib/sass/tree/visitors/perform.rb:315:in `block in visit_import'
+/var/lib/gems/1.9.1/gems/sass-3.4.3/lib/sass/stack.rb:88:in `block in with_import'
+/var/lib/gems/1.9.1/gems/sass-3.4.3/lib/sass/stack.rb:115:in `with_frame'
+/var/lib/gems/1.9.1/gems/sass-3.4.3/lib/sass/stack.rb:88:in `with_import'
+/var/lib/gems/1.9.1/gems/sass-3.4.3/lib/sass/tree/visitors/perform.rb:312:in `visit_import'
+/var/lib/gems/1.9.1/gems/sass-3.4.3/lib/sass/tree/visitors/base.rb:36:in `visit'
+/var/lib/gems/1.9.1/gems/sass-3.4.3/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/var/lib/gems/1.9.1/gems/sass-3.4.3/lib/sass/stack.rb:79:in `block in with_base'
+/var/lib/gems/1.9.1/gems/sass-3.4.3/lib/sass/stack.rb:115:in `with_frame'
+/var/lib/gems/1.9.1/gems/sass-3.4.3/lib/sass/stack.rb:79:in `with_base'
+/var/lib/gems/1.9.1/gems/sass-3.4.3/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/var/lib/gems/1.9.1/gems/sass-3.4.3/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/var/lib/gems/1.9.1/gems/sass-3.4.3/lib/sass/tree/visitors/base.rb:52:in `map'
+/var/lib/gems/1.9.1/gems/sass-3.4.3/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/var/lib/gems/1.9.1/gems/sass-3.4.3/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+/var/lib/gems/1.9.1/gems/sass-3.4.3/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/var/lib/gems/1.9.1/gems/sass-3.4.3/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+/var/lib/gems/1.9.1/gems/sass-3.4.3/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/var/lib/gems/1.9.1/gems/sass-3.4.3/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+/var/lib/gems/1.9.1/gems/sass-3.4.3/lib/sass/tree/visitors/base.rb:36:in `visit'
+/var/lib/gems/1.9.1/gems/sass-3.4.3/lib/sass/tree/visitors/perform.rb:157:in `visit'
+/var/lib/gems/1.9.1/gems/sass-3.4.3/lib/sass/tree/visitors/perform.rb:8:in `visit'
+/var/lib/gems/1.9.1/gems/sass-3.4.3/lib/sass/tree/root_node.rb:36:in `css_tree'
+/var/lib/gems/1.9.1/gems/sass-3.4.3/lib/sass/tree/root_node.rb:20:in `render'
+/var/lib/gems/1.9.1/gems/sass-3.4.3/lib/sass/engine.rb:268:in `render'
+/var/lib/gems/1.9.1/gems/sass-3.4.3/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
+/var/lib/gems/1.9.1/gems/sass-3.4.3/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/var/lib/gems/1.9.1/gems/sass-3.4.3/lib/sass/plugin/compiler.rb:209:in `each'
+/var/lib/gems/1.9.1/gems/sass-3.4.3/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/var/lib/gems/1.9.1/gems/sass-3.4.3/lib/sass/plugin/compiler.rb:294:in `watch'
+/var/lib/gems/1.9.1/gems/compass-1.0.1/lib/compass/sass_compiler.rb:46:in `watch!'
+/var/lib/gems/1.9.1/gems/compass-1.0.1/lib/compass/commands/watch_project.rb:41:in `perform'
+/var/lib/gems/1.9.1/gems/compass-1.0.1/lib/compass/commands/base.rb:18:in `execute'
+/var/lib/gems/1.9.1/gems/compass-1.0.1/lib/compass/commands/project_base.rb:19:in `execute'
+/var/lib/gems/1.9.1/gems/compass-1.0.1/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
+/var/lib/gems/1.9.1/gems/compass-1.0.1/lib/compass/exec/sub_command_ui.rb:15:in `run!'
+/var/lib/gems/1.9.1/gems/compass-1.0.1/bin/compass:30:in `block in <top (required)>'
+/var/lib/gems/1.9.1/gems/compass-1.0.1/bin/compass:44:in `call'
+/var/lib/gems/1.9.1/gems/compass-1.0.1/bin/compass:44:in `<top (required)>'
+/usr/local/bin/compass:23:in `load'
+/usr/local/bin/compass:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: File to import not found or unreadable: ../../variables/_colors.scss.\A        Load paths:\A          /home/rainer/Arbeit/Inkota/SHOP/inkshop_theme/sass\A          Compass::SpriteImporter\A          /home/rainer/Arbeit/Inkota/SHOP/inkshop_theme/sass\A          /var/lib/gems/1.9.1/gems/compass-core-1.0.1/stylesheets\A          /var/lib/gems/1.9.1/gems/compass-blend-modes-0.0.2/stylesheets\A          /var/lib/gems/1.9.1/gems/compass-normalize-1.5/stylesheets\A          /var/lib/gems/1.9.1/gems/susy-2.1.3/sass\A          /var/lib/gems/1.9.1/gems/compass-rgbapng-0.2.1/lib/stylesheets\A          /var/lib/gems/1.9.1/gems/sassy-maps-0.4.0/sass\A          /var/lib/gems/1.9.1/gems/breakpoint-2.5.0/stylesheets\A          /var/lib/gems/1.9.1/gems/toolkit-2.6.0/stylesheets\A          /var/lib/gems/1.9.1/gems/singularitygs-1.4.0/stylesheets\A          Sass::Globbing::Importer\A         on line 1 of /home/rainer/Arbeit/Inkota/SHOP/inkshop_theme/sass/variables/**/*\A         from line 11 of /home/rainer/Arbeit/Inkota/SHOP/inkshop_theme/sass/layouts/inkfront/inkfront.layout.scss\A \A 1: /*******************************************************************************\A 2:  * hero.layout.scss\A 3:  *\A 4:  * Styles for the Inkota Frontsite layout.\A 5:  ******************************************************************************/\A 6: @import \"compass\";"; }
