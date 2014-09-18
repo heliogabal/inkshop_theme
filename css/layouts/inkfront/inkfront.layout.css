@@ -1,50 +1,39 @@
 /*
-Error: File to import not found or unreadable: ../../variables/_colors.scss.
-       Load paths:
-         /home/rainer/Arbeit/Inkota/SHOP/inkshop_theme/sass
-         Compass::SpriteImporter
-         /home/rainer/Arbeit/Inkota/SHOP/inkshop_theme/sass
-         /var/lib/gems/1.9.1/gems/compass-core-1.0.1/stylesheets
-         /var/lib/gems/1.9.1/gems/compass-blend-modes-0.0.2/stylesheets
-         /var/lib/gems/1.9.1/gems/compass-normalize-1.5/stylesheets
-         /var/lib/gems/1.9.1/gems/susy-2.1.3/sass
-         /var/lib/gems/1.9.1/gems/compass-rgbapng-0.2.1/lib/stylesheets
-         /var/lib/gems/1.9.1/gems/sassy-maps-0.4.0/sass
-         /var/lib/gems/1.9.1/gems/breakpoint-2.5.0/stylesheets
-         /var/lib/gems/1.9.1/gems/toolkit-2.6.0/stylesheets
-         /var/lib/gems/1.9.1/gems/singularitygs-1.4.0/stylesheets
-         Sass::Globbing::Importer
-        on line 1 of /home/rainer/Arbeit/Inkota/SHOP/inkshop_theme/sass/variables/**\/*
-        from line 11 of /home/rainer/Arbeit/Inkota/SHOP/inkshop_theme/sass/layouts/inkfront/inkfront.layout.scss
+Error: Undefined variable: "$vert-spacing-unit".
+        on line 38 of /home/rainer/Arbeit/Inkota/SHOP/inkshop_theme/sass/layouts/inkfront/inkfront.layout.scss
 
-1: /*******************************************************************************
-2:  * hero.layout.scss
-3:  *
-4:  * Styles for the Inkota Frontsite layout.
-5:  ******************************************************************************\/
-6: @import "compass";
+33: #logo {
+34:   padding-top: 20px;
+35: }
+36: /* Content Area *\/
+37: .l-highlighted-wrapper {
+38:   padding: $vert-spacing-unit 0;
+39: }
+40: .l-region--highlighted {
+41:   @extend .l-constrained;
+42: }
+43: .l-region--help {
 
 Backtrace:
-/home/rainer/Arbeit/Inkota/SHOP/inkshop_theme/sass/variables/**\/*:1
-/home/rainer/Arbeit/Inkota/SHOP/inkshop_theme/sass/layouts/inkfront/inkfront.layout.scss:11
-/var/lib/gems/1.9.1/gems/sass-3.4.3/lib/sass/tree/import_node.rb:66:in `rescue in import'
-/var/lib/gems/1.9.1/gems/sass-3.4.3/lib/sass/tree/import_node.rb:45:in `import'
-/var/lib/gems/1.9.1/gems/sass-3.4.3/lib/sass/tree/import_node.rb:28:in `imported_file'
-/var/lib/gems/1.9.1/gems/sass-3.4.3/lib/sass/tree/import_node.rb:37:in `css_import?'
-/var/lib/gems/1.9.1/gems/sass-3.4.3/lib/sass/tree/visitors/perform.rb:301:in `visit_import'
+/home/rainer/Arbeit/Inkota/SHOP/inkshop_theme/sass/layouts/inkfront/inkfront.layout.scss:38
+/var/lib/gems/1.9.1/gems/sass-3.4.3/lib/sass/script/tree/variable.rb:49:in `_perform'
+/var/lib/gems/1.9.1/gems/sass-3.4.3/lib/sass/script/tree/node.rb:50:in `perform'
+/var/lib/gems/1.9.1/gems/sass-3.4.3/lib/sass/script/tree/list_literal.rb:62:in `block in _perform'
+/var/lib/gems/1.9.1/gems/sass-3.4.3/lib/sass/script/tree/list_literal.rb:62:in `map'
+/var/lib/gems/1.9.1/gems/sass-3.4.3/lib/sass/script/tree/list_literal.rb:62:in `_perform'
+/var/lib/gems/1.9.1/gems/sass-3.4.3/lib/sass/script/tree/node.rb:50:in `perform'
+/var/lib/gems/1.9.1/gems/sass-3.4.3/lib/sass/tree/visitors/perform.rb:384:in `visit_prop'
 /var/lib/gems/1.9.1/gems/sass-3.4.3/lib/sass/tree/visitors/base.rb:36:in `visit'
 /var/lib/gems/1.9.1/gems/sass-3.4.3/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
 /var/lib/gems/1.9.1/gems/sass-3.4.3/lib/sass/stack.rb:79:in `block in with_base'
 /var/lib/gems/1.9.1/gems/sass-3.4.3/lib/sass/stack.rb:115:in `with_frame'
 /var/lib/gems/1.9.1/gems/sass-3.4.3/lib/sass/stack.rb:79:in `with_base'
 /var/lib/gems/1.9.1/gems/sass-3.4.3/lib/sass/tree/visitors/perform.rb:158:in `visit'
-/var/lib/gems/1.9.1/gems/sass-3.4.3/lib/sass/tree/visitors/perform.rb:315:in `block (2 levels) in visit_import'
-/var/lib/gems/1.9.1/gems/sass-3.4.3/lib/sass/tree/visitors/perform.rb:315:in `map'
-/var/lib/gems/1.9.1/gems/sass-3.4.3/lib/sass/tree/visitors/perform.rb:315:in `block in visit_import'
-/var/lib/gems/1.9.1/gems/sass-3.4.3/lib/sass/stack.rb:88:in `block in with_import'
-/var/lib/gems/1.9.1/gems/sass-3.4.3/lib/sass/stack.rb:115:in `with_frame'
-/var/lib/gems/1.9.1/gems/sass-3.4.3/lib/sass/stack.rb:88:in `with_import'
-/var/lib/gems/1.9.1/gems/sass-3.4.3/lib/sass/tree/visitors/perform.rb:312:in `visit_import'
+/var/lib/gems/1.9.1/gems/sass-3.4.3/lib/sass/tree/visitors/perform.rb:420:in `block (2 levels) in visit_rule'
+/var/lib/gems/1.9.1/gems/sass-3.4.3/lib/sass/tree/visitors/perform.rb:420:in `map'
+/var/lib/gems/1.9.1/gems/sass-3.4.3/lib/sass/tree/visitors/perform.rb:420:in `block in visit_rule'
+/var/lib/gems/1.9.1/gems/sass-3.4.3/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/var/lib/gems/1.9.1/gems/sass-3.4.3/lib/sass/tree/visitors/perform.rb:418:in `visit_rule'
 /var/lib/gems/1.9.1/gems/sass-3.4.3/lib/sass/tree/visitors/base.rb:36:in `visit'
 /var/lib/gems/1.9.1/gems/sass-3.4.3/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
 /var/lib/gems/1.9.1/gems/sass-3.4.3/lib/sass/stack.rb:79:in `block in with_base'
@@ -69,20 +58,16 @@ Backtrace:
 /var/lib/gems/1.9.1/gems/sass-3.4.3/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
 /var/lib/gems/1.9.1/gems/sass-3.4.3/lib/sass/plugin/compiler.rb:209:in `each'
 /var/lib/gems/1.9.1/gems/sass-3.4.3/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-/var/lib/gems/1.9.1/gems/sass-3.4.3/lib/sass/plugin/compiler.rb:294:in `watch'
-/var/lib/gems/1.9.1/gems/compass-1.0.1/lib/compass/sass_compiler.rb:46:in `watch!'
-/var/lib/gems/1.9.1/gems/compass-1.0.1/lib/compass/commands/watch_project.rb:41:in `perform'
-/var/lib/gems/1.9.1/gems/compass-1.0.1/lib/compass/commands/base.rb:18:in `execute'
-/var/lib/gems/1.9.1/gems/compass-1.0.1/lib/compass/commands/project_base.rb:19:in `execute'
-/var/lib/gems/1.9.1/gems/compass-1.0.1/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
-/var/lib/gems/1.9.1/gems/compass-1.0.1/lib/compass/exec/sub_command_ui.rb:15:in `run!'
-/var/lib/gems/1.9.1/gems/compass-1.0.1/bin/compass:30:in `block in <top (required)>'
-/var/lib/gems/1.9.1/gems/compass-1.0.1/bin/compass:44:in `call'
-/var/lib/gems/1.9.1/gems/compass-1.0.1/bin/compass:44:in `<top (required)>'
-/usr/local/bin/compass:23:in `load'
-/usr/local/bin/compass:23:in `<main>'
+/var/lib/gems/1.9.1/gems/sass-3.4.3/lib/sass/plugin/compiler.rb:470:in `on_file_changed'
+/var/lib/gems/1.9.1/gems/sass-3.4.3/lib/sass/plugin/compiler.rb:329:in `block in watch'
+/var/lib/gems/1.9.1/gems/listen-2.7.9/lib/listen/listener.rb:276:in `call'
+/var/lib/gems/1.9.1/gems/listen-2.7.9/lib/listen/listener.rb:276:in `_process_changes'
+/var/lib/gems/1.9.1/gems/listen-2.7.9/lib/listen/listener.rb:233:in `block in _wait_for_changes'
+/var/lib/gems/1.9.1/gems/listen-2.7.9/lib/listen/listener.rb:216:in `loop'
+/var/lib/gems/1.9.1/gems/listen-2.7.9/lib/listen/listener.rb:216:in `_wait_for_changes'
+/var/lib/gems/1.9.1/gems/listen-2.7.9/lib/listen/listener.rb:312:in `block in _start_wait_thread'
 */
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: File to import not found or unreadable: ../../variables/_colors.scss.\A        Load paths:\A          /home/rainer/Arbeit/Inkota/SHOP/inkshop_theme/sass\A          Compass::SpriteImporter\A          /home/rainer/Arbeit/Inkota/SHOP/inkshop_theme/sass\A          /var/lib/gems/1.9.1/gems/compass-core-1.0.1/stylesheets\A          /var/lib/gems/1.9.1/gems/compass-blend-modes-0.0.2/stylesheets\A          /var/lib/gems/1.9.1/gems/compass-normalize-1.5/stylesheets\A          /var/lib/gems/1.9.1/gems/susy-2.1.3/sass\A          /var/lib/gems/1.9.1/gems/compass-rgbapng-0.2.1/lib/stylesheets\A          /var/lib/gems/1.9.1/gems/sassy-maps-0.4.0/sass\A          /var/lib/gems/1.9.1/gems/breakpoint-2.5.0/stylesheets\A          /var/lib/gems/1.9.1/gems/toolkit-2.6.0/stylesheets\A          /var/lib/gems/1.9.1/gems/singularitygs-1.4.0/stylesheets\A          Sass::Globbing::Importer\A         on line 1 of /home/rainer/Arbeit/Inkota/SHOP/inkshop_theme/sass/variables/**/*\A         from line 11 of /home/rainer/Arbeit/Inkota/SHOP/inkshop_theme/sass/layouts/inkfront/inkfront.layout.scss\A \A 1: /*******************************************************************************\A 2:  * hero.layout.scss\A 3:  *\A 4:  * Styles for the Inkota Frontsite layout.\A 5:  ******************************************************************************/\A 6: @import \"compass\";"; }
+  content: "Error: Undefined variable: \"$vert-spacing-unit\".\A         on line 38 of /home/rainer/Arbeit/Inkota/SHOP/inkshop_theme/sass/layouts/inkfront/inkfront.layout.scss\A \A 33: #logo {\A 34:   padding-top: 20px;\A 35: }\A 36: /* Content Area */\A 37: .l-highlighted-wrapper {\A 38:   padding: $vert-spacing-unit 0;\A 39: }\A 40: .l-region--highlighted {\A 41:   @extend .l-constrained;\A 42: }\A 43: .l-region--help {"; }
