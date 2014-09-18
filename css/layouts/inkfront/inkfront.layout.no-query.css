@@ -1,76 +1,216 @@
-/*
-Error: Undefined variable: "$vert-spacing-unit".
-        on line 38 of /home/rainer/Arbeit/Inkota/SHOP/inkshop_theme/sass/layouts/inkfront/inkfront.layout.scss
-        from line 5 of /home/rainer/Arbeit/Inkota/SHOP/inkshop_theme/sass/layouts/inkfront/inkfront.layout.no-query.scss
+/*******************************************************************************
+ * hero.layout.scss
+ *
+ * Styles for the Inkota Frontsite layout.
+ ******************************************************************************/
+/* INKOTA Colors */
+/* #ffb900 */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/rainer\/Arbeit\/Inkota\/SHOP\/inkshop_theme\/sass\/layouts\/inkfront\/inkfront\.layout\.scss}line{font-family:\0000316}}
+.l-constrained, .l-region--highlighted, .l-region--footer {
+  width: 95%;
+  margin: 0 auto;
+  /*overflow: hidden;*/
+  position: relative;
+  *zoom: 1;
+  /*@include breakpoint ($tab) {
+    width: $tab !important;
+  }
+  @include breakpoint ($desk) {
+    width: $desk !important;
+  }
+  @include breakpoint ($standard) {
+    width: $standard !important;
+  }
+  @include breakpoint ($wide) {
+    width: $wide !important;
+  }*/ }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/lib\/gems\/1\.9\.1\/gems\/compass-core-1\.0\.1\/stylesheets\/compass\/utilities\/general\/_clearfix\.scss}line{font-family:\0000338}}
+  .l-constrained:after, .l-region--highlighted:after, .l-region--footer:after {
+    content: "";
+    display: table;
+    clear: both; }
 
-Backtrace:
-/home/rainer/Arbeit/Inkota/SHOP/inkshop_theme/sass/layouts/inkfront/inkfront.layout.scss:38
-/home/rainer/Arbeit/Inkota/SHOP/inkshop_theme/sass/layouts/inkfront/inkfront.layout.no-query.scss:5
-/var/lib/gems/1.9.1/gems/sass-3.4.3/lib/sass/script/tree/variable.rb:49:in `_perform'
-/var/lib/gems/1.9.1/gems/sass-3.4.3/lib/sass/script/tree/node.rb:50:in `perform'
-/var/lib/gems/1.9.1/gems/sass-3.4.3/lib/sass/script/tree/list_literal.rb:62:in `block in _perform'
-/var/lib/gems/1.9.1/gems/sass-3.4.3/lib/sass/script/tree/list_literal.rb:62:in `map'
-/var/lib/gems/1.9.1/gems/sass-3.4.3/lib/sass/script/tree/list_literal.rb:62:in `_perform'
-/var/lib/gems/1.9.1/gems/sass-3.4.3/lib/sass/script/tree/node.rb:50:in `perform'
-/var/lib/gems/1.9.1/gems/sass-3.4.3/lib/sass/tree/visitors/perform.rb:384:in `visit_prop'
-/var/lib/gems/1.9.1/gems/sass-3.4.3/lib/sass/tree/visitors/base.rb:36:in `visit'
-/var/lib/gems/1.9.1/gems/sass-3.4.3/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
-/var/lib/gems/1.9.1/gems/sass-3.4.3/lib/sass/stack.rb:79:in `block in with_base'
-/var/lib/gems/1.9.1/gems/sass-3.4.3/lib/sass/stack.rb:115:in `with_frame'
-/var/lib/gems/1.9.1/gems/sass-3.4.3/lib/sass/stack.rb:79:in `with_base'
-/var/lib/gems/1.9.1/gems/sass-3.4.3/lib/sass/tree/visitors/perform.rb:158:in `visit'
-/var/lib/gems/1.9.1/gems/sass-3.4.3/lib/sass/tree/visitors/perform.rb:420:in `block (2 levels) in visit_rule'
-/var/lib/gems/1.9.1/gems/sass-3.4.3/lib/sass/tree/visitors/perform.rb:420:in `map'
-/var/lib/gems/1.9.1/gems/sass-3.4.3/lib/sass/tree/visitors/perform.rb:420:in `block in visit_rule'
-/var/lib/gems/1.9.1/gems/sass-3.4.3/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
-/var/lib/gems/1.9.1/gems/sass-3.4.3/lib/sass/tree/visitors/perform.rb:418:in `visit_rule'
-/var/lib/gems/1.9.1/gems/sass-3.4.3/lib/sass/tree/visitors/base.rb:36:in `visit'
-/var/lib/gems/1.9.1/gems/sass-3.4.3/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
-/var/lib/gems/1.9.1/gems/sass-3.4.3/lib/sass/stack.rb:79:in `block in with_base'
-/var/lib/gems/1.9.1/gems/sass-3.4.3/lib/sass/stack.rb:115:in `with_frame'
-/var/lib/gems/1.9.1/gems/sass-3.4.3/lib/sass/stack.rb:79:in `with_base'
-/var/lib/gems/1.9.1/gems/sass-3.4.3/lib/sass/tree/visitors/perform.rb:158:in `visit'
-/var/lib/gems/1.9.1/gems/sass-3.4.3/lib/sass/tree/visitors/perform.rb:315:in `block (2 levels) in visit_import'
-/var/lib/gems/1.9.1/gems/sass-3.4.3/lib/sass/tree/visitors/perform.rb:315:in `map'
-/var/lib/gems/1.9.1/gems/sass-3.4.3/lib/sass/tree/visitors/perform.rb:315:in `block in visit_import'
-/var/lib/gems/1.9.1/gems/sass-3.4.3/lib/sass/stack.rb:88:in `block in with_import'
-/var/lib/gems/1.9.1/gems/sass-3.4.3/lib/sass/stack.rb:115:in `with_frame'
-/var/lib/gems/1.9.1/gems/sass-3.4.3/lib/sass/stack.rb:88:in `with_import'
-/var/lib/gems/1.9.1/gems/sass-3.4.3/lib/sass/tree/visitors/perform.rb:312:in `visit_import'
-/var/lib/gems/1.9.1/gems/sass-3.4.3/lib/sass/tree/visitors/base.rb:36:in `visit'
-/var/lib/gems/1.9.1/gems/sass-3.4.3/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
-/var/lib/gems/1.9.1/gems/sass-3.4.3/lib/sass/stack.rb:79:in `block in with_base'
-/var/lib/gems/1.9.1/gems/sass-3.4.3/lib/sass/stack.rb:115:in `with_frame'
-/var/lib/gems/1.9.1/gems/sass-3.4.3/lib/sass/stack.rb:79:in `with_base'
-/var/lib/gems/1.9.1/gems/sass-3.4.3/lib/sass/tree/visitors/perform.rb:158:in `visit'
-/var/lib/gems/1.9.1/gems/sass-3.4.3/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
-/var/lib/gems/1.9.1/gems/sass-3.4.3/lib/sass/tree/visitors/base.rb:52:in `map'
-/var/lib/gems/1.9.1/gems/sass-3.4.3/lib/sass/tree/visitors/base.rb:52:in `visit_children'
-/var/lib/gems/1.9.1/gems/sass-3.4.3/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
-/var/lib/gems/1.9.1/gems/sass-3.4.3/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
-/var/lib/gems/1.9.1/gems/sass-3.4.3/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
-/var/lib/gems/1.9.1/gems/sass-3.4.3/lib/sass/tree/visitors/base.rb:36:in `block in visit'
-/var/lib/gems/1.9.1/gems/sass-3.4.3/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
-/var/lib/gems/1.9.1/gems/sass-3.4.3/lib/sass/tree/visitors/base.rb:36:in `visit'
-/var/lib/gems/1.9.1/gems/sass-3.4.3/lib/sass/tree/visitors/perform.rb:157:in `visit'
-/var/lib/gems/1.9.1/gems/sass-3.4.3/lib/sass/tree/visitors/perform.rb:8:in `visit'
-/var/lib/gems/1.9.1/gems/sass-3.4.3/lib/sass/tree/root_node.rb:36:in `css_tree'
-/var/lib/gems/1.9.1/gems/sass-3.4.3/lib/sass/tree/root_node.rb:20:in `render'
-/var/lib/gems/1.9.1/gems/sass-3.4.3/lib/sass/engine.rb:268:in `render'
-/var/lib/gems/1.9.1/gems/sass-3.4.3/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
-/var/lib/gems/1.9.1/gems/sass-3.4.3/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-/var/lib/gems/1.9.1/gems/sass-3.4.3/lib/sass/plugin/compiler.rb:209:in `each'
-/var/lib/gems/1.9.1/gems/sass-3.4.3/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-/var/lib/gems/1.9.1/gems/sass-3.4.3/lib/sass/plugin/compiler.rb:470:in `on_file_changed'
-/var/lib/gems/1.9.1/gems/sass-3.4.3/lib/sass/plugin/compiler.rb:329:in `block in watch'
-/var/lib/gems/1.9.1/gems/listen-2.7.9/lib/listen/listener.rb:276:in `call'
-/var/lib/gems/1.9.1/gems/listen-2.7.9/lib/listen/listener.rb:276:in `_process_changes'
-/var/lib/gems/1.9.1/gems/listen-2.7.9/lib/listen/listener.rb:233:in `block in _wait_for_changes'
-/var/lib/gems/1.9.1/gems/listen-2.7.9/lib/listen/listener.rb:216:in `loop'
-/var/lib/gems/1.9.1/gems/listen-2.7.9/lib/listen/listener.rb:216:in `_wait_for_changes'
-/var/lib/gems/1.9.1/gems/listen-2.7.9/lib/listen/listener.rb:312:in `block in _start_wait_thread'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Undefined variable: \"$vert-spacing-unit\".\A         on line 38 of /home/rainer/Arbeit/Inkota/SHOP/inkshop_theme/sass/layouts/inkfront/inkfront.layout.scss\A         from line 5 of /home/rainer/Arbeit/Inkota/SHOP/inkshop_theme/sass/layouts/inkfront/inkfront.layout.no-query.scss"; }
+/* Header */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/rainer\/Arbeit\/Inkota\/SHOP\/inkshop_theme\/sass\/layouts\/inkfront\/inkfront\.layout\.scss}line{font-family:\0000336}}
+#logo {
+  padding-top: 20px; }
+
+/* Content Area */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/rainer\/Arbeit\/Inkota\/SHOP\/inkshop_theme\/sass\/layouts\/inkfront\/inkfront\.layout\.scss}line{font-family:\0000340}}
+.l-highlighted-wrapper {
+  padding: 18px 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/rainer\/Arbeit\/Inkota\/SHOP\/inkshop_theme\/sass\/layouts\/inkfront\/inkfront\.layout\.scss}line{font-family:\0000346}}
+.l-region--help {
+  margin-bottom: 18px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/rainer\/Arbeit\/Inkota\/SHOP\/inkshop_theme\/sass\/layouts\/inkfront\/inkfront\.layout\.scss}line{font-family:\0000349}}
+.l-main {
+  margin-top: 36px;
+  margin-bottom: 36px; }
+
+/* Content */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/rainer\/Arbeit\/Inkota\/SHOP\/inkshop_theme\/sass\/layouts\/inkfront\/inkfront\.layout\.scss}line{font-family:\0000354}}
+.l-content {
+  background: #fff;
+  padding: 0 1em 1em;
+  overflow: hidden; }
+
+/* Sidebars */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/rainer\/Arbeit\/Inkota\/SHOP\/inkshop_theme\/sass\/layouts\/inkfront\/inkfront\.layout\.scss}line{font-family:\0000361}}
+.l-region--sidebar-first,
+.l-region--sidebar-second {
+  /*padding: $vert-spacing-unit $horz-spacing-unit;*/ }
+
+/* Footer */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/rainer\/Arbeit\/Inkota\/SHOP\/inkshop_theme\/sass\/layouts\/inkfront\/inkfront\.layout\.scss}line{font-family:\0000371}}
+aside {
+  overflow: hidden;
+  margin-bottom: 1em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/rainer\/Arbeit\/Inkota\/SHOP\/inkshop_theme\/sass\/layouts\/inkfront\/inkfront\.layout\.scss}line{font-family:\0000374}}
+  aside .block--facetapi {
+    float: left;
+    width: 32%;
+    margin-right: 1.333%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/rainer\/Arbeit\/Inkota\/SHOP\/inkshop_theme\/sass\/layouts\/inkfront\/inkfront\.layout\.scss}line{font-family:\0000382}}
+body {
+  /*font-size: 1.2em;*/ }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/rainer\/Arbeit\/Inkota\/SHOP\/inkshop_theme\/sass\/layouts\/inkfront\/inkfront\.layout\.scss}line{font-family:\0000385}}
+.l-constrained, .l-region--highlighted, .l-region--footer {
+  width: 98%; }
+
+/* Header */
+  /*#logo {
+    float: left;
+    height: 66px;
+    margin: 0;
+    padding: 20px 0 0 0;
+    width: 306px;
+}*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/rainer\/Arbeit\/Inkota\/SHOP\/inkshop_theme\/sass\/layouts\/inkfront\/inkfront\.layout\.scss}line{font-family:\0000396}}
+#logo {
+  width: 23.72881%;
+  float: left;
+  margin-right: -100%;
+  margin-left: 0;
+  clear: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/rainer\/Arbeit\/Inkota\/SHOP\/inkshop_theme\/sass\/layouts\/inkfront\/inkfront\.layout\.scss}line{font-family:\0000399}}
+.l-region--navigation {
+  width: 74.57627%;
+  float: right;
+  margin-left: 0;
+  margin-right: 0;
+  clear: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/rainer\/Arbeit\/Inkota\/SHOP\/inkshop_theme\/sass\/layouts\/inkfront\/inkfront\.layout\.scss}line{font-family:\00003101}}
+  .l-region--navigation .block--views-shopping-cart-block {
+    width: 32.20339%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none;
+    margin-top: 1.2em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/rainer\/Arbeit\/Inkota\/SHOP\/inkshop_theme\/sass\/layouts\/inkfront\/inkfront\.layout\.scss}line{font-family:\00003105}}
+  .l-region--navigation .block--menu-menu-benutzer-menu {
+    width: 66.10169%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 0;
+    clear: none;
+    margin-top: 1.2em; }
+
+/* Sidebars */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/rainer\/Arbeit\/Inkota\/SHOP\/inkshop_theme\/sass\/layouts\/inkfront\/inkfront\.layout\.scss}line{font-family:\00003113}}
+.has-two-sidebars .l-content,
+.has-one-sidebar .l-content {
+  width: 83.05085%;
+  float: right;
+  margin-left: 0;
+  margin-right: 0;
+  clear: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/rainer\/Arbeit\/Inkota\/SHOP\/inkshop_theme\/sass\/layouts\/inkfront\/inkfront\.layout\.scss}line{font-family:\00003116}}
+.has-two-sidebars .l-region--sidebar-first,
+.has-two-sidebars .l-region--sidebar-second,
+.has-one-sidebar .l-region--sidebar-first,
+.has-one-sidebar .l-region--sidebar-second {
+  width: 15.25424%;
+  float: left;
+  margin-right: -100%;
+  margin-left: 0;
+  clear: none;
+  /*clear: right;*/
+  clear: both; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/rainer\/Arbeit\/Inkota\/SHOP\/inkshop_theme\/sass\/layouts\/inkfront\/inkfront\.layout\.scss}line{font-family:\00003122}}
+.has-two-sidebars aside,
+.has-one-sidebar aside {
+  float: left; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/rainer\/Arbeit\/Inkota\/SHOP\/inkshop_theme\/sass\/layouts\/inkfront\/inkfront\.layout\.scss}line{font-family:\00003124}}
+  .has-two-sidebars aside .block--facetapi,
+  .has-one-sidebar aside .block--facetapi {
+    float: none;
+    width: 100%;
+    margin-right: 0; }
+
+/* Sidebars */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/rainer\/Arbeit\/Inkota\/SHOP\/inkshop_theme\/sass\/layouts\/inkfront\/inkfront\.layout\.scss}line{font-family:\00003137}}
+.has-one-sidebar .l-content {
+  width: 83.05085%;
+  float: right;
+  margin-left: 0;
+  margin-right: 0;
+  clear: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/rainer\/Arbeit\/Inkota\/SHOP\/inkshop_theme\/sass\/layouts\/inkfront\/inkfront\.layout\.scss}line{font-family:\00003140}}
+.has-one-sidebar .l-region--sidebar-first {
+  width: 15.25424%;
+  float: left;
+  margin-right: -100%;
+  margin-left: 0;
+  clear: none;
+  clear: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/rainer\/Arbeit\/Inkota\/SHOP\/inkshop_theme\/sass\/layouts\/inkfront\/inkfront\.layout\.scss}line{font-family:\00003146}}
+.has-two-sidebars .l-content {
+  width: 66.10169%;
+  float: left;
+  margin-right: -100%;
+  margin-left: 16.94915%;
+  clear: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/rainer\/Arbeit\/Inkota\/SHOP\/inkshop_theme\/sass\/layouts\/inkfront\/inkfront\.layout\.scss}line{font-family:\00003149}}
+.has-two-sidebars .l-region--sidebar-first,
+.has-two-sidebars .l-region--sidebar-second {
+  width: 15.25424%;
+  float: left;
+  margin-right: -100%;
+  margin-left: 0;
+  clear: none;
+  clear: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/rainer\/Arbeit\/Inkota\/SHOP\/inkshop_theme\/sass\/layouts\/inkfront\/inkfront\.layout\.scss}line{font-family:\00003154}}
+.has-two-sidebars .l-region--sidebar-second {
+  width: 15.25424%;
+  float: right;
+  margin-left: 0;
+  margin-right: 0;
+  clear: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/rainer\/Arbeit\/Inkota\/SHOP\/inkshop_theme\/sass\/layouts\/inkfront\/inkfront\.layout\.scss}line{font-family:\00003159}}
+.l-region--footer .block--menu-menu-pflichtmenu {
+  width: 83.05085%;
+  float: left;
+  margin-right: -100%;
+  margin-left: 0;
+  clear: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/rainer\/Arbeit\/Inkota\/SHOP\/inkshop_theme\/sass\/layouts\/inkfront\/inkfront\.layout\.scss}line{font-family:\00003162}}
+.l-region--footer .block--follow-site {
+  width: 15.25424%;
+  float: right;
+  margin-left: 0;
+  margin-right: 0;
+  clear: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/rainer\/Arbeit\/Inkota\/SHOP\/inkshop_theme\/sass\/layouts\/inkfront\/inkfront\.layout\.scss}line{font-family:\00003170}}
+.l-constrained, .l-region--highlighted, .l-region--footer {
+  width: 80%; }
+
+/* Sticky Footer */

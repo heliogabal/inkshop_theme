@@ -8,7 +8,10 @@
 @import "singularitygs";
 
 // Globbing from within sub-folders only works with relative paths.
-@import "../variables/**/*";
+@import "../../variables/_colors.scss";
+@import "../../variables/_grid.scss";
+@import "../../variables/_legacy.scss";
+@import "../../variables/_typography.scss";
 
 .l-constrained {
   width: 95%;

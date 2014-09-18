@@ -108,7 +108,7 @@ DEPENDENCIES
   rb-fsevent
   rb-inotify (~> 0.9)
   sass
-  sass-globbing
+  sass-globbing (= 1.1.0)
   singularitygs
   susy
   toolkit
