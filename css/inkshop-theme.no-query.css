@@ -2457,6 +2457,12 @@ div.messages--commerce-add-to-cart-confirmation .view-confirm-message-product-di
 .search {
   /*margin-left: 1em;*/
 }
+.search input.form-text {
+  max-width: 150px;
+}
+.search .views-submit-button {
+  float: right;
+}
 .search .compact-form-label {
   top: 12px;
   left: 10px;
