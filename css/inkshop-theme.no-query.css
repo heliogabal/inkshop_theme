@@ -1462,11 +1462,9 @@ em, i {
   -moz-box-shadow: 0 2px 15px #57595a;
   -webkit-box-shadow: 0 2px 15px #57595a;
   box-shadow: 0 2px 15px #57595a;
-  filter: progid:DXImageTransform.Microsoft.Shadow(color='#57595A', direction='180', strength='5');
   color: #aeaaa5;
   left: 50%;
   margin-left: -20% !important;
-  /* width/2 */
   overflow: hidden;
   padding: 0;
   position: absolute;
