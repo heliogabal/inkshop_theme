@@ -1463,7 +1463,8 @@ em, i {
   z-index: 1000;
   border: 1px solid #d5d5d5;
   background: #F0F0F0 !important;
-  top: 2.2em !important;
+  top: 3.2em !important;
+  right: 0;
   -moz-box-shadow: 0px 0px 3px #F0F0F0;
   -webkit-box-shadow: 0px 0px 3px #F0F0F0;
   box-shadow: 0px 0px 3px #F0F0F0;
