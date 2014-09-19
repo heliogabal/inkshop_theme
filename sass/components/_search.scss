@@ -36,6 +36,12 @@
 /* Volltext Suche */
 .search {
   /*margin-left: 1em;*/
+  input.form-text {
+    max-width: 150px;
+  }
+  .views-submit-button {
+    float: right;
+  }
   .compact-form-label {
     top: 12px;
     left: 10px;
