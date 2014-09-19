@@ -2590,18 +2590,18 @@ div.messages--commerce-add-to-cart-confirmation .view-confirm-message-product-di
 }
 
 /* Volltext Suche */
-.block--views-exp-display-products-page {
+.search {
   /*margin-left: 1em;*/
 }
-.block--views-exp-display-products-page .compact-form-label {
+.search .compact-form-label {
   top: 12px;
   left: 10px;
   font-size: .9em;
 }
-.block--views-exp-display-products-page .views-exposed-form .views-exposed-widget {
+.search .views-exposed-form .views-exposed-widget {
   padding-right: 0;
 }
-.block--views-exp-display-products-page .views-exposed-form .views-exposed-widget .form-submit {
+.search .views-exposed-form .views-exposed-widget .form-submit {
   margin-top: 0;
   background: url(../images/peter_burdette_search.png) no-repeat center #FBB900;
   text-indent: -999em;
