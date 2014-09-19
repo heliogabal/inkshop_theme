@@ -994,21 +994,8 @@ h1 {
 .l-constrained, .l-region--highlighted, .l-region--footer {
   width: 95%;
   margin: 0 auto;
-  /*overflow: hidden;*/
   position: relative;
   *zoom: 1;
-  /*@include breakpoint ($tab) {
-    width: $tab !important;
-  }
-  @include breakpoint ($desk) {
-    width: $desk !important;
-  }
-  @include breakpoint ($standard) {
-    width: $standard !important;
-  }
-  @include breakpoint ($wide) {
-    width: $wide !important;
-  }*/
 }
 .l-constrained:after, .l-region--highlighted:after, .l-region--footer:after {
   content: "";

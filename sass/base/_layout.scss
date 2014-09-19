@@ -849,21 +849,8 @@ h1 {
 .l-constrained {
   width: 95%;
   margin: 0 auto;
-  /*overflow: hidden;*/
   position: relative;
   @include pie-clearfix;
-  /*@include breakpoint ($tab) {
-    width: $tab !important;
-  }
-  @include breakpoint ($desk) {
-    width: $desk !important;
-  }
-  @include breakpoint ($standard) {
-    width: $standard !important;
-  }
-  @include breakpoint ($wide) {
-    width: $wide !important;
-  }*/
 }
 /* Header */
 #logo {
