@@ -9,7 +9,7 @@
 # Default to development if environment is not set.
 saved = environment
 if (environment.nil?)
-  environment = :production
+  environment = :development
 else
   environment = saved
 end
@@ -47,7 +47,8 @@ relative_assets = true
 line_comments = (environment == :production) ? false : true
 
 # Output debugging info in development mode.
-sass_options = (environment == :production) ? {} : {:debug_info => true}
-
+#sass_options = (environment == :production) ? {} : {:debug_info => true}
+# Output source maps in development mode.
+sass_options = (environment == :production) ? {} : {:sourcemap => true}
 # Add the 'sass' directory itself as an import path to ease imports.
 add_import_path 'sass'

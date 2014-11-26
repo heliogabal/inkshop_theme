@@ -228,43 +228,6 @@ button[disabled], html input[disabled] {
     text-decoration: none;
   }
 }
-
-/* Add to Cart Popup*/
-div.messages--commerce-add-to-cart-confirmation {
-  color: $black;
-  .message-inner .added-product-title {
-    color: $orange;
-  }
-  .view-confirm-message-product-display {
-    z-index: -1;
-    .commerce-product-sku-label,
-    .commerce-product-title-label {
-      display: none;
-    }
-    .views-field-commerce-product .field-name-field-product-image {
-      margin: 0 1em .5em 0;
-    }
-    .views-field-commerce-product .field-name-commerce-price {
-      position: static;
-      float: none;
-      clear: none;
-    }
-    .view-content .views-field-quantity .views-label-quantity {
-      font-size: 1em;
-      float: none;
-    }
-    .view-content .views-field-commerce-total,
-    .view-content .views-field-commerce-total .field-content{
-      color: $orange;
-    }
-    .views-field-commerce-product .field-name-field-product-subtitle {
-      clear: none;
-    }
-  }
-}
-
-/*div.messages--commerce-add-to-cart-confirmation .view-confirm-message-product-display .view-content .views-field-commerce-total .field-content*/
-
 .page-user-ich-wishlist .commerce-add-to-cart {
   margin-bottom: 0;
 }

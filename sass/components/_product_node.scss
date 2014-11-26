@@ -6,7 +6,7 @@
   @include breakpoint($desk) {
     padding: 2em;
   }
-  margin: 0 0 1em 0;
+  /*margin: 0 0 1em 0; interferes with sidebars*/
   position: relative;
   /*background: #EBE9E7;*/
   border: 1px solid $light-grey;

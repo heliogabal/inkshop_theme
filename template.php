@@ -21,39 +21,6 @@ function inkshop_theme_form_alter(&$form, &$form_state, $form_id) {
   }
 }
 
-function inkshop_theme_entity_property_info_alter(&$info){
-  $info['node']['properties']['sort_price'] = array(
-     'type' => 'decimal',
-     'label' => 'Sort price',
-     'description' => 'The price to sort this product by.',
-     'getter callback' => '_inkshop_theme_get_sort_price',
-  );
-}
-/*
-* getter callback for sort price property
-*
-* return the lowest product price associated with this display
-*
-*/
-function _inkshop_theme_get_sort_price($data, array $options, $name, $type, $info){
-  if($name == 'sort_price'){
-    $wrapper = entity_metadata_wrapper('node', $data);
-    //check if this is a product display
-    if(array_key_exists('field_product', $wrapper->getPropertyInfo())){
-      $prices = array();
-      //loop trough referenced products
-      foreach ($wrapper->field_product->getIterator() as $delta => $term_wrapper) {
-        //get value of commerce_price
-        $price_field = $term_wrapper->commerce_price->value();
-        //transform commerce price to decimal
-        $prices[] = commerce_currency_amount_to_decimal($price_field['amount']);
-      }
-      //return lowest price for this display
-      return min($prices);
-    }
-  }
-  return NULL;
-}
 
 function inkshop_theme_follow_link($variables) {
   $link = $variables['link'];
@@ -83,4 +50,20 @@ function inkshop_theme_preprocess_commerce_checkout_review(&$variables) {
   }
   $variables['panes'] = $panes;
 }
+function inkshop_theme_preprocess_html(&$variables) {
+// Add information about the number of sidebars.
+  if (!empty($variables['page']['sidebar_first']) && !empty($variables['page']['sidebar_second'])) {
+    $variables['classes_array'][] = 'has-two-sidebars';
+  }
+  elseif (!empty($variables['page']['sidebar_first'])) {
+    $variables['classes_array'][] = 'has-one-sidebar sidebar_first';
+  }
+  elseif (!empty($variables['page']['sidebar_second'])) {
+    $variables['classes_array'][] = 'has-one-sidebar sidebar_second';
+  }
+  else {
+    $variables['classes_array'][] = 'no_sidebars';
+  }
+}
+
 ?>
